@@ -1,0 +1,75 @@
+/*Link para gradientes
+https://uigradients.com/#Margo
+*/
+body{
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}    
+#titulo{
+    font-size: 50px;
+} 
+span.linea_inicio{
+    display: block; 
+}
+h2{
+    font-size: 35px;
+    margin-left: 25px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 90px;
+    margin-left: 30px;
+    vertical-align: top;
+    margin-bottom: 20px;    
+}
+.lista-contenedor{
+    overflow: auto;
+    white-space: nowrap;
+    position: sticky; 
+    top: 0;
+}
+/*Icono de menu*/
+img.icono {
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: beige;
+    display: block;
+    margin-bottom: 5px;
+}
+/*Imagenes*/
+.imagen {
+    width: 30%;
+    height: 300px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    margin-right: 35px;
+}
+/*Para el carrusel de imagenes*/
+.carrusel {
+    overflow: hidden;
+}
+
+.slides-container {
+    padding: 5px;
+    display: flex;
+    transition: transform 2s ease-in-out;
+}
+
+.slide {
+    margin-right: 10px;
+    flex: 0 0 33.33%;
+}
+
+.slide img {
+    width: 95%;
+    height: auto;
+    object-fit: cover;
+}

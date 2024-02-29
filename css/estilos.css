@@ -1,0 +1,109 @@
+/*ID para la estructura*/
+#almacenador{
+    display: flex;
+} 
+/*Para los productos*/
+.categoria{
+    font-size: 30px; 
+    font-weight: bold;
+    margin-left: 280px;
+    margin-bottom: 50px;
+}
+.contenido{
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+}
+.caja{
+    padding: 10px;
+    width: 220px;
+    height: 310px;
+    border: 1px solid black;
+    border-radius: 15px;
+    float: right;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;    
+}
+
+/*Imagenes*/
+.contenedor img{
+    width: 92%;
+    height: 60%; 
+    object-fit: cover;
+}
+/*Nombre de productos*/
+.nombre{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+/*Precio productos*/
+.precio{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+/*Para la lista de cada categoria*/
+ul, li {
+    list-style-type: none;
+}
+li{
+    margin-right: 15px;
+    margin-left: 5px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.menu {
+    width: 15%;    
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    flex-direction: column;
+    font-size: 20px;
+}
+.icono{
+    vertical-align: bottom;
+}
+/*Para los Combos de Ron*/
+.caja_combo{
+    padding: 10px;
+    width: 350px;
+    height: 480px;
+    border: 1px solid black;
+    border-radius: 15px;
+    float: right;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;    
+}
+.combos img{
+    width: 100%;
+    height: 73%; 
+    object-fit: cover;
+}
+/*Paginacion*/
+.paginacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    margin-bottom: 40px;
+}
+
+.pagina {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagina-actual {
+    background-color: #eee;
+    font-weight: bold;
+}
+

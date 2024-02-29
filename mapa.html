@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mapa</title>
+    <style>
+      /* Estilo opcional para el contenedor del mapa */
+      #map-container {
+        height: 400px; /* Ajusta según sea necesario */
+        width: 100%;
+      }
+    </style>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/estilosInterfaz.css" />
+    <link rel="stylesheet" href="/css/piecero.css" />
+    <link rel="stylesheet" href="/css/cabecero.css" />
+  </head>
+  <body>
+    <div class="cabecero">
+      <h1 id="titulo">Multiservicios Brufas</h1>
+      <a href="/Login/login.html" class="icono-login">
+        <i class="material-icons">account_circle</i>
+        Iniciar sesión
+      </a>
+      <a href="#" class="carrito">
+        <i class="material-icons">shopping_cart</i>
+      </a>
+    </div>
+    <!-- Contenedor para el mapa -->
+    <div id="map-container"></div>
+
+    <!-- Script para inicializar el mapa -->
+
+    <footer class="pie">
+      <div class="menu_pie">
+        <img class="logo_pie" src="/IMAGENES/LOGO.png" alt="logo Brufas" />
+      </div>
+      <div class="menu_pie">
+        <h3>Conócenos</h3>
+        <a href="/mapa.html" target="_blank">Nuestra Ubicación</a> <br />
+        <a href="#">Quiénes Somos</a>
+      </div>
+      <div class="menu_pie">
+        <h3>Redes Sociales</h3>
+        <a href="#">Instagram</a> <br />
+        <a href="#">Facebook</a>
+      </div>
+      <div class="menu_pie">
+        <h3>Mi Cuenta</h3>
+        <a href="#">Iniciar sesión</a>
+      </div>
+    </footer>
+
+  </body>
+  <script
+    async
+    defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDax32VoFQHwFkNJLnsxF2vogKIhihnf1g&callback=initMap"
+  >
+    </script>
+
+  <script>
+    function initMap() {
+      // Coordenadas del lugar que deseas mostrar
+      var lugar = { lat: -3.7394853, lng: -73.2485896 };
+
+      // Crea un nuevo mapa centrado en el lugar especificado
+      var mapa = new google.maps.Map(document.getElementById("map-container"), {
+        center: lugar,
+        zoom: 15, // Ajusta según sea necesario
+      });
+
+      // Agrega un marcador en el lugar
+      var marcador = new google.maps.Marker({
+        position: lugar,
+        map: mapa,
+        title: "Ubicación",
+      });
+    }
+  </script>
+</html>

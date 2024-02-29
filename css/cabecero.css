@@ -1,0 +1,31 @@
+/*cabecero*/
+
+.ubicacion{
+    margin: 0;
+    padding: 3px 0 !important;
+    text-align: center;
+    height: auto;
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.cabecero{
+    display: flex;    
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin-bottom: 40px;
+}
+.icono-login{
+    margin-left: 450px;
+    margin-right: 80px;
+    vertical-align: bottom;
+}
+.carrito{
+    padding: 5px 10px;
+    vertical-align: bottom;
+    border: 2px solid black;
+    border-radius: 5px;
+}
