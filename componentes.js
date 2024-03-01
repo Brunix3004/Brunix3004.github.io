@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
   elementos.forEach(e => {
       const href = e.getAttribute("href");
-    if (href.startsWith ("https")) return 
+    ìf (href && href.startsWith("https")) return 
       if(href) e.setAttribute("href", `..${href}`)
       else {
         const src = e.getAttribute("src")
-        if (src.startsWith ("https")) return
+        ìf (src && src.startsWith("https")) return
         e.setAttribute("src", `..${src}`)
       }
   })
