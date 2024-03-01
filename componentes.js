@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
   elementos.forEach(e => {
       const href = e.getAttribute("href");
-      if(href) e.setAttribute("href", `.${href}`)
+      if(href) e.setAttribute("href", `..${href}`)
       else {
         const src = e.getAttribute("src")
-        e.setAttribute("src", `.${src}`)
+        e.setAttribute("src", `..${src}`)
       }
   })
 })
