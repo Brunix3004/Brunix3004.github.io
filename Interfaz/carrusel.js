@@ -5,12 +5,12 @@ document.addEventListener("DOMContentLoaded", function() {
     let index = 0;
 
     function avanzarCarrusel() {
-        index = (index + 1) % 3;
+        index = (index + 3) % 9; // Ajusta según la cantidad de slides que tengas
         actualizarCarrusel();
     }
 
     function retrocederCarrusel() {
-        index = (index - 1 + 3) % 3;
+        index = (index - 3 + 9) % 9; // Ajusta según la cantidad de slides que tengas
         actualizarCarrusel();
     }
 
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
         slidesContainer.style.transform = 'translateX(' + translateValue + ')';
     }
 
-    setInterval(avanzarCarrusel, 5000); // Cambiar de slide cada 3 segundos
+    setInterval(avanzarCarrusel, 5000); // Cambiar de slide cada 5 segundos
 
     actualizarCarrusel();
 });
