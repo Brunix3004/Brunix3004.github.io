@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(239, 239, 239);
+    background-color: #efefef;
     height: 200px;
 }
 .logo_pie{

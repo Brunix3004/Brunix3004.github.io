@@ -1,5 +1,12 @@
 /*cabecero*/
-
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    /* font-family: "M PLUS Rounded 1c", sans-serif; */
+    color: black;
+}
 .ubicacion{
     margin: 0;
     padding: 3px 0 !important;
@@ -9,35 +16,81 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+.brufas {
+    font-family: "Sawarabi Mincho", serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+header{
+    max-height: 120px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+    background: #efefef;
+}
 .cabecero{
     display: flex;    
-    position: sticky;
     align-items: center;
-    padding: 10px;
-    z-index: 100;
-    top: 0;
-    margin-bottom: 40px;
+    padding: 0 10px;
     justify-content: space-between;
 }
+.logo {
+    max-width: 120px;
+}
+.seccion_busqueda{
+    width: 20%;
+    height: 30px;
+}
+.barra_busqueda{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barra_busqueda > input {
+    font-size: 16px;
+    width: 89%;
+    height: 100%;
+    /* border: none; */
+    border: 1px solid #787676;
+    border-radius: 0 5px 5px 0;
+}
+.barra_busqueda > i{
+    height: 100%;
+    width: 10%;
+    background: #787676;
+    border-radius: 7px 0 0 7px;
+}
+
 .botones {
     align-items: center;
     width: 20%;
     display: flex;
     justify-content: space-around;
 }
+.icono-login {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 5px;
+    text-decoration: none;
+}
 .carrito {
-    color: #1d1d1d;
     background: #fff;
     display: flex;
     justify-content: center; /* Centrar horizontalmente */
     align-items: center; /* Centrar verticalmente */
     width: 40px;
     height: 40px;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 50%;
     text-decoration: none;
 }
-.carrito:hover {
+.carrito:hover, .icono-login:hover {
     transform: scale(1.05);
-
 }
