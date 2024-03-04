@@ -1,19 +1,15 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Multiservicios Brufas</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sawarabi+Mincho&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/estilosInterfaz.css" />
-    <link rel="stylesheet" href="./css/piecero.css" />
-    <link rel="stylesheet" href="./css/cabecero.css" />
-</head>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Multiservicios Brufas</title>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link rel="stylesheet" href="./css/estilosInterfaz.css" />
+        <link rel="stylesheet" href="./css/piecero.css" />
+        <link rel="stylesheet" href="./css/cabecero.css" />
+    </head>
 <body>
     <header>
         <div class="ubicacion">
@@ -25,7 +21,7 @@
             </div>
             <div class="seccion_busqueda">
                 <div class="barra_busqueda">
-                    <div class="search">
+                    <form class="search">
                         <svg viewBox="0 0 24 24" aria-hidden="true" class="icon">
                             <g>
                                 <path
@@ -34,7 +30,7 @@
                             </g>
                         </svg>
                         <input class="input" type="search" placeholder="Search" />
-                    </div>
+                    </form>
                 </div>
             </div>
             <div class="botones">
@@ -167,6 +163,127 @@
                     </a>
                 </li>
             </ul>
+
+        <div id="inicio" show="true">
+            <div class="carrusel">
+                <div class="slides-container">
+                    <!--Primer Slide-->
+                    <div class="slide">
+                        <a href="./Bebidas Alcoholicas/whisky.html">
+                            <img loading="lazy" class="imagen" src="./IMAGENES/Tragos/Combos/Something_Special.png"
+                                alt="Something Special Oferta" title="Something Special Oferta">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="./Bebidas Alcoholicas/tragos.html">
+                            <img loading="lazy" class="imagen" src="./IMAGENES/Tragos/Combos/Ron_Zacapa.jpg"
+                                alt="Ron Zacapa" title="Ron Zacapa">
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="./Bebidas Alcoholicas/combos.html">
+                            <img loading="lazy" class="imagen" src="./IMAGENES/Frames/combo_chapo.jpg" alt="Combo chapero"
+                                title="Combo chapero" />
+                        </a>
+                    </div>
+                    <!--Segundo Slide-->
+                    <div class="slide">
+                        <a href="./Bebidas Alcoholicas/combos.html">
+                            <img loading="lazy" class="imagen" src="./IMAGENES/Tragos/Combos/ComboCartavio.jpg"
+                                alt="Combo_cartavio" title="Combo_cartavio" />
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="./Bebidas Alcoholicas/combos.html">
+                            <img loading="lazy" class="imagen" src="./IMAGENES/Tragos/Combos/ComboFlorDeCaña4años.jpg"
+                                alt="Combo Flor de caña 4 años" title="Combo Flor de caña 4 años" />
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="./Bebidas Alcoholicas/combos.html">
+                            <img loading="lazy" class="imagen" src="./IMAGENES/Tragos/Combos/ComboFlorDeCaña5años.jpg"
+                                alt="Combo Flor de caña 5 años" title="Combo Flor de caña 5 años" />
+                        </a>
+                    </div>
+                    <!--Tercer Slide-->
+                    <div class="slide">
+                        <a href="./Bebidas Alcoholicas/combos.html">
+                            <img loading="lazy" class="imagen" src="./IMAGENES/Tragos/Combos/ComboHavanaClub.jpg"
+                                alt="Combo_havana" title="Combo_havana" />
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="./Bebidas Alcoholicas/combos.html">
+                            <img loading="lazy" class="imagen" src="./IMAGENES/Tragos/Combos/ComboRonSelecto8anios.jpg"
+                                alt="Combo selecto 8 años" title="Combo selecto 8 años" />
+                        </a>
+                    </div>
+                    <div class="slide">
+                        <a href="./Bebidas Alcoholicas/combos.html">
+                            <img loading="lazy" class="imagen" src="./IMAGENES/Tragos/Combos/ComboSelecto5anios.jpg"
+                                alt="Combo selecto 5 años" title="Combo selecto 5 años" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <h2>Compra por categorías</h2>
+            <div class="lista-contenedor">
+                <ul>
+                    <li>
+                        <a href="#cerveza" ruta="Bebidas-Alcoholicas/cervezas.html">
+                            <img loading="lazy" class="icono" src="./IMAGENES/Menu/cerveza.jpeg" alt="Icono cerveza"
+                                title="Icono cerveza">
+                            <span class="linea_inicio">Bebidas</span>
+                            <span>Alcoholicas</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#BebidasNoAlcoholicas" ruta="Bebidas-No-Alcoholicas/BebidasNoAlcoholicas.html">
+                            <img loading="lazy" class="icono" src="./IMAGENES/Menu/gaseosa.png" alt="Icono Gaseosa"
+                                title="Icono gaseosa">
+                            <span class="linea_inicio">Bebidas no</span>
+                            <span>Alcoholicas</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Galletas" ruta="Confiteria/Galletas.html">
+                            <img loading="lazy" class="icono" src="./IMAGENES/Menu/galleta.png" alt="Icono galleta"
+                                title="Icono galleta" />
+                            <span class="linea_inicio">Confitería</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#cigarros" ruta="Cigarros/cigarros.html">
+                            <img loading="lazy" class="icono" src="./IMAGENES/Menu/cigarro.png" alt="Icono cigarro"
+                                title="Icono cigarro" />
+                            <span class="linea_inicio">Cigarros</span>
+                            <span>y Vapes</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#utiles" ruta="Utiles/utiles.html">
+                            <img loading="lazy" class="icono" src="./IMAGENES/Menu/utiles.png" alt="Icono utiles"
+                                title="Icono utiles" />
+                            <span class="linea_inicio">Utiles</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#perfumeria" ruta="perfumeria.html">
+                            <img loading="lazy" class="icono" src="./IMAGENES/Menu/perfumeria.png" alt="Icono perfumeria"
+                                title="Icono perfumeria" />
+                            <span class="linea_inicio">Perfumeria</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#mascota" ruta="Mascotas/mascotas.html">
+                            <img loading="lazy" class="icono" src="./IMAGENES/Menu/mascotas.png" alt="Icono Mascota"
+                                title="Icono mascotas" />
+                            <span class="linea_inicio">Mascotas</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </main>
     
@@ -193,5 +310,4 @@
     <script src="./js/carrusel.js"></script>
     <script src="./js/index.js"></script>
 </body>
-
 </html>
