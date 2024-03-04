@@ -6,7 +6,7 @@ const URL = origin.includes("github") ? `${origin}/Multiservicios_Brufas/` : `${
 let contenidoPrincipal = null
 document.addEventListener("DOMContentLoaded", ()=>{
     const contenedorPrincipal = document.getElementById("MainContent")
-    contenidoPrincipal = contenedorPrincipal.outerHTML
+    contenidoPrincipal = document.getElementById("inicio")
 
     window.addEventListener("hashchange", (e) => procesarHash(contenedorPrincipal))
 
@@ -17,8 +17,12 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
 function procesarHash(contenedor){
     const hash = location.hash
-    if(!hash)
-        return contenedor.innerHTML = contenidoPrincipal
+    if(!hash){
+        contenidoPrincipal.setAttribute("show", "true")
+        contenidoPrincipal.style.display = "block"
+        contenidoPrincipal.parentElement.removeChild(contenidoPrincipal.parentElement.lastElementChild)
+        return
+    }
 
     const element = document.querySelector(`[href="${hash}"]`)
     const ruta = element.getAttribute("ruta")
@@ -31,9 +35,9 @@ function obtenerPagina(pagina, contenedor){
     fetch(`${URL}/templates/${pagina}`)
     .then(response => response.text())
     .then(data => {
-        console.log(data)
-        while (contenedor.firstChild) {
-            contenedor.removeChild(contenedor.firstChild);
+        if(contenidoPrincipal.getAttribute("show") == "true"){
+            contenidoPrincipal.style.display = "none"
+            contenidoPrincipal.setAttribute("show", "false")
         }
         contenedor.appendChild(textToHTML(data))
     })
