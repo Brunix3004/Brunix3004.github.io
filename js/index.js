@@ -1,5 +1,7 @@
 const origin = location.origin
-const URL = origin.includes("github") ? `${origin}/Multiservicios_Brufas/` : origin
+const pathname = location.pathname
+const path_sin_hash = pathname.split("#")[0]
+const URL = origin.includes("github") ? `${origin}/Multiservicios_Brufas/` : `${origin}/${path_sin_hash}`
 
 let contenidoPrincipal = null
 document.addEventListener("DOMContentLoaded", ()=>{
