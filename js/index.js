@@ -1,20 +1,32 @@
-const URL = location.toString()
+const origin = location.origin
+const URL = origin.includes("github") ? `${origin}/Multiservicios_Brufas/` : origin
+
 let contenidoPrincipal = null
 document.addEventListener("DOMContentLoaded", ()=>{
     const contenedorPrincipal = document.getElementById("MainContent")
     contenidoPrincipal = contenedorPrincipal.outerHTML
 
-    const links = document.querySelectorAll("[ruta]")
-    links.forEach(link => {
-        link.addEventListener("click", (e) => {
-            const ruta = link.getAttribute("ruta")
-            obtenerPagina(ruta, contenedorPrincipal)
-        })
-    })
+    window.addEventListener("hashchange", (e) => procesarHash(contenedorPrincipal))
+
+    if(location.hash){
+        procesarHash(contenedorPrincipal)
+    }
 })
 
+function procesarHash(contenedor){
+    const hash = location.hash
+    if(!hash)
+        return contenedor.innerHTML = contenidoPrincipal
+
+    const element = document.querySelector(`[href="${hash}"]`)
+    const ruta = element.getAttribute("ruta")
+    
+    if(ruta) 
+        obtenerPagina(ruta, contenedor)
+}
+
 function obtenerPagina(pagina, contenedor){
-    fetch(`${URL}templates/${pagina}`)
+    fetch(`${URL}/templates/${pagina}`)
     .then(response => response.text())
     .then(data => {
         console.log(data)
