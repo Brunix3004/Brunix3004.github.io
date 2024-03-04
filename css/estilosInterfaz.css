@@ -27,7 +27,8 @@ li{
     margin-right: 90px;
     margin-left: 30px;
     vertical-align: top;
-    margin-bottom: 20px;    
+    margin-bottom: 20px;
+    text-align: center;    
 }
 .lista-contenedor{
     overflow: auto;
@@ -42,6 +43,8 @@ img.icono {
     border-radius: 50px;
     background-color: beige;
     display: block;
+    margin-bottom: 5px;
+    margin: 0 auto;
     margin-bottom: 5px;
 }
 /*Imagenes*/
