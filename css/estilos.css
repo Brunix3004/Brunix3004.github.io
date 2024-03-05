@@ -3,7 +3,7 @@
     display: flex;
 } 
 /*Para los productos*/
-.categoria{
+.categoria{ 
     font-size: 30px; 
     font-weight: bold;
     margin-left: 280px;
@@ -15,6 +15,7 @@
     flex-wrap: wrap;
 }
 .caja{
+    position: relative;
     padding: 10px;
     width: 220px;
     height: 310px;
@@ -24,9 +25,15 @@
     margin-left: 100px;
     margin-bottom: 20px;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;  
+    overflow: hidden;  
+    transition: all 0.3s ease;
 }
-
+.caja:hover {
+    transform: scale(1.1) perspective(1000px) rotateX(10deg); /* Efecto 3D al hacer hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+    transform-origin: center bottom;
+}
 /*Imagenes*/
 .contenedor img{
     width: 92%;
@@ -45,15 +52,31 @@
     font-size: 24px;
     text-align: center;
 }
+/*Para modificar los simbolos (Home, Volver)*/
+.material-icons {
+    margin-right: 5px; /* Añade espacio entre el ícono y el texto */
+    vertical-align: middle; /* Alinea verticalmente el ícono y el texto */
+    font-size: 24px; /* Ajusta el tamaño del ícono */
+}
+
 /*Para la lista de cada categoria*/
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #007bff;
+}
 ul, li {
     list-style-type: none;
 }
 li{
     margin-right: 15px;
-    margin-left: 5px;
     margin-bottom: 40px;
     font-size: 20px;
+    text-align: left;
+    margin-left: 18px;
 }
 .menu {
     width: 15%;    
@@ -61,10 +84,23 @@ li{
     margin: 0;
     display: flex; 
     flex-direction: column;
-    font-size: 20px;
+    font-size: 20px;    
 }
-.icono{
-    vertical-align: bottom;
+.menu li {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: transparent; /* Fondo blanco */
+    padding: 15px; /* Añade espacio interno al elemento de la lista */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: all 0.3s ease; /* Transición suave de todos los estilos durante 0.3 segundos */
+}
+.menu li.active {
+    border-left: 5px solid #007bff; /* Borde izquierdo para indicar la sección activa */
+    padding-left: 10px; /* Añade espacio interno en el lado izquierdo del elemento activo */
+    font-size: 22px; /* Aumenta el tamaño de la letra para la sección activa */
+}
+.menu li:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al hacer hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al hacer hover */
 }
 /*Para los Combos de Ron*/
 .caja_combo{
