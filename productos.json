@@ -1,0 +1,1032 @@
+[
+    {
+        "categoria": "CERVEZA LATA",
+        "nombre": "CRISTAL 473ML",
+        "precio": "4.5"
+    },
+    {
+        "categoria": "CERVEZA LATA",
+        "nombre": "GOLDEN 355ML",
+        "precio": "3"
+    },
+    {
+        "categoria": "CERVEZA LATA",
+        "nombre": "PILSEN 355ML",
+        "precio": "4.5"
+    },
+    {
+        "categoria": "CERVEZA LATA",
+        "nombre": "CRISTAL 355ML",
+        "precio": "3.5"
+    },
+    {
+        "categoria": "CERVEZA LATA",
+        "nombre": "SAN JUAN 355ML",
+        "precio": "3.5"
+    },
+    {
+        "categoria": "CERVEZA LATA",
+        "nombre": "CUZQUEÑA TRIGO 355ML",
+        "precio": "4.5"
+    },
+    {
+        "categoria": "CERVEZA LATA",
+        "nombre": "CUZQUEÑA MALTA 355ML",
+        "precio": "4.5"
+    },
+    {
+        "categoria": "CERVEZA LATA SIX PACK",
+        "nombre": "CRISTAL SIX PACK 473ML",
+        "precio": "25"
+    },
+    {
+        "categoria": "CERVEZA LATA SIX PACK",
+        "nombre": "GOLDEN SIX PACK 355ML",
+        "precio": "17"
+    },
+    {
+        "categoria": "CERVEZA LATA SIX PACK",
+        "nombre": "PILSEN SIX PACK 355ML",
+        "precio": "25"
+    },
+    {
+        "categoria": "CERVEZA LATA SIX PACK",
+        "nombre": "CRISTAL SIX PACK 355ML",
+        "precio": "21"
+    },
+    {
+        "categoria": "CERVEZA LATA SIX PACK",
+        "nombre": "SAN JUAN SIX PACK 355ML",
+        "precio": "21"
+    },
+    {
+        "categoria": "CERVEZA LATA SIX PACK",
+        "nombre": "CUZQUEÑA TRIGO SIX PACK 355ML",
+        "precio": "25"
+    },
+    {
+        "categoria": "CERVEZA LATA SIX PACK",
+        "nombre": "CUZQUEÑA MALTA SIX PACK 355ML",
+        "precio": "25"
+    },
+    {
+        "categoria": "CERVEZA CAJA",
+        "nombre": "CRISTAL CAJA 12UND SIN HELAR",
+        "precio": "63"
+    },
+    {
+        "categoria": "CERVEZA CAJA",
+        "nombre": "CRISTAL CAJA 12UND HELADA",
+        "precio": "65"
+    },
+    {
+        "categoria": "CERVEZA CAJA",
+        "nombre": "PILSEN CAJA 12UND SIN HELAR",
+        "precio": "69"
+    },
+    {
+        "categoria": "CERVEZA CAJA",
+        "nombre": "CUZQUEÑA TRIGO CAJA 12 UND SIN HELAR",
+        "precio": "72"
+    },
+    {
+        "categoria": "CERVEZA CAJA",
+        "nombre": "CUZQUEÑA TRIGO CAJA 12 UND HELADA",
+        "precio": "74"
+    },
+    {
+        "categoria": "CERVEZA CAJA",
+        "nombre": "CUZQUEÑA MALTA CAJA 12 UND SIN HELAR",
+        "precio": "72"
+    },
+    {
+        "categoria": "CERVEZA CAJA",
+        "nombre": "GOLDEN CAJA 12UND SIN HELAR",
+        "precio": "40"
+    },
+    {
+        "categoria": "CERVEZA CAJA",
+        "nombre": "CRISTAL CAJA 24UND",
+        "precio": "60"
+    },
+    {
+        "categoria": "CERVEZA CAJA",
+        "nombre": "CUZQUEÑA TRIGO CAJA 24UND",
+        "precio": "60"
+    },
+    {
+        "categoria": "CERVEZA CAJA",
+        "nombre": "PILSEN CAJA 24UND",
+        "precio": "60"
+    },
+    {
+        "categoria": "CERVEZA UNIDAD",
+        "nombre": "CRISTAL 1UND",
+        "precio": "6"
+    },
+    {
+        "categoria": "CERVEZA UNIDAD",
+        "nombre": "PILSEN 1UND",
+        "precio": "7"
+    },
+    {
+        "categoria": "CERVEZA UNIDAD",
+        "nombre": "CUZQUEÑA TRIGO 1UND",
+        "precio": "7"
+    },
+    {
+        "categoria": "CERVEZA UNIDAD",
+        "nombre": "CUZQUEÑA MALTA 1UND",
+        "precio": "7"
+    },
+    {
+        "categoria": "CERVEZA UNIDAD",
+        "nombre": "GOLDEN 1UND",
+        "precio": "4"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "COCA COLA 3L",
+        "precio": "12"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "INCA KOLA 3L",
+        "precio": "12"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "COCA COLA 2.5L",
+        "precio": "8.5"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "INCA KOLA 2.5L",
+        "precio": "8.5"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "COCA COLA SIN AZUCAR 1.5L",
+        "precio": "6.5"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "INCA KOLA SIN AZUCAR 1.5L",
+        "precio": "6.5"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "INCA KOLA RETORNABLE 1.5L",
+        "precio": "5.5"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "COCA COLA RETORNABLE 1L",
+        "precio": "3.8"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "INCA KOLA RETORNABLE 1L",
+        "precio": "3.8"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "COCA COLA 500ML",
+        "precio": "2.8"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "INCA KOLA 500ML",
+        "precio": "2.8"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "COCA COLA 300ML",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "INCA KOLA 300ML",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "COCA COLA 237ML",
+        "precio": "1"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "INCA KOLA 237ML",
+        "precio": "1"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "FANTA 3L",
+        "precio": "8"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "SPRITE 3L",
+        "precio": "8"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "GUARANA 3L",
+        "precio": "8"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "GUARANA 2L",
+        "precio": "5.5"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "FANTA 1L",
+        "precio": "4.5"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "KOLA REAL 1L",
+        "precio": "3.5"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "GUARANA 500ML",
+        "precio": "2"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "FANTA 500ML",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "SPRITE 500ML",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "GUARANITA 300ML",
+        "precio": "1"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "KOLA REAL 400ML",
+        "precio": "1"
+    },
+    {
+        "categoria": "GASEOSA",
+        "nombre": "VIVA 450ML",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "MINI RITZ 40G",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "MINI CUA CUA 42G",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "MINI PICARAS CHOCOLATE 46G",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "TIKYS MALVAVISCOS 200G",
+        "precio": "2"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "TRAVESURAS 50G",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "MOROCHAS CLASICAS 30G",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "CASINO CHOCOLATE 43G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "CASINO MENTA 43G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "CASINO FRESA 43G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "CASINO VAINILLA 43G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "TENTACION CHOCOLATE 43G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "TENTACION NARANJA 43G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "VAINILLA FIELD 37G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "PICARAS FRESA 40G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "MARGARITA 46G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "CLUB SOCIAL ORIGINAL 26G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "CHOCOSODA 36G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "OREO CLASICAS 36G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "CORONITA CHOCOLATE 38G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "CHOCMAN 35G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "CHARADAS 40G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "CHIN CHIN 31G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "AGUA LINE 42G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "TRIKIS 32G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "DIVAS 34G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "SODAV 35G",
+        "precio": "1"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "SODA FIELD 34G",
+        "precio": "0.7"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "RITZ TACO 67G",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "OREO TACO 126G",
+        "precio": "2.5"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "WAFER CHOCOLATE 105G",
+        "precio": "2.5"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "WAFER FRESA 105G",
+        "precio": "2.5"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "WAFER VAINILLA 105G",
+        "precio": "2.5"
+    },
+    {
+        "categoria": "GALLETAS",
+        "nombre": "PAPAS PRINGLES ORIGINAL 124G",
+        "precio": "13"
+    },
+    {
+        "categoria": "PIQUEOS Y SNACKS",
+        "nombre": "PIQUEO SNACK ORIGINAL 23G",
+        "precio": "1"
+    },
+    {
+        "categoria": "PIQUEOS Y SNACKS",
+        "nombre": "CHEETOS MEGA QUESO 34G",
+        "precio": "1.4"
+    },
+    {
+        "categoria": "PIQUEOS Y SNACKS",
+        "nombre": "PAPAS LAYS ORIGINAL 17G",
+        "precio": "1"
+    },
+    {
+        "categoria": "PIQUEOS Y SNACKS",
+        "nombre": "CHEESE TRIS QUESO 16G",
+        "precio": "1"
+    },
+    {
+        "categoria": "PIQUEOS Y SNACKS",
+        "nombre": "DORITOS QUESO 21G",
+        "precio": "1"
+    },
+    {
+        "categoria": "PIQUEOS Y SNACKS",
+        "nombre": "TORTEES PICANTE 30G",
+        "precio": "1"
+    },
+    {
+        "categoria": "PIQUEOS Y SNACKS",
+        "nombre": "CHIZITOS FIESTA QUESO 35G",
+        "precio": "1"
+    },
+    {
+        "categoria": "PIQUEOS Y SNACKS",
+        "nombre": "PIQUEO SNACK ORIGINAL 225G",
+        "precio": "8"
+    },
+    {
+        "categoria": "PIQUEOS Y SNACKS",
+        "nombre": "PAPAS LAYS ORIGINAL 150G",
+        "precio": "8.5"
+    },
+    {
+        "categoria": "PIQUEOS Y SNACKS",
+        "nombre": "DORITOS QUESO 190G",
+        "precio": "8.5"
+    },
+    {
+        "categoria": "PIQUEOS Y SNACKS",
+        "nombre": "CHIZITOS FIESTA QUESO 190G",
+        "precio": "7"
+    },
+    {
+        "categoria": "PIQUEOS Y SNACKS",
+        "nombre": "BUCKY FIESTON CHEESE 200G",
+        "precio": "5.5"
+    },
+    {
+        "categoria": "PIQUEOS Y SNACKS",
+        "nombre": "CHEETOS MEGA QUESO 200G",
+        "precio": "8"
+    },
+    {
+        "categoria": "CHOCOLATES",
+        "nombre": "NESTLE SUBLIME CLASICO 30G",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "CHOCOLATES",
+        "nombre": "NESTLE SUBLIME CLASICO 40G",
+        "precio": "2"
+    },
+    {
+        "categoria": "CHOCOLATES",
+        "nombre": "NESTLE SUBLIME BLANCO 40G",
+        "precio": "2"
+    },
+    {
+        "categoria": "CHOCOLATES",
+        "nombre": "D'ONOFRIO TRIANGULO 30G",
+        "precio": "1.6"
+    },
+    {
+        "categoria": "CHOCOLATES",
+        "nombre": "CAJA GAROTO",
+        "precio": "13"
+    },
+    {
+        "categoria": "CHOCOLATES",
+        "nombre": "BON O BON LECHE 15GR",
+        "precio": "2"
+    },
+    {
+        "categoria": "GOLOSINAS",
+        "nombre": "CHICLE TRIDENT MENTA 8.5G",
+        "precio": "1.2"
+    },
+    {
+        "categoria": "GOLOSINAS",
+        "nombre": "CHICLE TRIDENT FRESA 8.5G",
+        "precio": "1.2"
+    },
+    {
+        "categoria": "GOLOSINAS",
+        "nombre": "CHICLE TRIDENT MENTA 30.6G",
+        "precio": "3"
+    },
+    {
+        "categoria": "GOLOSINAS",
+        "nombre": "CHICLE TRIDENT FRESA 30.6G",
+        "precio": "3"
+    },
+    {
+        "categoria": "GOLOSINAS",
+        "nombre": "HALLS MENTHO LYPTUS",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "GOLOSINAS",
+        "nombre": "HALLS EXTRA STRONG",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "GOLOSINAS",
+        "nombre": "HALLS CHERRY LYPTUS",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "GOLOSINAS",
+        "nombre": "CHICLE SUPER ACIDO 1UND",
+        "precio": "1"
+    },
+    {
+        "categoria": "GOLOSINAS",
+        "nombre": "CHUPETIN GLOBO POP",
+        "precio": "0.5"
+    },
+    {
+        "categoria": "CIGARROS",
+        "nombre": "PALL MAL CONVERTIBLE 1UND",
+        "precio": "1"
+    },
+    {
+        "categoria": "CIGARROS",
+        "nombre": "LUCKY STRIKE MORA 1UND",
+        "precio": "1.2"
+    },
+    {
+        "categoria": "CIGARROS",
+        "nombre": "LUCKY STRIKE SANDIA 1UND",
+        "precio": "1.2"
+    },
+    {
+        "categoria": "CIGARROS",
+        "nombre": "L&M FUSION 1UND",
+        "precio": "0.8"
+    },
+    {
+        "categoria": "CIGARROS",
+        "nombre": "PALL MAL CONVERTIBLE CAJETILLA",
+        "precio": "8"
+    },
+    {
+        "categoria": "CIGARROS",
+        "nombre": "LUCKY STRIKE MORA CAJETILLA",
+        "precio": "12"
+    },
+    {
+        "categoria": "CIGARROS",
+        "nombre": "LUCKY STRIKE SANDIA CAJETILLA",
+        "precio": "12"
+    },
+    {
+        "categoria": "CIGARROS",
+        "nombre": "L&M FUSION CAJETILLA",
+        "precio": "8"
+    },
+    {
+        "categoria": "VAPE",
+        "nombre": "PEPPERMINT ICE 500 PUFFS",
+        "precio": "20"
+    },
+    {
+        "categoria": "VAPE",
+        "nombre": "PEPPERMINT ICE 1500 PUFFS",
+        "precio": "35"
+    },
+    {
+        "categoria": "VAPE",
+        "nombre": "WATERMELON ICE 500 PUFFS",
+        "precio": "20"
+    },
+    {
+        "categoria": "VAPE",
+        "nombre": "WATERMELON ICE 1500 PUFFS",
+        "precio": "35"
+    },
+    {
+        "categoria": "VAPE",
+        "nombre": "STRAWBERRY ICE 500 PUFFS",
+        "precio": "20"
+    },
+    {
+        "categoria": "VAPE",
+        "nombre": "STRAWBERRY ICE 1500 PUFFS",
+        "precio": "35"
+    },
+    {
+        "categoria": "VAPE",
+        "nombre": "BLUEBERRY ICE 500 PUFFS",
+        "precio": "20"
+    },
+    {
+        "categoria": "VAPE",
+        "nombre": "BLUEBERRY ICE 1500 PUFFS",
+        "precio": "35"
+    },
+    {
+        "categoria": "RON",
+        "nombre": "CAPITAN MORGAN 700ML",
+        "precio": "37"
+    },
+    {
+        "categoria": "RON",
+        "nombre": "FLOR DE CAÑA 4 AÑOS 700ML",
+        "precio": "46.5"
+    },
+    {
+        "categoria": "RON",
+        "nombre": "FLOR DE CAÑA 5 AÑOS 700ML",
+        "precio": "57"
+    },
+    {
+        "categoria": "RON",
+        "nombre": "HAVANA CLUB 750ML",
+        "precio": "36"
+    },
+    {
+        "categoria": "RON",
+        "nombre": "HAVANA CLUB 1L",
+        "precio": "46"
+    },
+    {
+        "categoria": "RON",
+        "nombre": "RON DE CALDAS 3 AÑOS",
+        "precio": "33"
+    },
+    {
+        "categoria": "RON",
+        "nombre": "RON DE CALDAS 5 AÑOS",
+        "precio": "41"
+    },
+    {
+        "categoria": "RON",
+        "nombre": "RON DE CALDAS 8 AÑOS",
+        "precio": "60"
+    },
+    {
+        "categoria": "RON",
+        "nombre": "CABO BLANCO",
+        "precio": "17"
+    },
+    {
+        "categoria": "RON",
+        "nombre": "BLACK BARREL 1L",
+        "precio": "30"
+    },
+    {
+        "categoria": "RON",
+        "nombre": "RON SELECTO 5 AÑOS",
+        "precio": "30"
+    },
+    {
+        "categoria": "RON",
+        "nombre": "RON SELECTO 8 AÑOS",
+        "precio": "38"
+    },
+    {
+        "categoria": "RON",
+        "nombre": "RON CARTAVIO BLACK 1L",
+        "precio": "29"
+    },
+    {
+        "categoria": "RON",
+        "nombre": "RON CARTAVIO SUPERIOR 1L",
+        "precio": "29"
+    },
+    {
+        "categoria": "RON",
+        "nombre": "RON CARTAVIO BLANCO 1L",
+        "precio": "29"
+    },
+    {
+        "categoria": "COMBOS",
+        "nombre": "COMBO CAPITAN MORGAN",
+        "precio": "55"
+    },
+    {
+        "categoria": "COMBOS",
+        "nombre": "COMBO RON CARTAVIO BLACK 1L",
+        "precio": "47"
+    },
+    {
+        "categoria": "COMBOS",
+        "nombre": "COMBO RON SELECTO 8 AÑOS",
+        "precio": "56"
+    },
+    {
+        "categoria": "COMBOS",
+        "nombre": "COMBO RON SELECTO 5 AÑOS",
+        "precio": "48"
+    },
+    {
+        "categoria": "COMBOS",
+        "nombre": "COMBO FLOR DE CAÑA 5 AÑOS",
+        "precio": "75"
+    },
+    {
+        "categoria": "COMBOS",
+        "nombre": "COMBO FLOR DE CAÑA 4 AÑOS",
+        "precio": "65"
+    },
+    {
+        "categoria": "COMBOS",
+        "nombre": "COMBO HAVANA CLUB",
+        "precio": "54"
+    },
+    {
+        "categoria": "WHISKY",
+        "nombre": "OLD TIMES RED",
+        "precio": "24"
+    },
+    {
+        "categoria": "WHISKY",
+        "nombre": "BALLENTINES",
+        "precio": "53"
+    },
+    {
+        "categoria": "WHISKY",
+        "nombre": "SOMETHING SPECIAL",
+        "precio": "55"
+    },
+    {
+        "categoria": "WHISKY",
+        "nombre": "CHIVAS REGAL 12 AÑOS",
+        "precio": "100"
+    },
+    {
+        "categoria": "WHISKY",
+        "nombre": "CHIVAS REGAL 13 AÑOS",
+        "precio": "110"
+    },
+    {
+        "categoria": "WHISKY",
+        "nombre": "JOHNNIE WALKER RED LABEL",
+        "precio": "55"
+    },
+    {
+        "categoria": "WHISKY",
+        "nombre": "JOHNNIE WALKER BLACK LABEL",
+        "precio": "125"
+    },
+    {
+        "categoria": "WHISKY",
+        "nombre": "JOHNNIE WALKER DOUBLE BLACK LABEL",
+        "precio": "150"
+    },
+    {
+        "categoria": "WHISKY",
+        "nombre": "JOHNNIE WALKER GOLD LABEL",
+        "precio": "245"
+    },
+    {
+        "categoria": "PISCO",
+        "nombre": "TABERNERO PISCO PURO QUEBRANTA",
+        "precio": "32.5"
+    },
+    {
+        "categoria": "PISCO",
+        "nombre": "TABERNERO PISCO ACHOLADO",
+        "precio": "32.5"
+    },
+    {
+        "categoria": "VODKA",
+        "nombre": "RUSSKAYA 1L",
+        "precio": "26"
+    },
+    {
+        "categoria": "VODKA",
+        "nombre": "ABSOLUTE VODKA",
+        "precio": "51"
+    },
+    {
+        "categoria": "VODKA",
+        "nombre": "SMIRNOFF",
+        "precio": "28"
+    },
+    {
+        "categoria": "VINOS",
+        "nombre": "VINO TABERNERO BORGOÑA",
+        "precio": "18.5"
+    },
+    {
+        "categoria": "VINOS",
+        "nombre": "VINO TABERNERO GRAN ROSÉ",
+        "precio": "18.5"
+    },
+    {
+        "categoria": "VINOS",
+        "nombre": "TABERNERO SANGRÑA 1L",
+        "precio": "15"
+    },
+    {
+        "categoria": "OTROS LICORES",
+        "nombre": "JAGERMEISTER 700ML",
+        "precio": "75"
+    },
+    {
+        "categoria": "OTROS LICORES",
+        "nombre": "LICOR DE CREMA BAILEYS 750ML",
+        "precio": "78"
+    },
+    {
+        "categoria": "OTROS LICORES",
+        "nombre": "SHERIDAN'S LICOR DE CAFÉ",
+        "precio": "100"
+    },
+    {
+        "categoria": "OTROS LICORES",
+        "nombre": "FOUR LOKO GOLD 473ML",
+        "precio": "10"
+    },
+    {
+        "categoria": "OTROS LICORES",
+        "nombre": "MIKE'S LEMONADE 355ML",
+        "precio": "6"
+    },
+    {
+        "categoria": "OTROS LICORES",
+        "nombre": "GIN BEEFETER PINK 700ML",
+        "precio": ""
+    },
+    {
+        "categoria": "OTROS LICORES",
+        "nombre": "WILD FRESH APPLE 355ML",
+        "precio": "5"
+    },
+    {
+        "categoria": "OTROS LICORES",
+        "nombre": "WILD TROPICAL ORANGE 355ML",
+        "precio": "5"
+    },
+    {
+        "categoria": "MASCOTAS",
+        "nombre": "MI MASKOT ADULTOS SABOR CARNE 450G",
+        "precio": "4"
+    },
+    {
+        "categoria": "MASCOTAS",
+        "nombre": "NUTRICAN ADULTOS SABOR CARNE E HIGADO 450G",
+        "precio": "3"
+    },
+    {
+        "categoria": "MASCOTAS",
+        "nombre": "THOR PATÉ SABOR CARNE 330G",
+        "precio": "5"
+    },
+    {
+        "categoria": "MASCOTAS",
+        "nombre": "THOR PATÉ SABOR POLLO 330G",
+        "precio": "5"
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "CUADERNO CUADRICULADO JUSTUS",
+        "precio": "5.5"
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "CUADERNO RAYADO JUSTUS",
+        "precio": "5.5"
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "GOMA EN BARRA ARTESCO",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "SILICONA LIQUIDA FALESSA",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "COLA SINTETICA ARTESCO",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "PLASTILINA JUMBO 12 COLORES ARTESCO",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "PLASTILINA JUMBO 12 COLORES VIKINGO",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "PLASTILINA DELGADA 10 COLORES OVE",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "TIJERA MANDARINITA LAYCONSA",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "COLORES PASTEL ARTESCO 10UND",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "PLUMONES JUNIOR STANDFORD 12UND",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "LAPICEROS DE COLORES MEDIANOS OVAL 12UND",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "LAPICEROS DE COLORES GRANDES OVAL 12UND",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "LAPIZ GRAFITO ARTESCO 1UND",
+        "precio": "0.6"
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "MINI RESALTADORES ARTESCO 1UND",
+        "precio": "2.5"
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "LAPIZ CORRECTOR TOYO",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "CRAYONES JUMBO LAYCONSA 6UND",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "MENTOL SIKURA",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "BARAJA DE NAIPES REY",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "PILAS AA DOBLE A PANASONIC",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "PILAS AAA TRIPLE A PANASONIC",
+        "precio": ""
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "LAPICEROS ESCARCHADOS NAYRAS 12UND",
+        "precio": "7"
+    }
+]

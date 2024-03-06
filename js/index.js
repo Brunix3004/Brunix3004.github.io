@@ -10,17 +10,30 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
     window.addEventListener("hashchange", (e) => procesarHash(contenedorPrincipal))
 
-    if(location.hash){
-        procesarHash(contenedorPrincipal)
-    }
+    if(location.hash) procesarHash(contenedorPrincipal)
+    
+    const inputBuscar = document.getElementById("inputBuscar")
+    inputBuscar.addEventListener("keyup", (e) => mostrarSugerencias(inputBuscar))
 })
+
+function limpiarContenedorPrincipal(){
+    const elementoPadre = contenidoPrincipal.parentElement;
+    if(elementoPadre.children.length > 1) {
+        elementoPadre.removeChild(elementoPadre.lastElementChild)
+    }
+}
+
+function agregarAlContenedor(contenedor, html){
+    limpiarContenedorPrincipal()
+    contenedor.appendChild(html)
+}
 
 function procesarHash(contenedor){
     const hash = location.hash
     if(!hash){
         contenidoPrincipal.setAttribute("show", "true")
         contenidoPrincipal.style.display = "block"
-        contenidoPrincipal.parentElement.removeChild(contenidoPrincipal.parentElement.lastElementChild)
+        limpiarContenedorPrincipal()
         return
     }
 
@@ -39,7 +52,7 @@ function obtenerPagina(pagina, contenedor){
             contenidoPrincipal.style.display = "none"
             contenidoPrincipal.setAttribute("show", "false")
         }
-        contenedor.appendChild(textToHTML(data))
+        agregarAlContenedor(contenedor, textToHTML(data))
         mapearProductos()
     })
     .catch(error => console.log(error))
@@ -49,4 +62,30 @@ function textToHTML(stringHTML){
     const parser = new DOMParser();
     const doc = parser.parseFromString(stringHTML, "text/html");
     return doc.documentElement
+}
+
+// BARRA DE BUSQUEDA
+async function mostrarSugerencias(input){
+    const sugerencias = document.getElementById("sugerencias")
+    
+    if(input.value.length > 0){
+        document.getElementById("search").classList.add("active")
+    } else{
+        document.getElementById("search").classList.remove("active")
+    }
+
+    const listaSugerencias = await crearSugerencias(input.value)
+    sugerencias.innerHTML = listaSugerencias.map(prod => `<li>${prod.nombre}</li>`).slice(0, 10).join("")
+    sugerencias.querySelectorAll("li").forEach(li => {
+        li.addEventListener("click", () => {
+            input.value = li.innerText
+            sugerencias.innerHTML = ""
+        })
+    })
+}
+
+async function crearSugerencias(valor){
+    const req = await fetch(`${URL}/productos.json`)
+    const data = await req.json()
+    return data.filter(prod => prod.nombre.toLowerCase().includes(valor.toLowerCase()))
 }
