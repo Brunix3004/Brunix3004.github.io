@@ -76,17 +76,10 @@ rowProduct.addEventListener('click', (e) => {
         const product = e.target.parentElement;
         const title = product.querySelector('p').textContent;
 
-        const targetProduct = allProducts.find(
-            product => product.title === title
+        allProducts = allProducts.filter(
+            product => product.title !== title
         );
-
-        if (targetProduct.quantity > 1) {
-            targetProduct.quantity--;
-        } else {
-            allProducts = allProducts.filter(
-                product => product.title !== title
-            );
-        }        
+        showHTML();
     }
     showHTML();
 });

@@ -63,7 +63,7 @@
     text-align: center;
 }
 /*Boton*/
-button{
+.add_button{
     margin-top: 10px;
     color:white;
     font-weight: bold;
@@ -74,7 +74,7 @@ button{
 	cursor: pointer;
     background-color:  #3b82f6;
 }
-button:hover{
+.add_button:hover{
 	background-color: #3069c4;
 	box-shadow: 0 0 0 2px #3b83f65f;
     transform: scale(1.05); /* Aumenta el tamaño al hacer hover */
