@@ -62,10 +62,9 @@ rowProduct.addEventListener('click', (e) => {
         if (targetProduct.quantity > 1) {
             targetProduct.quantity--;
         }
-        /*FALTA AGREGAR QUE SI ES UNO SE ELIMINE EL PRODUCTO
-        LO HAGO LUEGO*/
         else if (targetProduct.quantity === 1) {
-            
+            const index = allProducts.findIndex(product => product.title === title);
+            allProducts.splice(index, 1);
         }
     } 
     else if (e.target.classList.contains('btn-increase-quantity')) {
@@ -122,7 +121,5 @@ const showHTML = () => {
 
     const solSymbol = 'S/ ';
     valorTotal.innerText = `${solSymbol}${total}`;
-    countProducts.innerText = totalOfProducts;
-
-    
+    countProducts.innerText = totalOfProducts; 
 }
