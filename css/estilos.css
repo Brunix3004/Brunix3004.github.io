@@ -15,10 +15,13 @@
     flex-wrap: wrap;
 }
 .caja{
+    /*Eliminar los dos siguientes en caso de errores*/
+    display: flex;
+    flex-direction: column;
     position: relative;
     padding: 10px;
     width: 220px;
-    height: 310px;
+    height: 350px;
     border: 1px solid black;
     border-radius: 15px;
     float: right;
@@ -30,15 +33,18 @@
     transition: all 0.3s ease;
 }
 .caja:hover {
-    transform: scale(1.1) perspective(1000px) rotateX(10deg); /* Efecto 3D al hacer hover */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
-    transform-origin: center bottom;
+    transform: scale(1.05); /* Aumenta el tamaño al hacer hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 /*Imagenes*/
 .contenedor img{
-    width: 92%;
+    width: auto;
     height: 60%; 
     object-fit: cover;
+}
+.contenedor:hover img{
+    transform: scale(1.1);
+    overflow: hidden;
 }
 /*Nombre de productos*/
 .nombre{
@@ -51,6 +57,24 @@
     font-weight: bold;
     font-size: 24px;
     text-align: center;
+}
+/*Boton*/
+button{
+    margin-top: 10px;
+    color:black;
+    font-weight: bold;
+	border:none;
+	height:40px;
+	width: 100px;
+	border-radius:7px;
+	cursor: pointer;
+    background-color:  #3b82f6;
+}
+button:hover{
+	color:white;
+	background-color: #1e3a8a;
+	box-shadow: 0 0 0 5px #3b83f65f;
+    transform: scale(1.05); /* Aumenta el tamaño al hacer hover */
 }
 /*Para modificar los simbolos (Home, Volver)*/
 .material-icons {
@@ -87,20 +111,20 @@ li{
     font-size: 20px;    
 }
 .menu li {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    background-color: transparent; /* Fondo blanco */
-    padding: 15px; /* Añade espacio interno al elemento de la lista */
-    border-radius: 5px; /* Bordes redondeados */
-    transition: all 0.3s ease; /* Transición suave de todos los estilos durante 0.3 segundos */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: transparent; 
+    padding: 15px; 
+    border-radius: 5px;
+    transition: all 0.3s ease; 
 }
 .menu li.active {
-    border-left: 5px solid #007bff; /* Borde izquierdo para indicar la sección activa */
-    padding-left: 10px; /* Añade espacio interno en el lado izquierdo del elemento activo */
-    font-size: 22px; /* Aumenta el tamaño de la letra para la sección activa */
+    border-left: 5px solid #007bff;
+    padding-left: 10px; 
+    font-size: 22px; 
 }
 .menu li:hover {
     transform: scale(1.05); /* Aumenta el tamaño al hacer hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al hacer hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 /*Para los Combos de Ron*/
 .caja_combo{
