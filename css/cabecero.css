@@ -219,17 +219,17 @@ header {
 #contador-productos {
     font-size: 10px;
 }
-
-.container-cart-products {
-
+.container-cart-products{    
     position: absolute;
     top: 50px;
     right: 0;
     background-color: white;
-    width: 400px;
+    width: 450px;
     z-index: 1;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
-    border-radius: 10px;
+    border-radius: 10px; 
+    max-height: 400px;
+    overflow: auto;
 }
 
 .cart-product {
@@ -237,11 +237,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);    
 }
-
-.info-cart-product {
+.info-cart-product{
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
     justify-content: space-between;
     flex: 0.8;
 }
@@ -286,4 +287,21 @@ header {
 .cart-empty {
     padding: 15px;
     text-align: center;
+}
+.btn-decrease-quantity, .btn-increase-quantity {
+    border: none;
+    background-color: transparent;
+    color: black;
+    width: 15px;
+    margin: auto;
+    margin-right: 15px;
+}
+.btn-increase-quantity {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.btn-decrease-quantity:hover, .btn-increase-quantity:hover{
+    border: none;
+    background-color: transparent;
+    color: black;
 }
