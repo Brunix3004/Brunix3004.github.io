@@ -11,12 +11,9 @@ const rowProduct = document.querySelector('.row-product')
 /*Variable de arreglos de Productos */
 let allProducts=[]
 
-
 const valorTotal = document.querySelector('.total-pagar')
 
 const countProducts = document.querySelector('#contador-productos')
-
-
 
 function mapearProductos(){
     /* Lista de todos los contenedores de productos*/
@@ -56,16 +53,44 @@ function mapearProductos(){
 
 /*Funcion para eliminar productos*/
 rowProduct.addEventListener('click', (e) => {
-    if (e.target.classList.contains('icon-close')) {
+
+    const product = e.target.parentElement;
+    const title = product.querySelector('p').textContent;
+    const targetProduct = allProducts.find(product => product.title === title);
+
+    if (e.target.classList.contains('btn-decrease-quantity')) {
+        if (targetProduct.quantity > 1) {
+            targetProduct.quantity--;
+        }
+        /*FALTA AGREGAR QUE SI ES UNO SE ELIMINE EL PRODUCTO
+        LO HAGO LUEGO*/
+        else if (targetProduct.quantity === 1) {
+            
+        }
+    } 
+    else if (e.target.classList.contains('btn-increase-quantity')) {
+        targetProduct.quantity++;
+    }
+
+    else if (e.target.classList.contains('icon-close')) {
         const product = e.target.parentElement;
         const title = product.querySelector('p').textContent;
 
-        allProducts = allProducts.filter(
-            product => product.title !== title
+        const targetProduct = allProducts.find(
+            product => product.title === title
         );
-        showHTML();
+
+        if (targetProduct.quantity > 1) {
+            targetProduct.quantity--;
+        } else {
+            allProducts = allProducts.filter(
+                product => product.title !== title
+            );
+        }        
     }
+    showHTML();
 });
+
 
 /*Funcion para mostrar en el HTML*/
 const showHTML = () => {
@@ -75,6 +100,7 @@ const showHTML = () => {
         <p class = "cart-empty"> El carrito esta vacío</p>
         `
     }
+    
     /*Limpiar HTML */
     rowProduct.innerHTML = '';
 
@@ -86,7 +112,9 @@ const showHTML = () => {
         containerProduct.classList.add('cart-product')
         containerProduct.innerHTML = `
             <div class="info-cart-product">
+                <button class="btn-decrease-quantity">-</button>
                 <span class="cantidad-producto-carrito"> ${product.quantity} </span>
+                <button class="btn-increase-quantity">+</button>
                 <p class="titulo-producto-carrito">${product.title}</p>
                 <span class="precio-producto-carrito">${product.price}</span>
             </div>
@@ -95,10 +123,13 @@ const showHTML = () => {
             </svg>
         `
         rowProduct.append(containerProduct)
-        total += product.quantity * parseInt(product.price.slice(2).trim());
+        total += product.quantity * parseFloat(product.price.slice(2).trim());
         totalOfProducts = totalOfProducts + product.quantity;
     })
 
-    valorTotal.innerText = `$${total}`;
+    const solSymbol = 'S/ ';
+    valorTotal.innerText = `${solSymbol}${total}`;
     countProducts.innerText = totalOfProducts;
+
+    
 }
