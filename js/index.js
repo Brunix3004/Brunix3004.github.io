@@ -40,6 +40,7 @@ function obtenerPagina(pagina, contenedor){
             contenidoPrincipal.setAttribute("show", "false")
         }
         contenedor.appendChild(textToHTML(data))
+        mapearProductos()
     })
     .catch(error => console.log(error))
 }

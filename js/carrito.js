@@ -8,9 +8,6 @@ btnCart.addEventListener('click', ()=> {
 const cartInfo = document.querySelector('.cart-product')
 const rowProduct = document.querySelector('.row-product')
 
-/* Lista de todos los contenedores de productos*/
-const productList = document.querySelector('.contenido')
-
 /*Variable de arreglos de Productos */
 let allProducts=[]
 
@@ -21,37 +18,41 @@ const countProducts = document.querySelector('#contador-productos')
 
 
 
-
-productList.addEventListener('click', e =>{
-    if (e.target.classList.contains('btn-add-cart')) {
-        const product = e.target.parentElement
-
-        const infoProduct = {
-            quantity: 1,
-            title: product.querySelector('h2').textContent,
-            price: product.querySelector('p').textContent
-        };
-        
-        const exits = allProducts.some(product => product.title === infoProduct.title)
-        if (exits){
-            const products = allProducts.map(product => {
-                if (product.title === infoProduct.title) {
-                    product.quantity++;
-                    return product;
-                } 
-                else{
-                    return product
-                }
-            })
-            allProducts = [...products]
-        }
-        else{
-            allProducts= [...allProducts, infoProduct]
-        }
-
-        showHTML();
-    }  
-})
+function mapearProductos(){
+    /* Lista de todos los contenedores de productos*/
+    const productList = document.querySelector('.contenido')
+    
+    productList.addEventListener('click', e =>{
+        if (e.target.classList.contains('btn-add-cart')) {
+            const product = e.target.parentElement
+    
+            const infoProduct = {
+                quantity: 1,
+                title: product.querySelector('h2').textContent,
+                price: product.querySelector('p').textContent
+            };
+            
+            const exits = allProducts.some(product => product.title === infoProduct.title)
+            if (exits){
+                const products = allProducts.map(product => {
+                    if (product.title === infoProduct.title) {
+                        product.quantity++;
+                        return product;
+                    } 
+                    else{
+                        return product
+                    }
+                })
+                allProducts = [...products]
+            }
+            else{
+                allProducts= [...allProducts, infoProduct]
+            }
+    
+            showHTML();
+        }  
+    })
+}
 
 /*Funcion para eliminar productos*/
 rowProduct.addEventListener('click', (e) => {
@@ -94,7 +95,7 @@ const showHTML = () => {
             </svg>
         `
         rowProduct.append(containerProduct)
-        total = total + parseInt(product.quantity* product.price.slice(1));
+        total += product.quantity * parseInt(product.price.slice(2).trim());
         totalOfProducts = totalOfProducts + product.quantity;
     })
 
