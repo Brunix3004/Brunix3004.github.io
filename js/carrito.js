@@ -1,15 +1,20 @@
 const btnCart = document.querySelector('.container-cart-icon')
 const containerCartProducts = document.querySelector('.container-cart-products')
 
+window.addEventListener('DOMContentLoaded', () => {
+    showHTML()
+})
+
 btnCart.addEventListener('click', ()=> {
     containerCartProducts.classList.toggle('hidden-cart')
 })
+
 /*Funcional*/ 
 const cartInfo = document.querySelector('.cart-product')
 const rowProduct = document.querySelector('.row-product')
 
 /*Variable de arreglos de Productos */
-let allProducts=[]
+let allProducts = []
 
 const valorTotal = document.querySelector('.total-pagar')
 
@@ -83,14 +88,13 @@ rowProduct.addEventListener('click', (e) => {
     showHTML();
 });
 
-
 /*Funcion para mostrar en el HTML*/
 const showHTML = () => {
 
     if (!allProducts.length) {
         containerCartProducts.innerHTML = `
-        <p class = "cart-empty"> El carrito esta vacío</p>
-        `
+        <p class = "cart-empty"> El carrito esta vacío</p>`
+        return
     }
     
     /*Limpiar HTML */
