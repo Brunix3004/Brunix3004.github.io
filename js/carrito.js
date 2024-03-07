@@ -1,9 +1,10 @@
 const btnCart = document.querySelector('.container-cart-icon')
 const containerCartProducts = document.querySelector('.container-cart-products')
-/**
+const copyContainerCartProducts = containerCartProducts.cloneNode(true)
+
 window.addEventListener('DOMContentLoaded', () => {
     showHTML()
-}) */
+})
 
 btnCart.addEventListener('click', ()=> {
     containerCartProducts.classList.toggle('hidden-cart')
@@ -60,6 +61,7 @@ function mapearProductos(){
 rowProduct.addEventListener('click', (e) => {
 
     const product = e.target.parentElement;
+    console.log(product);
     const title = product.querySelector('p').textContent;
     const targetProduct = allProducts.find(product => product.title === title);
 
@@ -83,7 +85,6 @@ rowProduct.addEventListener('click', (e) => {
         allProducts = allProducts.filter(
             product => product.title !== title
         );
-        showHTML();
     }
     showHTML();
 });
@@ -92,9 +93,17 @@ rowProduct.addEventListener('click', (e) => {
 const showHTML = () => {
 
     if (!allProducts.length) {
-        containerCartProducts.innerHTML = `
-        <p class = "cart-empty"> El carrito esta vacío</p>`
+        if(!containerCartProducts.lastElementChild.classList.contains('cart-empty')){
+            const p = Object.assign(document.createElement('p'), {className: 'cart-empty', textContent: 'El carrito está vacío'})
+            containerCartProducts.appendChild(p)
+        }
+        containerCartProducts.firstElementChild.style.display = "none" // Ocultar cosas del carro
+        containerCartProducts.lastElementChild.style.display = "block" // Mostrar mensaje de carro vacio 
+        countProducts.innerText = 0;
         return
+    } else {
+        containerCartProducts.firstElementChild.style.display = "block" // Mostrar productos
+        containerCartProducts.lastElementChild.style.display = "none"   // Ocultar mensaje de carro vacio 
     }
     
     /*Limpiar HTML */
