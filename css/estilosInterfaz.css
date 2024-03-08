@@ -79,11 +79,63 @@ img.icono {
     object-fit: cover;
 }
 
-/*Promocionales*/
+.paginationC{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
 
-.banners{
+.dotC{
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+
+.dotC.active {
+    background-color: #717171;
+}
+
+/*Promocionales*/
+.carrusel-promocionales{
     overflow: hidden;
+}
+.slides-promotion-container{
+    padding: 5px;
+    display: flex;
+    transition: transform 2s ease-in-out;
+}
+.slide-promotions{
+    margin-right: 5px;
+    flex: 0 0 100%;
+}
+.slide-promotions img{
     width: 100%;
+    object-fit: cover;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #717171;
 }
 
 .promocionales {
