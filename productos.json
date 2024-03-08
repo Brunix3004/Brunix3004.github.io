@@ -35,6 +35,16 @@
         "precio": "4.5"
     },
     {
+        "categoria": "CERVEZA BOTELLA",
+        "nombre": "CORONITA 210ML",
+        "precio": "3"
+    },
+    {
+        "categoria": "CERVEZA BOTELLA",
+        "nombre": "CORONA 330ML",
+        "precio": "5"
+    },
+    {
         "categoria": "CERVEZA LATA SIX PACK",
         "nombre": "CRISTAL SIX PACK 473ML",
         "precio": "25"
@@ -68,6 +78,16 @@
         "categoria": "CERVEZA LATA SIX PACK",
         "nombre": "CUZQUEÑA MALTA SIX PACK 355ML",
         "precio": "25"
+    },
+    {
+        "categoria": "CERVEZA BOTELLA SIX PACK",
+        "nombre": "CORONITA SIX PACK BOTELLA 210ML",
+        "precio": "3"
+    },
+    {
+        "categoria": "CERVEZA BOTELLA SIX PACK",
+        "nombre": "CORONA SIX PACK BOTELLA 330ML",
+        "precio": "5"
     },
     {
         "categoria": "CERVEZA CAJA",
@@ -278,6 +298,116 @@
         "categoria": "GASEOSA",
         "nombre": "VIVA 450ML",
         "precio": "1"
+    },
+    {
+        "categoria": "AGUAS",
+        "nombre": "AGUA SAN LUIS SIN GAS 3L",
+        "precio": "3.5"
+    },
+    {
+        "categoria": "AGUAS",
+        "nombre": "AGUA SAN LUIS CON GAS 3L",
+        "precio": "3.5"
+    },
+    {
+        "categoria": "AGUAS",
+        "nombre": "AGUA SAN LUIS SIN GAS 1L",
+        "precio": "2"
+    },
+    {
+        "categoria": "AGUAS",
+        "nombre": "AGUA SAN LUIS SIN GAS 500ML",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "AGUAS",
+        "nombre": "AGUA SAN LUIS CON GAS 500ML",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "AGUAS",
+        "nombre": "AGUA CIELO SIN GAS 1L",
+        "precio": "2"
+    },
+    {
+        "categoria": "AGUAS",
+        "nombre": "AGUA CIELO SIN GAS 500ML",
+        "precio": "1"
+    },
+    {
+        "categoria": "AGUAS",
+        "nombre": "AGUA CIELO CON GAS 500ML",
+        "precio": "1"
+    },
+    {
+        "categoria": "ENERGIZANTES",
+        "nombre": "MONSTER ENERGY 473ML",
+        "precio": "8"
+    },
+    {
+        "categoria": "ENERGIZANTES",
+        "nombre": "RED BULL 355ML",
+        "precio": "8"
+    },
+    {
+        "categoria": "ENERGIZANTES",
+        "nombre": "ENERGIZANTE VOLT 300ML",
+        "precio": "2"
+    },
+    {
+        "categoria": "JUGOS",
+        "nombre": "FRUGOS DEL VALLE NARANJA 3L",
+        "precio": "8"
+    },
+    {
+        "categoria": "JUGOS",
+        "nombre": "FRUGOS DEL VALLE NARANJA 1.5L",
+        "precio": "4.5"
+    },
+    {
+        "categoria": "JUGOS",
+        "nombre": "JUGO DE NARANJA GLORIA 1L",
+        "precio": "4.5"
+    },
+    {
+        "categoria": "JUGOS",
+        "nombre": "FRUGOS DEL VALLE NARANJA 500ML",
+        "precio": "1.5"
+    },
+    {
+        "categoria": "JUGOS",
+        "nombre": "CIFRUT DE NARANJA 500ML",
+        "precio": "1"
+    },
+    {
+        "categoria": "REHIDRATANTES",
+        "nombre": "POWERADE MORA 1.5L",
+        "precio": "6"
+    },
+    {
+        "categoria": "REHIDRATANTES",
+        "nombre": "POWERADE MORA 1L",
+        "precio": "4"
+    },
+    {
+        "categoria": "REHIDRATANTES",
+        "nombre": "SPORADE TROPICAL 1.5L",
+        "precio": "4"
+    },
+    {
+        "categoria": "REHIDRATANTES",
+        "nombre": "SPORADE TROPICAL 500ML",
+        "precio": "2"
+    },
+    {
+        "categoria": "REHIDRATANTES",
+        "nombre": "POWERADE MORA 500ML",
+        "precio": "2"
+    },
+    {
+        "categoria": "REHIDRATANTES",
+        "nombre": "GATORADE TROPICAL 500ML",
+        "precio": "2.5"
     },
     {
         "categoria": "GALLETAS",
@@ -665,6 +795,16 @@
         "precio": "35"
     },
     {
+        "categoria": "VAPE",
+        "nombre": " GRAPE ICE 500 PUFFS",
+        "precio": "20"
+    },
+    {
+        "categoria": "VAPE",
+        "nombre": "CREAMY TOBACCO 500 PUFFS",
+        "precio": "15"
+    },
+    {
         "categoria": "RON",
         "nombre": "CAPITAN MORGAN 700ML",
         "precio": "37"
@@ -887,7 +1027,7 @@
     {
         "categoria": "OTROS LICORES",
         "nombre": "GIN BEEFETER PINK 700ML",
-        "precio": ""
+        "precio": "100"
     },
     {
         "categoria": "OTROS LICORES",
@@ -932,61 +1072,61 @@
     {
         "categoria": "UTILES",
         "nombre": "GOMA EN BARRA ARTESCO",
-        "precio": ""
+        "precio": "2"
     },
     {
         "categoria": "UTILES",
         "nombre": "SILICONA LIQUIDA FALESSA",
-        "precio": ""
+        "precio": "2"
     },
     {
         "categoria": "UTILES",
         "nombre": "COLA SINTETICA ARTESCO",
-        "precio": ""
+        "precio": "2.5"
     },
     {
         "categoria": "UTILES",
         "nombre": "PLASTILINA JUMBO 12 COLORES ARTESCO",
-        "precio": ""
+        "precio": "5.5"
     },
     {
         "categoria": "UTILES",
         "nombre": "PLASTILINA JUMBO 12 COLORES VIKINGO",
-        "precio": ""
+        "precio": "5.5"
     },
     {
         "categoria": "UTILES",
         "nombre": "PLASTILINA DELGADA 10 COLORES OVE",
-        "precio": ""
+        "precio": "3.5"
     },
     {
         "categoria": "UTILES",
         "nombre": "TIJERA MANDARINITA LAYCONSA",
-        "precio": ""
+        "precio": "3"
     },
     {
         "categoria": "UTILES",
         "nombre": "COLORES PASTEL ARTESCO 10UND",
-        "precio": ""
+        "precio": "8.5"
     },
     {
         "categoria": "UTILES",
         "nombre": "PLUMONES JUNIOR STANDFORD 12UND",
-        "precio": ""
+        "precio": "7"
     },
     {
         "categoria": "UTILES",
-        "nombre": "LAPICEROS DE COLORES MEDIANOS OVAL 12UND",
-        "precio": ""
+        "nombre": "LÁPICES DE COLORES MEDIANOS OVAL 12UND",
+        "precio": "3.5"
     },
     {
         "categoria": "UTILES",
-        "nombre": "LAPICEROS DE COLORES GRANDES OVAL 12UND",
-        "precio": ""
+        "nombre": "LÁPICES DE COLORES GRANDES OVAL 12UND",
+        "precio": "7"
     },
     {
         "categoria": "UTILES",
-        "nombre": "LAPIZ GRAFITO ARTESCO 1UND",
+        "nombre": "LÁPIZ GRAFITO ARTESCO 1UND",
         "precio": "0.6"
     },
     {
@@ -997,36 +1137,51 @@
     {
         "categoria": "UTILES",
         "nombre": "LAPIZ CORRECTOR TOYO",
-        "precio": ""
+        "precio": "2"
     },
     {
         "categoria": "UTILES",
         "nombre": "CRAYONES JUMBO LAYCONSA 6UND",
-        "precio": ""
+        "precio": "4.2"
     },
     {
         "categoria": "UTILES",
         "nombre": "MENTOL SIKURA",
-        "precio": ""
+        "precio": "4"
     },
     {
         "categoria": "UTILES",
         "nombre": "BARAJA DE NAIPES REY",
-        "precio": ""
+        "precio": "2.5"
     },
     {
         "categoria": "UTILES",
         "nombre": "PILAS AA DOBLE A PANASONIC",
-        "precio": ""
+        "precio": "2"
     },
     {
         "categoria": "UTILES",
         "nombre": "PILAS AAA TRIPLE A PANASONIC",
-        "precio": ""
+        "precio": "3"
     },
     {
         "categoria": "UTILES",
         "nombre": "LAPICEROS ESCARCHADOS NAYRAS 12UND",
         "precio": "7"
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "ESTUCHE DE REGLAS",
+        "precio": "5"
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "CINTA SCOTCH DURAFAN",
+        "precio": "1"
+    },
+    {
+        "categoria": "UTILES",
+        "nombre": "LAPICERO CLASICO OVAL",
+        "precio": "0.8"
     }
 ]
