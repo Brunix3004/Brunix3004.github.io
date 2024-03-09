@@ -13,6 +13,29 @@
     max-height: 100%;
 }
 .menu_pie{
+    display: flex;
     flex: 1;
     height: 100px;
+    align-items: center;
+    flex-direction: column;
+
+}
+.rrss > a > svg {
+    border-radius: 50%;
+}
+.insta:hover {
+    fill: white;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    transform: scale(1.2);
+}
+
+.fb {
+    margin-top: 3px;
+    fill: white;
+    background: #000;
+}
+.fb:hover {
+    fill: darkblue;
+    background: transparent;
+    transform: scale(1.2);
 }
