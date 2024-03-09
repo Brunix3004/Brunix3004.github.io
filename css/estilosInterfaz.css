@@ -105,12 +105,10 @@ img.icono {
     overflow: hidden;
 }
 .slides-promotion-container{
-    padding: 5px;
     display: flex;
     transition: transform 2s ease-in-out;
 }
 .slide-promotions{
-    margin-right: 5px;
     flex: 0 0 100%;
 }
 .slide-promotions img{
