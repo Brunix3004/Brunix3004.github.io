@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="./css/promociones.css">
 </head>
 <body>
-    <h2 class="categoria"> Promociones </h2>
+    <h2 class="categoria"> Resultados </h2>
 
     <div id="almacenador">
         <ul class="menu">
+            <li class="active">Promociones</li>
             <li>
                 <a href="#" ruta="">
                     <i class="material-icons">arrow_back</i> Volver
@@ -23,10 +24,46 @@
 
             <div class="caja contenedor">
                 <img src="./IMAGENES/Promocionales/Mikes/PackMikes.png" alt="2 Pack Mike">
-                <h2 class="nombre">Pack 02 Mike Hard Lemonade/Hard Strawberry</h2>
-                <p> <span class="rebaja"> S/ 12.00</span>  S/ 11.00</p>
+                <h2 class="nombre">Mike Hard Lemonade + Hard Strawberry</h2>
+                <p class="precio" data-precio="11.00"> 
+                    <span class="rebaja"> S/ 12.00</span>  
+                    S/ 11.00
+                </p>
+                <button class="btn-add-cart add_button">Agregar</button>
+            </div>
+            <div class="caja contenedor">
+                <img src="./IMAGENES/Promocionales/Tragos/Something_Special.png" alt="2 Pack Mike">
+                <h2 class="nombre">Whisky Something Special</h2>
+                <p class="precio"> <span class="rebaja"> S/ 55.00</span>  S/ 54.00</p>
+                <button class="btn-add-cart add_button">Agregar</button>
+            </div>
+            <div class="caja contenedor">
+                <img src="./IMAGENES/Promocionales/Aguas/AguaSG500ML.jpeg" alt="2 Pack Mike">
+                <h2 class="nombre">15 Pack Agua San Luis 500ml</h2>
+                <p class="precio"> <span class="rebaja"> S/ 22.50</span>  S/ 19.00</p>
+                <button class="btn-add-cart add_button">Agregar</button>
+            </div>
+            <div class="caja contenedor">
+                <img src="./IMAGENES/Promocionales/Aguas/SanLuisCG.png" alt="2 Pack Mike">
+                <h2 class="nombre">15 Pack Agua San Luis Con Gas 500ml</h2>
+                <p class="precio"> <span class="rebaja"> S/ 22.50</span>  S/ 19.00</p>
+                <button class="btn-add-cart add_button">Agregar</button>
+            </div>
+            <div class="caja contenedor">
+                <img src="./IMAGENES/Promocionales/Aguas/CieloSG.png" alt="2 Pack Mike">
+                <h2 class="nombre">15 Pack Agua Cielo 625ml</h2>
+                <p class="precio"> <span class="rebaja"> S/ 15.00</span>  S/ 13.00</p>
+                <button class="btn-add-cart add_button">Agregar</button>
+            </div>
+            <div class="caja contenedor">
+                <img src="./IMAGENES/Promocionales/Aguas/AguaCieloCG.png" alt="2 Pack Mike">
+                <h2 class="nombre">15 Pack Agua Cielo Con Gas 625ml</h2>
+                <p class="precio"> <span class="rebaja"> S/ 15.00</span>  S/ 13.00</p>
+                <button class="btn-add-cart add_button">Agregar</button>
             </div>
         </div>
     </div>
+
+    <script src="./js/carrito.js"></script>
 </body>
 </html>

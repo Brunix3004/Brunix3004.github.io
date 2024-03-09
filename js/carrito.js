@@ -3,7 +3,7 @@ const containerCartProducts = document.querySelector('.container-cart-products')
 const copyContainerCartProducts = containerCartProducts.cloneNode(true)
 
 window.addEventListener('DOMContentLoaded', () => {
-    showHTML()
+    showHTML() 
 })
 
 btnCart.addEventListener('click', ()=> {
