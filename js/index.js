@@ -134,8 +134,7 @@ function handlerBuscar(query, contenedor){
     const callback = () => {
         const ResProductos = document.getElementById("ResProductos")
         const temp = arrSugerencias.map( prod => `<div class="flex items-center justify-start space-x-4">
-                <img src="./IMAGENES/${prod.ruta}.png" width="120"
-                    height="120" alt="Beer"
+                <img src="./IMAGENES/${prod.ruta_imagen}" width="120" height="120" alt="${prod.nombre}"
                     class="aspect-square overflow-hidden rounded-lg object-cover object-center">
                 <div class="grid gap-1">
                     <h3 class="font-semibold">${prod.nombre}</h3>
@@ -143,7 +142,7 @@ function handlerBuscar(query, contenedor){
                 </div>
             </div>`
         )
-        ResProductos.innerHTML = temp
+        ResProductos.innerHTML = temp.join("")
     }
     obtenerPagina("buscar.html", contenedor, callback)
 

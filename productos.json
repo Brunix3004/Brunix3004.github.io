@@ -3,1425 +3,1425 @@
         "categoria": "CERVEZA LATA",
         "nombre": "CRISTAL 473ML",
         "precio": "4.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\LataCampeona.png"
+        "ruta_imagen": "./Cerveza/LataCampeona.png"
     },
     {
         "categoria": "CERVEZA LATA",
         "nombre": "GOLDEN 355ML",
         "precio": "3",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\GoldenLata.png"
+        "ruta_imagen": "./Cerveza/GoldenLata.png"
     },
     {
         "categoria": "CERVEZA LATA",
         "nombre": "PILSEN 355ML",
         "precio": "4.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\lataPilsen.jpg"
+        "ruta_imagen": "./Cerveza/lataPilsen.jpg"
     },
     {
         "categoria": "CERVEZA LATA",
         "nombre": "CRISTAL 355ML",
         "precio": "3.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\lataCristal.png"
+        "ruta_imagen": "./Cerveza/lataCristal.png"
     },
     {
         "categoria": "CERVEZA LATA",
         "nombre": "SAN JUAN 355ML",
         "precio": "3.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\sanJuanlata.png"
+        "ruta_imagen": "./Cerveza/sanJuanlata.png"
     },
     {
         "categoria": "CERVEZA LATA",
         "nombre": "CUZQUEÑA TRIGO 355ML",
         "precio": "4.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\trigoLata.png"
+        "ruta_imagen": "./Cerveza/trigoLata.png"
     },
     {
         "categoria": "CERVEZA LATA",
         "nombre": "CUZQUEÑA MALTA 355ML",
         "precio": "4.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\maltaLata.png"
+        "ruta_imagen": "./Cerveza/maltaLata.png"
     },
     {
         "categoria": "CERVEZA BOTELLA",
         "nombre": "CORONITA 210ML",
         "precio": "3",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Coronita1und.png"
+        "ruta_imagen": "./Cerveza/Coronita1und.png"
     },
     {
         "categoria": "CERVEZA BOTELLA",
         "nombre": "CORONA 330ML",
         "precio": "5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Corona1und.png"
+        "ruta_imagen": "./Cerveza/Corona1und.png"
     },
     {
         "categoria": "CERVEZA LATA SIX PACK",
         "nombre": "CRISTAL SIX PACK 473ML",
         "precio": "25",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\CristalCampeona.png"
+        "ruta_imagen": "./Cerveza/CristalCampeona.png"
     },
     {
         "categoria": "CERVEZA LATA SIX PACK",
         "nombre": "GOLDEN SIX PACK 355ML",
         "precio": "17",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\goldenSixpac.png"
+        "ruta_imagen": "./Cerveza/goldenSixpac.png"
     },
     {
         "categoria": "CERVEZA LATA SIX PACK",
         "nombre": "PILSEN SIX PACK 355ML",
         "precio": "25",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\pilsenSix.jpeg"
+        "ruta_imagen": "./Cerveza/pilsenSix.jpeg"
     },
     {
         "categoria": "CERVEZA LATA SIX PACK",
         "nombre": "CRISTAL SIX PACK 355ML",
         "precio": "21",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\cristalSix.jpeg"
+        "ruta_imagen": "./Cerveza/cristalSix.jpeg"
     },
     {
         "categoria": "CERVEZA LATA SIX PACK",
         "nombre": "SAN JUAN SIX PACK 355ML",
         "precio": "21",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\SanJuanSix.jpeg"
+        "ruta_imagen": "./Cerveza/SanJuanSix.jpeg"
     },
     {
         "categoria": "CERVEZA LATA SIX PACK",
         "nombre": "CUZQUEÑA TRIGO SIX PACK 355ML",
         "precio": "25",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\trigoSixPack.jpeg"
+        "ruta_imagen": "./Cerveza/trigoSixPack.jpeg"
     },
     {
         "categoria": "CERVEZA LATA SIX PACK",
         "nombre": "CUZQUEÑA MALTA SIX PACK 355ML",
         "precio": "25",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\maltaSixPack.jpeg"
+        "ruta_imagen": "./Cerveza/maltaSixPack.jpeg"
     },
     {
         "categoria": "CERVEZA BOTELLA SIX PACK",
         "nombre": "CORONITA SIX PACK BOTELLA 210ML",
         "precio": "3",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\CoronitaSixPack.png"
+        "ruta_imagen": "./Cerveza/CoronitaSixPack.png"
     },
     {
         "categoria": "CERVEZA BOTELLA SIX PACK",
         "nombre": "CORONA SIX PACK BOTELLA 330ML",
         "precio": "5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\CoronaSixPack.png"
+        "ruta_imagen": "./Cerveza/CoronaSixPack.png"
     },
     {
         "categoria": "CERVEZA CAJA",
         "nombre": "CRISTAL CAJA 12UND SIN HELAR",
         "precio": "63",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Cajas\\CajaCristales.png"
+        "ruta_imagen": "./Cerveza/Cajas/CajaCristales.png"
     },
     {
         "categoria": "CERVEZA CAJA",
         "nombre": "CRISTAL CAJA 12UND HELADA",
         "precio": "65",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Cajas\\CajaCristales.png"
+        "ruta_imagen": "./Cerveza/Cajas/CajaCristales.png"
     },
     {
         "categoria": "CERVEZA CAJA",
         "nombre": "PILSEN CAJA 12UND SIN HELAR",
         "precio": "69",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Cajas\\CajaPilsen.png"
+        "ruta_imagen": "./Cerveza/Cajas/CajaPilsen.png"
     },
     {
         "categoria": "CERVEZA CAJA",
         "nombre": "CUZQUEÑA TRIGO CAJA 12 UND SIN HELAR",
         "precio": "72",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Cajas\\CajaCuzTrigo.png"
+        "ruta_imagen": "./Cerveza/Cajas/CajaCuzTrigo.png"
     },
     {
         "categoria": "CERVEZA CAJA",
         "nombre": "CUZQUEÑA TRIGO CAJA 12 UND HELADA",
         "precio": "74",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Cajas\\CajaCuzTrigo.png"
+        "ruta_imagen": "./Cerveza/Cajas/CajaCuzTrigo.png"
     },
     {
         "categoria": "CERVEZA CAJA",
         "nombre": "CUZQUEÑA MALTA CAJA 12 UND SIN HELAR",
         "precio": "72",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Cajas\\CajaCuzMalta.png"
+        "ruta_imagen": "./Cerveza/Cajas/CajaCuzMalta.png"
     },
     {
         "categoria": "CERVEZA CAJA",
         "nombre": "GOLDEN CAJA 12UND SIN HELAR",
         "precio": "40",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Cajas\\CajaGolden.png"
+        "ruta_imagen": "./Cerveza/Cajas/CajaGolden.png"
     },
     {
         "categoria": "CERVEZA CAJA",
         "nombre": "CRISTAL CAJA 24UND",
         "precio": "60",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Cajas\\Cristal24und.png"
+        "ruta_imagen": "./Cerveza/Cajas/Cristal24und.png"
     },
     {
         "categoria": "CERVEZA CAJA",
         "nombre": "CUZQUEÑA TRIGO CAJA 24UND",
         "precio": "60",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Cajas\\CuzqueñaTrigo24und.png"
+        "ruta_imagen": "./Cerveza/Cajas/CuzqueñaTrigo24und.png"
     },
     {
         "categoria": "CERVEZA CAJA",
         "nombre": "PILSEN CAJA 24UND",
         "precio": "60",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Cajas\\Pilsen24und.png"
+        "ruta_imagen": "./Cerveza/Cajas/Pilsen24und.png"
     },
     {
         "categoria": "CERVEZA UNIDAD",
         "nombre": "CRISTAL 1UND",
         "precio": "6",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Cajas\\Cristal1und.png"
+        "ruta_imagen": "./Cerveza/Cajas/Cristal1und.png"
     },
     {
         "categoria": "CERVEZA UNIDAD",
         "nombre": "PILSEN 1UND",
         "precio": "7",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Cajas\\Pilsen1und.png"
+        "ruta_imagen": "./Cerveza/Cajas/Pilsen1und.png"
     },
     {
         "categoria": "CERVEZA UNIDAD",
         "nombre": "CUZQUEÑA TRIGO 1UND",
         "precio": "7",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Cajas\\CuzqueñaTrigo1und.png"
+        "ruta_imagen": "./Cerveza/Cajas/CuzqueñaTrigo1und.png"
     },
     {
         "categoria": "CERVEZA UNIDAD",
         "nombre": "CUZQUEÑA MALTA 1UND",
         "precio": "7",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Cajas\\CuzqueñaMalta1und.png"
+        "ruta_imagen": "./Cerveza/Cajas/CuzqueñaMalta1und.png"
     },
     {
         "categoria": "CERVEZA UNIDAD",
         "nombre": "GOLDEN 1UND",
         "precio": "4",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cerveza\\Cajas\\Golden1und.png"
+        "ruta_imagen": "./Cerveza/Cajas/Golden1und.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "COCA COLA 3L",
         "precio": "12",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\coca3L.png"
+        "ruta_imagen": "./Gaseosas/coca3L.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "INCA KOLA 3L",
         "precio": "12",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Inca3L.png"
+        "ruta_imagen": "./Gaseosas/Inca3L.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "COCA COLA 2.5L",
         "precio": "8.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\COCA COLA 2.5L.png"
+        "ruta_imagen": "./Gaseosas/COCA COLA 2.5L.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "INCA KOLA 2.5L",
         "precio": "8.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Inca2.5L.png"
+        "ruta_imagen": "./Gaseosas/Inca2.5L.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "COCA COLA SIN AZUCAR 1.5L",
         "precio": "6.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Coca1.5L.png"
+        "ruta_imagen": "./Gaseosas/Coca1.5L.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "INCA KOLA SIN AZUCAR 1.5L",
         "precio": "6.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Inka1.5L.png"
+        "ruta_imagen": "./Gaseosas/Inka1.5L.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "INCA KOLA RETORNABLE 1.5L",
         "precio": "5.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Inca1.5L retornable.png"
+        "ruta_imagen": "./Gaseosas/Inca1.5L retornable.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "COCA COLA RETORNABLE 1L",
         "precio": "3.8",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\coca1L retornable.png"
+        "ruta_imagen": "./Gaseosas/coca1L retornable.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "INCA KOLA RETORNABLE 1L",
         "precio": "3.8",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\inca1L retornable.png"
+        "ruta_imagen": "./Gaseosas/inca1L retornable.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "COCA COLA 500ML",
         "precio": "2.8",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\CocaMedioLitro.png"
+        "ruta_imagen": "./Gaseosas/CocaMedioLitro.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "INCA KOLA 500ML",
         "precio": "2.8",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\IncaMedioLitro.png"
+        "ruta_imagen": "./Gaseosas/IncaMedioLitro.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "COCA COLA 300ML",
         "precio": "1.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\CocaPeque.png"
+        "ruta_imagen": "./Gaseosas/CocaPeque.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "INCA KOLA 300ML",
         "precio": "1.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\IncaPeque.png"
+        "ruta_imagen": "./Gaseosas/IncaPeque.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "COCA COLA 237ML",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\cocaPirania.png"
+        "ruta_imagen": "./Gaseosas/cocaPirania.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "INCA KOLA 237ML",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\IncaPirania.png"
+        "ruta_imagen": "./Gaseosas/IncaPirania.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "FANTA 3L",
         "precio": "8",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Gaseosa2\\Fanta3L.png"
+        "ruta_imagen": "./Gaseosas/Gaseosa2/Fanta3L.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "SPRITE 3L",
         "precio": "8",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Gaseosa2\\Sprite3l.png"
+        "ruta_imagen": "./Gaseosas/Gaseosa2/Sprite3l.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "GUARANA 3L",
         "precio": "8",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Gaseosa2\\Guarana3L.png"
+        "ruta_imagen": "./Gaseosas/Gaseosa2/Guarana3L.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "GUARANA 2L",
         "precio": "5.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Gaseosa2\\Guarana2L.png"
+        "ruta_imagen": "./Gaseosas/Gaseosa2/Guarana2L.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "FANTA 1.5L",
         "precio": "4.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Gaseosa2\\Fanta1.5L.png"
+        "ruta_imagen": "./Gaseosas/Gaseosa2/Fanta1.5L.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "KOLA REAL 1.7L",
         "precio": "3.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Gaseosa2\\KR1.5L.png"
+        "ruta_imagen": "./Gaseosas/Gaseosa2/KR1.5L.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "GUARANA 500ML",
         "precio": "2",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Gaseosa2\\Guarana500Ml.png"
+        "ruta_imagen": "./Gaseosas/Gaseosa2/Guarana500Ml.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "FANTA 500ML",
         "precio": "1.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Gaseosa2\\Fanta500ml.png"
+        "ruta_imagen": "./Gaseosas/Gaseosa2/Fanta500ml.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "SPRITE 500ML",
         "precio": "1.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Gaseosa2\\sprite500ml.png"
+        "ruta_imagen": "./Gaseosas/Gaseosa2/sprite500ml.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "GUARANITA 300ML",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Gaseosa2\\Guaranita.png"
+        "ruta_imagen": "./Gaseosas/Gaseosa2/Guaranita.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "KOLA REAL 400ML",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Gaseosa2\\KR.png"
+        "ruta_imagen": "./Gaseosas/Gaseosa2/KR.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "VIVA 450ML",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Gaseosas\\Gaseosa2\\Viva500ml.png"
+        "ruta_imagen": "./Gaseosas/Gaseosa2/Viva500ml.png"
     },
     {
         "categoria": "AGUAS",
         "nombre": "AGUA SAN LUIS SIN GAS 3L",
         "precio": "3.5",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Aguas\\SanLuis3L.png"
+        "ruta_imagen":"./Aguas/SanLuis3L.png"
     },
     {
         "categoria": "AGUAS",
         "nombre": "AGUA SAN LUIS CON GAS 3L",
         "precio": "3.5",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Aguas\\SanLuisCG3L.png"
+        "ruta_imagen":"./Aguas/SanLuisCG3L.png"
     },
     {
         "categoria": "AGUAS",
         "nombre": "AGUA SAN LUIS SIN GAS 1L",
         "precio": "2",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Aguas\\SanLuis1L.png"
+        "ruta_imagen":"./Aguas/SanLuis1L.png"
     },
     {
         "categoria": "AGUAS",
         "nombre": "AGUA SAN LUIS SIN GAS 500ML",
         "precio": "1.5",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Aguas\\SanLuis.png"
+        "ruta_imagen":"./Aguas/SanLuis.png"
     },
     {
         "categoria": "AGUAS",
         "nombre": "AGUA SAN LUIS CON GAS 500ML",
         "precio": "1.5",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Aguas\\SanLuisCG.png"
+        "ruta_imagen":"./Aguas/SanLuisCG.png"
     },
     {
         "categoria": "AGUAS",
         "nombre": "AGUA CIELO SIN GAS 1L",
         "precio": "2",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Aguas\\Cielo1l.png"
+        "ruta_imagen":"./Aguas/Cielo1l.png"
     },
     {
         "categoria": "AGUAS",
         "nombre": "AGUA CIELO SIN GAS 500ML",
         "precio": "1",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Aguas\\Cielo.png"
+        "ruta_imagen":"./Aguas/Cielo.png"
     },
     {
         "categoria": "AGUAS",
         "nombre": "AGUA CIELO CON GAS 500ML",
         "precio": "1",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Aguas\\CieloCG.png"
+        "ruta_imagen":"./Aguas/CieloCG.png"
     },
     {
         "categoria": "ENERGIZANTES",
         "nombre": "MONSTER ENERGY 473ML",
         "precio": "8",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Energizantes\\Monster.png"
+        "ruta_imagen":"./Energizantes/Monster.png"
     },
     {
         "categoria": "ENERGIZANTES",
         "nombre": "RED BULL 355ML",
         "precio": "8",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Energizantes\\RedBull.png"
+        "ruta_imagen":"./Energizantes/RedBull.png"
     },
     {
         "categoria": "ENERGIZANTES",
         "nombre": "ENERGIZANTE VOLT 300ML",
         "precio": "2",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Energizantes\\Volt.png"
+        "ruta_imagen":"./Energizantes/Volt.png"
     },
     {
         "categoria": "JUGOS",
         "nombre": "FRUGOS DEL VALLE NARANJA 3L",
         "precio": "8",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Jugos\\Valle3L.png"
+        "ruta_imagen":"./Jugos/Valle3L.png"
     },
     {
         "categoria": "JUGOS",
         "nombre": "FRUGOS DEL VALLE NARANJA 1.5L",
         "precio": "4.5",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Jugos\\Valle1.5L.png"
+        "ruta_imagen":"./Jugos/Valle1.5L.png"
     },
     {
         "categoria": "JUGOS",
         "nombre": "JUGO DE NARANJA GLORIA 1L",
         "precio": "4.5",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Jugos\\JugoNaranja1L.png"
+        "ruta_imagen":"./Jugos/JugoNaranja1L.png"
     },
     {
         "categoria": "JUGOS",
         "nombre": "FRUGOS DEL VALLE NARANJA 500ML",
         "precio": "1.5",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Jugos\\Valle500ml.png"
+        "ruta_imagen":"./Jugos/Valle500ml.png"
     },
     {
         "categoria": "JUGOS",
         "nombre": "CIFRUT DE NARANJA 500ML",
         "precio": "1",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Jugos\\Cifrut.png"
+        "ruta_imagen":"./Jugos/Cifrut.png"
     },
     {
         "categoria": "REHIDRATANTES",
         "nombre": "POWERADE MORA 1.5L",
         "precio": "6",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Rehidratantes\\Powerade1.5.png"
+        "ruta_imagen":"./Rehidratantes/Powerade1.5.png"
     },
     {
         "categoria": "REHIDRATANTES",
         "nombre": "POWERADE MORA 1L",
         "precio": "4",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Rehidratantes\\Powerade1.L.png"
+        "ruta_imagen":"./Rehidratantes/Powerade1.L.png"
     },
     {
         "categoria": "REHIDRATANTES",
         "nombre": "SPORADE TROPICAL 1.5L",
         "precio": "4",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Rehidratantes\\Sporade.png"
+        "ruta_imagen":"./Rehidratantes/Sporade.png"
     },
     {
         "categoria": "REHIDRATANTES",
         "nombre": "SPORADE TROPICAL 500ML",
         "precio": "2",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Rehidratantes\\Sporade.png"
+        "ruta_imagen":"./Rehidratantes/Sporade.png"
     },
     {
         "categoria": "REHIDRATANTES",
         "nombre": "POWERADE MORA 500ML",
         "precio": "2",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Rehidratantes\\POwerade.png"
+        "ruta_imagen":"./Rehidratantes/POwerade.png"
     },
     {
         "categoria": "REHIDRATANTES",
         "nombre": "GATORADE TROPICAL 500ML",
         "precio": "2.5",
-        "ruta_imagen":"C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Rehidratantes\\Gatorade.png"
+        "ruta_imagen":"./Rehidratantes/Gatorade.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "MINI RITZ 40G",
         "precio": "1.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\MiniRitz.jpeg"
+        "ruta_imagen": "./Confiteria/Galletas/MiniRitz.jpeg"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "MINI CUA CUA 42G",
         "precio": "1.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\MiniCuaCua.png"
+        "ruta_imagen": "./Confiteria/Galletas/MiniCuaCua.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "MINI PICARAS CHOCOLATE 46G",
         "precio": "1.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\MiniPicaras.png"
+        "ruta_imagen": "./Confiteria/Galletas/MiniPicaras.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "TIKYS MALVAVISCOS 200G",
         "precio": "2",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\TikysMarsh.png"
+        "ruta_imagen": "./Confiteria/Galletas/TikysMarsh.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "TRAVESURAS 50G",
         "precio": "1.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\Travesuras.png"
+        "ruta_imagen": "./Confiteria/Galletas/Travesuras.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "MOROCHAS CLASICAS 30G",
         "precio": "1.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\Morochas.png"
+        "ruta_imagen": "./Confiteria/Galletas/Morochas.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "CASINO CHOCOLATE 43G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\CasinoChocolate.png"
+        "ruta_imagen": "./Confiteria/Galletas/CasinoChocolate.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "CASINO MENTA 43G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\CasinoMenta.png"
+        "ruta_imagen": "./Confiteria/Galletas/CasinoMenta.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "CASINO FRESA 43G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\CasinoFresa.png"
+        "ruta_imagen": "./Confiteria/Galletas/CasinoFresa.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "CASINO VAINILLA 43G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\CasinoVainilla.png"
+        "ruta_imagen": "./Confiteria/Galletas/CasinoVainilla.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "TENTACION CHOCOLATE 43G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\TentacionChoco.png"
+        "ruta_imagen": "./Confiteria/Galletas/TentacionChoco.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "TENTACION NARANJA 43G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\TentacionNaranja.png"
+        "ruta_imagen": "./Confiteria/Galletas/TentacionNaranja.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "VAINILLA FIELD 37G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\Vainilla.png"
+        "ruta_imagen": "./Confiteria/Galletas/Vainilla.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "PICARAS FRESA 40G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\PicarasFresa.png"
+        "ruta_imagen": "./Confiteria/Galletas/PicarasFresa.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "MARGARITA 46G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\Margarita.png"
+        "ruta_imagen": "./Confiteria/Galletas/Margarita.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "CLUB SOCIAL ORIGINAL 26G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\ClubSocial.png"
+        "ruta_imagen": "./Confiteria/Galletas/ClubSocial.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "CHOCOSODA 36G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\Chocosoda.png"
+        "ruta_imagen": "./Confiteria/Galletas/Chocosoda.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "OREO CLASICAS 36G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\Oreo.png"
+        "ruta_imagen": "./Confiteria/Galletas/Oreo.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "CORONITA CHOCOLATE 38G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\CoronitaChoco.png"
+        "ruta_imagen": "./Confiteria/Galletas/CoronitaChoco.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "CHOCMAN 35G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\Chocman.png"
+        "ruta_imagen": "./Confiteria/Galletas/Chocman.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "CHARADAS 40G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\Charadas.png"
+        "ruta_imagen": "./Confiteria/Galletas/Charadas.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "CHIN CHIN 31G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\Chin Chin.png"
+        "ruta_imagen": "./Confiteria/Galletas/Chin Chin.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "AGUA LINE 42G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\AguaLine.png"
+        "ruta_imagen": "./Confiteria/Galletas/AguaLine.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "TRIKIS 32G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\Trikis.png"
+        "ruta_imagen": "./Confiteria/Galletas/Trikis.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "DIVAS 34G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\Divas.png"
+        "ruta_imagen": "./Confiteria/Galletas/Divas.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "SODAV 35G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\SodaV.png"
+        "ruta_imagen": "./Confiteria/Galletas/SodaV.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "SODA FIELD 34G",
         "precio": "0.7",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\SodaFIELD.png"
+        "ruta_imagen": "./Confiteria/Galletas/SodaFIELD.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "RITZ TACO 67G",
         "precio": "1.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\RitzTaco.png"
+        "ruta_imagen": "./Confiteria/Galletas/RitzTaco.png"
 
     },
     {
         "categoria": "GALLETAS",
         "nombre": "OREO TACO 126G",
         "precio": "2.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\OreoTaco.png"
+        "ruta_imagen": "./Confiteria/Galletas/OreoTaco.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "WAFER CHOCOLATE 105G",
         "precio": "2.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\WaferChoco.png"
+        "ruta_imagen": "./Confiteria/Galletas/WaferChoco.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "WAFER FRESA 105G",
         "precio": "2.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\WaferFresa.png"
+        "ruta_imagen": "./Confiteria/Galletas/WaferFresa.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "WAFER VAINILLA 105G",
         "precio": "2.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\WaferVainilla.png"
+        "ruta_imagen": "./Confiteria/Galletas/WaferVainilla.png"
     },
     {
         "categoria": "GALLETAS",
         "nombre": "PAPAS PRINGLES ORIGINAL 124G",
         "precio": "13",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Galletas\\Pringles Original.png"
+        "ruta_imagen": "./Confiteria/Galletas/Pringles Original.png"
     },
     {
         "categoria": "PIQUEOS Y SNACKS",
         "nombre": "PIQUEO SNACK ORIGINAL 23G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Snacks\\PiqueoSnack23gr.jpeg"
+        "ruta_imagen": "./Confiteria/Snacks/PiqueoSnack23gr.jpeg"
     },
     {
         "categoria": "PIQUEOS Y SNACKS",
         "nombre": "CHEETOS MEGA QUESO 34G",
         "precio": "1.4",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Snacks\\CheetosMegQueso34gr.jpeg"
+        "ruta_imagen": "./Confiteria/Snacks/CheetosMegQueso34gr.jpeg"
     },
     {
         "categoria": "PIQUEOS Y SNACKS",
         "nombre": "PAPAS LAYS ORIGINAL 17G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Snacks\\PapasLays17gr.jpeg"
+        "ruta_imagen": "./Confiteria/Snacks/PapasLays17gr.jpeg"
     },
     {
         "categoria": "PIQUEOS Y SNACKS",
         "nombre": "CHEESE TRIS QUESO 16G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Snacks\\CheesTris16gr.jpeg"
+        "ruta_imagen": "./Confiteria/Snacks/CheesTris16gr.jpeg"
     },
     {
         "categoria": "PIQUEOS Y SNACKS",
         "nombre": "DORITOS QUESO 21G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Snacks\\Doritos21gr.jpeg"
+        "ruta_imagen": "./Confiteria/Snacks/Doritos21gr.jpeg"
     },
     {
         "categoria": "PIQUEOS Y SNACKS",
         "nombre": "TORTEES PICANTE 30G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Snacks\\TorteesPicante30gr.png"
+        "ruta_imagen": "./Confiteria/Snacks/TorteesPicante30gr.png"
     },
     {
         "categoria": "PIQUEOS Y SNACKS",
         "nombre": "CHIZITOS FIESTA QUESO 35G",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Snacks\\Chizito35gr.png"
+        "ruta_imagen": "./Confiteria/Snacks/Chizito35gr.png"
     },
     {
         "categoria": "PIQUEOS Y SNACKS",
         "nombre": "PIQUEO SNACK ORIGINAL 225G",
         "precio": "8",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Snacks\\PiqueoSnack225gr.jpeg"
+        "ruta_imagen": "./Confiteria/Snacks/PiqueoSnack225gr.jpeg"
     },
     {
         "categoria": "PIQUEOS Y SNACKS",
         "nombre": "PAPAS LAYS ORIGINAL 150G",
         "precio": "8.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Snacks\\PapasLays150gr.jpeg"
+        "ruta_imagen": "./Confiteria/Snacks/PapasLays150gr.jpeg"
     },
     {
         "categoria": "PIQUEOS Y SNACKS",
         "nombre": "DORITOS QUESO 190G",
         "precio": "8.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Snacks\\Doritos190gr.jpeg"
+        "ruta_imagen": "./Confiteria/Snacks/Doritos190gr.jpeg"
 
     },
     {
         "categoria": "PIQUEOS Y SNACKS",
         "nombre": "CHIZITOS FIESTA QUESO 190G",
         "precio": "7",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Snacks\\Chizito190gr.jpeg"
+        "ruta_imagen": "./Confiteria/Snacks/Chizito190gr.jpeg"
     },
     {
         "categoria": "PIQUEOS Y SNACKS",
         "nombre": "BUCKY FIESTON CHEESE 200G",
         "precio": "5.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Snacks\\BuckyFieston200gr.jpeg"
+        "ruta_imagen": "./Confiteria/Snacks/BuckyFieston200gr.jpeg"
 
     },
     {
         "categoria": "PIQUEOS Y SNACKS",
         "nombre": "CHEETOS MEGA QUESO 200G",
         "precio": "8",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Snacks\\Cheetos200gr.jpeg"
+        "ruta_imagen": "./Confiteria/Snacks/Cheetos200gr.jpeg"
     },
     {
         "categoria": "CHOCOLATES",
         "nombre": "NESTLE SUBLIME CLASICO 30G",
         "precio": "1.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Chocolates\\Sublime30gr.png"
+        "ruta_imagen": "./Confiteria/Chocolates/Sublime30gr.png"
     },
     {
         "categoria": "CHOCOLATES",
         "nombre": "NESTLE SUBLIME CLASICO 40G",
         "precio": "2",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Chocolates\\Sublime40gr.png"
+        "ruta_imagen": "./Confiteria/Chocolates/Sublime40gr.png"
     },
     {
         "categoria": "CHOCOLATES",
         "nombre": "NESTLE SUBLIME BLANCO 40G",
         "precio": "2",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Chocolates\\SublimeBlanco40gr.png"
+        "ruta_imagen": "./Confiteria/Chocolates/SublimeBlanco40gr.png"
     },
     {
         "categoria": "CHOCOLATES",
         "nombre": "D'ONOFRIO TRIANGULO 30G",
         "precio": "1.6",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Chocolates\\Triangulo30gr.png"
+        "ruta_imagen": "./Confiteria/Chocolates/Triangulo30gr.png"
     },
     {
         "categoria": "CHOCOLATES",
         "nombre": "CAJA GAROTO",
         "precio": "13",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Chocolates\\Garoto.png"
+        "ruta_imagen": "./Confiteria/Chocolates/Garoto.png"
     },
     {
         "categoria": "CHOCOLATES",
         "nombre": "BON O BON LECHE 15GR",
         "precio": "2",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Chocolates\\BonObon.png"
+        "ruta_imagen": "./Confiteria/Chocolates/BonObon.png"
     },
     {
         "categoria": "GOLOSINAS",
         "nombre": "CHICLE TRIDENT MENTA 8.5G",
         "precio": "1.2",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Golosinas\\TridentMenta.jpeg"
+        "ruta_imagen": "./Confiteria/Golosinas/TridentMenta.jpeg"
     },
     {
         "categoria": "GOLOSINAS",
         "nombre": "CHICLE TRIDENT FRESA 8.5G",
         "precio": "1.2",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Golosinas\\TridentSandia.jpeg"
+        "ruta_imagen": "./Confiteria/Golosinas/TridentSandia.jpeg"
     },
     {
         "categoria": "GOLOSINAS",
         "nombre": "CHICLE TRIDENT MENTA 30.6G",
         "precio": "3",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Golosinas\\Triden18.jpeg"
+        "ruta_imagen": "./Confiteria/Golosinas/Triden18.jpeg"
     },
     {
         "categoria": "GOLOSINAS",
         "nombre": "CHICLE TRIDENT FRESA 30.6G",
         "precio": "3",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Golosinas\\TridentSandia18.jpeg"
+        "ruta_imagen": "./Confiteria/Golosinas/TridentSandia18.jpeg"
     },
     {
         "categoria": "GOLOSINAS",
         "nombre": "HALLS MENTHO LYPTUS",
         "precio": "1.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Golosinas\\HallsAzul.jpeg"
+        "ruta_imagen": "./Confiteria/Golosinas/HallsAzul.jpeg"
     },
     {
         "categoria": "GOLOSINAS",
         "nombre": "HALLS EXTRA STRONG",
         "precio": "1.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Golosinas\\HallsNegro.jpeg"
+        "ruta_imagen": "./Confiteria/Golosinas/HallsNegro.jpeg"
     },
     {
         "categoria": "GOLOSINAS",
         "nombre": "HALLS CHERRY LYPTUS",
         "precio": "1.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Golosinas\\HallsRojo.jpeg"
+        "ruta_imagen": "./Confiteria/Golosinas/HallsRojo.jpeg"
     },
     {
         "categoria": "GOLOSINAS",
         "nombre": "CHICLE SUPER ACIDO 1UND",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Golosinas\\chicleAcido.jpeg"
+        "ruta_imagen": "./Confiteria/Golosinas/chicleAcido.jpeg"
     },
     {
         "categoria": "GOLOSINAS",
         "nombre": "CHUPETIN GLOBO POP",
         "precio": "0.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Confiteria\\Golosinas\\GloboPop.jpeg"
+        "ruta_imagen": "./Confiteria/Golosinas/GloboPop.jpeg"
     },
     {
         "categoria": "CIGARROS",
         "nombre": "PALL MAL CONVERTIBLE 1UND",
         "precio": "1",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\PallMallConvertible.jpeg"
+        "ruta_imagen": "./Cigarros/PallMallConvertible.jpeg"
     },
     {
         "categoria": "CIGARROS",
         "nombre": "LUCKY STRIKE MORA 1UND",
         "precio": "1.2",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\LuckyMoraUnidad.jpeg"
+        "ruta_imagen": "./Cigarros/LuckyMoraUnidad.jpeg"
     },
     {
         "categoria": "CIGARROS",
         "nombre": "LUCKY STRIKE SANDIA 1UND",
         "precio": "1.2",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\LuckySandiaUnidad.jpeg"
+        "ruta_imagen": "./Cigarros/LuckySandiaUnidad.jpeg"
     },
     {
         "categoria": "CIGARROS",
         "nombre": "L&M FUSION 1UND",
         "precio": "0.8",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\LM.jpeg"
+        "ruta_imagen": "./Cigarros/LM.jpeg"
     },
     {
         "categoria": "CIGARROS",
         "nombre": "PALL MAL CONVERTIBLE CAJETILLA",
         "precio": "8",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\PallMallConvertible.jpeg"
+        "ruta_imagen": "./Cigarros/PallMallConvertible.jpeg"
     },
     {
         "categoria": "CIGARROS",
         "nombre": "LUCKY STRIKE MORA CAJETILLA",
         "precio": "12",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\LuckyMoraUnidad.jpeg"
+        "ruta_imagen": "./Cigarros/LuckyMoraUnidad.jpeg"
     },
     {
         "categoria": "CIGARROS",
         "nombre": "LUCKY STRIKE SANDIA CAJETILLA",
         "precio": "12",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\LuckySandiaUnidad.jpeg"
+        "ruta_imagen": "./Cigarros/LuckySandiaUnidad.jpeg"
     },
     {
         "categoria": "CIGARROS",
         "nombre": "L&M FUSION CAJETILLA",
         "precio": "8",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\LM.jpeg"
+        "ruta_imagen": "./Cigarros/LM.jpeg"
     },
     {
         "categoria": "VAPE",
         "nombre": "PEPPERMINT ICE 500 PUFFS",
         "precio": "20",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\Vapes\\Peppermint500puff.jpeg"
+        "ruta_imagen": "./Cigarros/Vapes/Peppermint500puff.jpeg"
     },
     {
         "categoria": "VAPE",
         "nombre": "PEPPERMINT ICE 1500 PUFFS",
         "precio": "35",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\Vapes\\Peppermint1500puff.jpeg"
+        "ruta_imagen": "./Cigarros/Vapes/Peppermint1500puff.jpeg"
     },
     {
         "categoria": "VAPE",
         "nombre": "WATERMELON ICE 500 PUFFS",
         "precio": "20",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\Vapes\\WatermelonIce500puffs.jpeg"
+        "ruta_imagen": "./Cigarros/Vapes/WatermelonIce500puffs.jpeg"
     },
     {
         "categoria": "VAPE",
         "nombre": "WATERMELON ICE 1500 PUFFS",
         "precio": "35",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\Vapes\\WatermelonIce1500puffs.jpeg"
+        "ruta_imagen": "./Cigarros/Vapes/WatermelonIce1500puffs.jpeg"
     },
     {
         "categoria": "VAPE",
         "nombre": "STRAWBERRY ICE 500 PUFFS",
         "precio": "20",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\Vapes\\StrawberryIce500puffs.jpeg"
+        "ruta_imagen": "./Cigarros/Vapes/StrawberryIce500puffs.jpeg"
     },
     {
         "categoria": "VAPE",
         "nombre": "STRAWBERRY ICE 1500 PUFFS",
         "precio": "35",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\Vapes\\StrawberryIce1500puffs.jpeg"
+        "ruta_imagen": "./Cigarros/Vapes/StrawberryIce1500puffs.jpeg"
     },
     {
         "categoria": "VAPE",
         "nombre": "BLUEBERRY ICE 500 PUFFS",
         "precio": "20",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\Vapes\\BlueberryIce500puff.jpeg"
+        "ruta_imagen": "./Cigarros/Vapes/BlueberryIce500puff.jpeg"
     },
     {
         "categoria": "VAPE",
         "nombre": "BLUEBERRY ICE 1500 PUFFS",
         "precio": "35",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\Vapes\\BlueberryIce1500puff.jpeg"
+        "ruta_imagen": "./Cigarros/Vapes/BlueberryIce1500puff.jpeg"
     },
     {
         "categoria": "VAPE",
         "nombre": " GRAPE ICE 500 PUFFS",
         "precio": "20",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\Vapes\\GrapeIce500puffs.png"
+        "ruta_imagen": "./Cigarros/Vapes/GrapeIce500puffs.png"
     },
     {
         "categoria": "VAPE",
         "nombre": " GRAPE ICE 1500 PUFFS",
         "precio": "35",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\Vapes\\GrapeIce1500puffs.png"
+        "ruta_imagen": "./Cigarros/Vapes/GrapeIce1500puffs.png"
     },
     {
         "categoria": "VAPE",
         "nombre": "CREAMY TOBACCO 500 PUFFS",
         "precio": "15",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Cigarros\\Vapes\\CreamyTobacco500fpuffs.png"
+        "ruta_imagen": "./Cigarros/Vapes/CreamyTobacco500fpuffs.png"
     },
     {
         "categoria": "RON",
         "nombre": "CAPITAN MORGAN 700ML",
         "precio": "37",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\CAPTAIN MORGAN.png"        
+        "ruta_imagen": "./Tragos/CAPTAIN MORGAN.png"        
     },
     {
         "categoria": "RON",
         "nombre": "FLOR DE CAÑA 4 AÑOS 700ML",
         "precio": "46.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\FLOR DE CAÑA 4 AÑOS.png"
+        "ruta_imagen": "./Tragos/FLOR DE CAÑA 4 AÑOS.png"
     },
     {
         "categoria": "RON",
         "nombre": "FLOR DE CAÑA 5 AÑOS 700ML",
         "precio": "57",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Flor5anios.png"
+        "ruta_imagen": "./Tragos/Flor5anios.png"
     },
     {
         "categoria": "RON",
         "nombre": "HAVANA CLUB 750ML",
         "precio": "36",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\HAVANACLUB750.png"
+        "ruta_imagen": "./Tragos/HAVANACLUB750.png"
     },
     {
         "categoria": "RON",
         "nombre": "HAVANA CLUB 1L",
         "precio": "46",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\HavanaClub1L.png"
+        "ruta_imagen": "./Tragos/HavanaClub1L.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON DE CALDAS 3 AÑOS",
         "precio": "33",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Caldas3.png"
+        "ruta_imagen": "./Tragos/Caldas3.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON DE CALDAS 5 AÑOS",
         "precio": "41",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\caldas5.png"
+        "ruta_imagen": "./Tragos/caldas5.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON DE CALDAS 8 AÑOS",
         "precio": "60",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\caldas8.png"
+        "ruta_imagen": "./Tragos/caldas8.png"
     },
     {
         "categoria": "RON",
         "nombre": "CABO BLANCO",
         "precio": "17",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\caboBlanco.png"
+        "ruta_imagen": "./Tragos/caboBlanco.png"
     },
     {
         "categoria": "RON",
         "nombre": "BLACK BARREL 1L",
         "precio": "30",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\BlackBarrel.png"
+        "ruta_imagen": "./Tragos/BlackBarrel.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON SELECTO 5 AÑOS",
         "precio": "30",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\RON SELECTO 5AÑOS.png"
+        "ruta_imagen": "./Tragos/RON SELECTO 5AÑOS.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON SELECTO 8 AÑOS",
         "precio": "38",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\RON SELECTO 8AÑOS.png"
+        "ruta_imagen": "./Tragos/RON SELECTO 8AÑOS.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON CARTAVIO BLACK 1L",
         "precio": "29",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\CartavioBlack1L.png"
+        "ruta_imagen": "./Tragos/CartavioBlack1L.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON CARTAVIO SUPERIOR 1L",
         "precio": "29",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\CartavioSuperior1L.png"
+        "ruta_imagen": "./Tragos/CartavioSuperior1L.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON CARTAVIO BLANCO 1L",
         "precio": "29",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\CartavioBlanco1L.png"
+        "ruta_imagen": "./Tragos/CartavioBlanco1L.png"
     },
     {
         "categoria": "COMBOS",
         "nombre": "COMBO CAPITAN MORGAN",
         "precio": "55",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Combos\\ComboChapero.jpg"
+        "ruta_imagen": "./Tragos/Combos/ComboChapero.jpg"
     },
     {
         "categoria": "COMBOS",
         "nombre": "COMBO RON CARTAVIO BLACK 1L",
         "precio": "47",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Combos\\ComboCartavio.jpg"
+        "ruta_imagen": "./Tragos/Combos/ComboCartavio.jpg"
     },
     {
         "categoria": "COMBOS",
         "nombre": "COMBO RON SELECTO 8 AÑOS",
         "precio": "56",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Combos\\ComboSelecto8anios.jpg"
+        "ruta_imagen": "./Tragos/Combos/ComboSelecto8anios.jpg"
     },
     {
         "categoria": "COMBOS",
         "nombre": "COMBO RON SELECTO 5 AÑOS",
         "precio": "48",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Combos\\ComboSelecto5anios.jpg"
+        "ruta_imagen": "./Tragos/Combos/ComboSelecto5anios.jpg"
     },
     {
         "categoria": "COMBOS",
         "nombre": "COMBO FLOR DE CAÑA 5 AÑOS",
         "precio": "75",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Combos\\ComboFlorDeCaña5años.jpg"
+        "ruta_imagen": "./Tragos/Combos/ComboFlorDeCaña5años.jpg"
     },
     {
         "categoria": "COMBOS",
         "nombre": "COMBO FLOR DE CAÑA 4 AÑOS",
         "precio": "65",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Combos\\ComboFlorDeCaña4años.jpg"
+        "ruta_imagen": "./Tragos/Combos/ComboFlorDeCaña4años.jpg"
     },
     {
         "categoria": "COMBOS",
         "nombre": "COMBO HAVANA CLUB",
         "precio": "54",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Combos\\ComboHavanaClub.jpg"
+        "ruta_imagen": "./Tragos/Combos/ComboHavanaClub.jpg"
     },
     {
         "categoria": "WHISKY",
         "nombre": "OLD TIMES RED",
         "precio": "24",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\OldTimeRed.png"
+        "ruta_imagen": "./Tragos/Whisky/OldTimeRed.png"
     },
     {
         "categoria": "WHISKY",
         "nombre": "BALLENTINES",
         "precio": "53",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\Ballantines.png"
+        "ruta_imagen": "./Tragos/Whisky/Ballantines.png"
     },
     {
         "categoria": "WHISKY",
         "nombre": "SOMETHING SPECIAL",
         "precio": "55",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\SomethingSpecial.jpg"
+        "ruta_imagen": "./Tragos/Whisky/SomethingSpecial.jpg"
     },
     {
         "categoria": "WHISKY",
         "nombre": "CHIVAS REGAL 12 AÑOS",
         "precio": "100",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\Chivas12Years.png"
+        "ruta_imagen": "./Tragos/Whisky/Chivas12Years.png"
     },
     {
         "categoria": "WHISKY",
         "nombre": "CHIVAS REGAL 13 AÑOS",
         "precio": "110",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\Chivas13Years.png"
+        "ruta_imagen": "./Tragos/Whisky/Chivas13Years.png"
     },
     {
         "categoria": "WHISKY",
         "nombre": "JOHNNIE WALKER RED LABEL",
         "precio": "55",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\JWalkerRedLabel.png"
+        "ruta_imagen": "./Tragos/Whisky/JWalkerRedLabel.png"
     },
     {
         "categoria": "WHISKY",
         "nombre": "JOHNNIE WALKER BLACK LABEL",
         "precio": "125",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\JWalkerBlackLabel.png"
+        "ruta_imagen": "./Tragos/Whisky/JWalkerBlackLabel.png"
     },
     {
         "categoria": "WHISKY",
         "nombre": "JOHNNIE WALKER DOUBLE BLACK LABEL",
         "precio": "150",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\JWalkerDoubleBlackLabel.png"
+        "ruta_imagen": "./Tragos/Whisky/JWalkerDoubleBlackLabel.png"
     },
     {
         "categoria": "WHISKY",
         "nombre": "JOHNNIE WALKER GOLD LABEL",
         "precio": "245",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\JWalkerGoldLabel.png"
+        "ruta_imagen": "./Tragos/Whisky/JWalkerGoldLabel.png"
     },
     {
         "categoria": "PISCO",
         "nombre": "TABERNERO PISCO PURO QUEBRANTA",
         "precio": "32.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Pisco\\piscoPuroQuebranta.png"
+        "ruta_imagen": "./Tragos/Pisco/piscoPuroQuebranta.png"
     },
     {
         "categoria": "PISCO",
         "nombre": "TABERNERO PISCO ACHOLADO",
         "precio": "32.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Pisco\\piscoAcholado.png"
+        "ruta_imagen": "./Tragos/Pisco/piscoAcholado.png"
     },
     {
         "categoria": "VODKA",
         "nombre": "RUSSKAYA 1L",
         "precio": "26",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Vodka\\Russkaya1L.png"
+        "ruta_imagen": "./Tragos/Vodka/Russkaya1L.png"
     },
     {
         "categoria": "VODKA",
         "nombre": "ABSOLUTE VODKA",
         "precio": "51",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Vodka\\AbsoluteVodka.png"
+        "ruta_imagen": "./Tragos/Vodka/AbsoluteVodka.png"
     },
     {
         "categoria": "VODKA",
         "nombre": "SMIRNOFF",
         "precio": "28",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Vodka\\Smirnoff.png"
+        "ruta_imagen": "./Tragos/Vodka/Smirnoff.png"
     },
     {
         "categoria": "VINOS",
         "nombre": "VINO TABERNERO BORGOÑA",
         "precio": "18.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Vinos\\TaberneroBorgonia.png"
+        "ruta_imagen": "./Tragos/Vinos/TaberneroBorgonia.png"
     },
     {
         "categoria": "VINOS",
         "nombre": "VINO TABERNERO GRAN ROSÉ",
         "precio": "18.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Vinos\\TaberneroGranRose.png"
+        "ruta_imagen": "./Tragos/Vinos/TaberneroGranRose.png"
     },
     {
         "categoria": "VINOS",
         "nombre": "TABERNERO SANGRÑA 1L",
         "precio": "15",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Vinos\\SangriaTabernero.png"
+        "ruta_imagen": "./Tragos/Vinos/SangriaTabernero.png"
     },
     {
         "categoria": "OTROS LICORES",
         "nombre": "JAGERMEISTER 700ML",
         "precio": "75",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Variados\\Jagermeister.png"
+        "ruta_imagen": "./Tragos/Variados/Jagermeister.png"
     },
     {
         "categoria": "OTROS LICORES",
         "nombre": "LICOR DE CREMA BAILEYS 750ML",
         "precio": "78",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Variados\\Baileys.png"
+        "ruta_imagen": "./Tragos/Variados/Baileys.png"
     },
     {
         "categoria": "OTROS LICORES",
         "nombre": "SHERIDAN'S LICOR DE CAFÉ",
         "precio": "100",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Variados\\Sheridans.png"
+        "ruta_imagen": "./Tragos/Variados/Sheridans.png"
     },
     {
         "categoria": "OTROS LICORES",
         "nombre": "FOUR LOKO GOLD 473ML",
         "precio": "10",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Variados\\FourLoko.jpeg"
+        "ruta_imagen": "./Tragos/Variados/FourLoko.jpeg"
     },
     {
         "categoria": "OTROS LICORES",
         "nombre": "MIKE'S LEMONADE 355ML",
         "precio": "6",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Variados\\Mikes.jpeg"
+        "ruta_imagen": "./Tragos/Variados/Mikes.jpeg"
     },
     {
         "categoria": "OTROS LICORES",
         "nombre": "GIN BEEFETER PINK 700ML",
         "precio": "100",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Variados\\BeefeterPink.png"
+        "ruta_imagen": "./Tragos/Variados/BeefeterPink.png"
     },
     {
         "categoria": "OTROS LICORES",
         "nombre": "WILD FRESH APPLE 355ML",
         "precio": "5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Variados\\WildApple.jpeg"
+        "ruta_imagen": "./Tragos/Variados/WildApple.jpeg"
     },
     {
         "categoria": "OTROS LICORES",
         "nombre": "WILD TROPICAL ORANGE 355ML",
         "precio": "5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Variados\\WildOrange.jpeg"
+        "ruta_imagen": "./Tragos/Variados/WildOrange.jpeg"
     },
     {
         "categoria": "MASCOTAS",
         "nombre": "MI MASKOT ADULTOS SABOR CARNE 450G",
         "precio": "4",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Mascotas\\MiMaskot450gr.jpeg"
+        "ruta_imagen": "./Mascotas/MiMaskot450gr.jpeg"
     },
     {
         "categoria": "MASCOTAS",
         "nombre": "NUTRICAN ADULTOS SABOR CARNE E HIGADO 450G",
         "precio": "3",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Mascotas\\Nutrican450gr.jpeg"
+        "ruta_imagen": "./Mascotas/Nutrican450gr.jpeg"
     },
     {
         "categoria": "MASCOTAS",
         "nombre": "THOR PATÉ SABOR CARNE 330G",
         "precio": "5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Mascotas\\ThorCarne.jpeg"
+        "ruta_imagen": "./Mascotas/ThorCarne.jpeg"
     },
     {
         "categoria": "MASCOTAS",
         "nombre": "THOR PATÉ SABOR POLLO 330G",
         "precio": "5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Mascotas\\ThorPollo.jpeg"
+        "ruta_imagen": "./Mascotas/ThorPollo.jpeg"
     },
     {
         "categoria": "UTILES",
         "nombre": "CUADERNO CUADRICULADO JUSTUS",
         "precio": "5.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\CuadernoCuadriculado.png"
+        "ruta_imagen": "./Utiles/CuadernoCuadriculado.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "CUADERNO RAYADO JUSTUS",
         "precio": "5.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\CuadernoRayado.jpeg"
+        "ruta_imagen": "./Utiles/CuadernoRayado.jpeg"
     },
     {
         "categoria": "UTILES",
         "nombre": "GOMA EN BARRA ARTESCO",
         "precio": "2",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\GomaEnBarraArtesco.jpeg"
+        "ruta_imagen": "./Utiles/GomaEnBarraArtesco.jpeg"
     },
     {
         "categoria": "UTILES",
         "nombre": "SILICONA LIQUIDA FALESSA",
         "precio": "2",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\SiliconaLiquidaFalessa.jpeg"
+        "ruta_imagen": "./Utiles/SiliconaLiquidaFalessa.jpeg"
     },
     {
         "categoria": "UTILES",
         "nombre": "COLA SINTETICA ARTESCO",
         "precio": "2.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\ColaSinteticaArtesco.jpg"
+        "ruta_imagen": "./Utiles/ColaSinteticaArtesco.jpg"
     },
     {
         "categoria": "UTILES",
         "nombre": "PLASTILINA JUMBO 12 COLORES ARTESCO",
         "precio": "5.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\PlastilinaJumboArtesco.png"
+        "ruta_imagen": "./Utiles/PlastilinaJumboArtesco.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "PLASTILINA JUMBO 12 COLORES VIKINGO",
         "precio": "5.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\PlastilinaJumbo.png"
+        "ruta_imagen": "./Utiles/PlastilinaJumbo.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "PLASTILINA DELGADA 10 COLORES OVE",
         "precio": "3.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\PlastilinaDelgadaOve.png"
+        "ruta_imagen": "./Utiles/PlastilinaDelgadaOve.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "TIJERA MANDARINITA LAYCONSA",
         "precio": "3",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\TijeraMandarinaLayconsa.jpg"
+        "ruta_imagen": "./Utiles/TijeraMandarinaLayconsa.jpg"
     },
     {
         "categoria": "UTILES",
         "nombre": "COLORES PASTEL ARTESCO 10UND",
         "precio": "8.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\ColoresPastelArtesco.png"
+        "ruta_imagen": "./Utiles/ColoresPastelArtesco.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "PLUMONES JUNIOR STANDFORD 12UND",
         "precio": "7",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\PlumonesJumboStandford.png"
+        "ruta_imagen": "./Utiles/PlumonesJumboStandford.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "LÁPICES DE COLORES MEDIANOS OVAL 12UND",
         "precio": "3.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\LapicesColoresOval.png"
+        "ruta_imagen": "./Utiles/LapicesColoresOval.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "LÁPICES DE COLORES GRANDES OVAL 12UND",
         "precio": "7",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\LapicesColoresGrandesOval.png"
+        "ruta_imagen": "./Utiles/LapicesColoresGrandesOval.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "LÁPIZ GRAFITO ARTESCO 1UND",
         "precio": "0.6",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\LapizGrafitoArtesco.png"
+        "ruta_imagen": "./Utiles/LapizGrafitoArtesco.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "MINI RESALTADORES ARTESCO 1UND",
         "precio": "2.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\MiniResaltadoresArtesc.jpeg"
+        "ruta_imagen": "./Utiles/MiniResaltadoresArtesc.jpeg"
     },
     {
         "categoria": "UTILES",
         "nombre": "LAPIZ CORRECTOR TOYO",
         "precio": "2",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\Corrector.png"
+        "ruta_imagen": "./Utiles/Corrector.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "CRAYONES JUMBO LAYCONSA 6UND",
         "precio": "4.2",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\CrayonesJumboLayconsa.png"
+        "ruta_imagen": "./Utiles/CrayonesJumboLayconsa.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "MENTOL SIKURA",
         "precio": "4",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\Sikura.png"
+        "ruta_imagen": "./Utiles/Sikura.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "BARAJA DE NAIPES REY",
         "precio": "2.5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\Naipes.png"
+        "ruta_imagen": "./Utiles/Naipes.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "PILAS AA DOBLE A PANASONIC",
         "precio": "2",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\PilasAA.png"
+        "ruta_imagen": "./Utiles/PilasAA.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "PILAS AAA TRIPLE A PANASONIC",
         "precio": "3",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\PilasAAA.png"
+        "ruta_imagen": "./Utiles/PilasAAA.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "LAPICEROS ESCARCHADOS NAYRAS 12UND",
         "precio": "7",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\LapicerosEscarchadosNayras12und.png"
+        "ruta_imagen": "./Utiles/LapicerosEscarchadosNayras12und.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "ESTUCHE DE REGLAS",
         "precio": "5",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\EstucheReglas.png"
+        "ruta_imagen": "./Utiles/EstucheReglas.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "LAPICERO CLASICO OVAL",
         "precio": "0.8",
-        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\LapiceroOval.png"
+        "ruta_imagen": "./Utiles/LapiceroOval.png"
     }
 ]
