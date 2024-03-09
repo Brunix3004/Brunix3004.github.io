@@ -134,7 +134,7 @@ function handlerBuscar(query, contenedor){
     const callback = () => {
         const ResProductos = document.getElementById("ResProductos")
         const temp = arrSugerencias.map( prod => `<div class="flex items-center justify-start space-x-4">
-                <img src="./IMAGENES/${prod.categoria}/${prod.nombre}.png" width="120"
+                <img src="./IMAGENES/${prod.ruta}.png" width="120"
                     height="120" alt="Beer"
                     class="aspect-square overflow-hidden rounded-lg object-cover object-center">
                 <div class="grid gap-1">
