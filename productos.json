@@ -171,7 +171,7 @@
         "categoria": "CERVEZA UNIDAD",
         "nombre": "CRISTAL 1UND",
         "precio": "6",
-        "ruta_imagen": "./Cerveza/Cajas/Cristal1und.png"
+        "ruta_imagen": "./Cerveza/Cajas/Cristal1und.jpeg"
     },
     {
         "categoria": "CERVEZA UNIDAD",
@@ -183,13 +183,13 @@
         "categoria": "CERVEZA UNIDAD",
         "nombre": "CUZQUEÑA TRIGO 1UND",
         "precio": "7",
-        "ruta_imagen": "./Cerveza/Cajas/CuzqueñaTrigo1und.png"
+        "ruta_imagen": "./Cerveza/Cajas/CuzqueñaTrigo1und.jpeg"
     },
     {
         "categoria": "CERVEZA UNIDAD",
         "nombre": "CUZQUEÑA MALTA 1UND",
         "precio": "7",
-        "ruta_imagen": "./Cerveza/Cajas/CuzqueñaMalta1und.png"
+        "ruta_imagen": "./Cerveza/Cajas/CuzqueñaMalta1und.jpeg"
     },
     {
         "categoria": "CERVEZA UNIDAD",
