@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const dots = document.querySelectorAll('.pagination .dot');
 
     let index = 0; // Inicializa en -1
-    const totalSlides = 5; // Ajusta según la cantidad de slides que tengas
+    const totalSlides = 6; // Ajusta según la cantidad de slides que tengas
     let intervalId;
 
     function avanzarCarrusel() {
