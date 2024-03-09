@@ -977,381 +977,451 @@
     {
         "categoria": "RON",
         "nombre": "CAPITAN MORGAN 700ML",
-        "precio": "37"
+        "precio": "37",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\CAPTAIN MORGAN.png"        
     },
     {
         "categoria": "RON",
         "nombre": "FLOR DE CAÑA 4 AÑOS 700ML",
-        "precio": "46.5"
+        "precio": "46.5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\FLOR DE CAÑA 4 AÑOS.png"
     },
     {
         "categoria": "RON",
         "nombre": "FLOR DE CAÑA 5 AÑOS 700ML",
-        "precio": "57"
+        "precio": "57",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Flor5anios.png"
     },
     {
         "categoria": "RON",
         "nombre": "HAVANA CLUB 750ML",
-        "precio": "36"
+        "precio": "36",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\HAVANACLUB750.png"
     },
     {
         "categoria": "RON",
         "nombre": "HAVANA CLUB 1L",
-        "precio": "46"
+        "precio": "46",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\HavanaClub1L.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON DE CALDAS 3 AÑOS",
-        "precio": "33"
+        "precio": "33",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Caldas3.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON DE CALDAS 5 AÑOS",
-        "precio": "41"
+        "precio": "41",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\caldas5.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON DE CALDAS 8 AÑOS",
-        "precio": "60"
+        "precio": "60",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\caldas8.png"
     },
     {
         "categoria": "RON",
         "nombre": "CABO BLANCO",
-        "precio": "17"
+        "precio": "17",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\caboBlanco.png"
     },
     {
         "categoria": "RON",
         "nombre": "BLACK BARREL 1L",
-        "precio": "30"
+        "precio": "30",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\BlackBarrel.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON SELECTO 5 AÑOS",
-        "precio": "30"
+        "precio": "30",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\RON SELECTO 5AÑOS.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON SELECTO 8 AÑOS",
-        "precio": "38"
+        "precio": "38",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\RON SELECTO 8AÑOS.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON CARTAVIO BLACK 1L",
-        "precio": "29"
+        "precio": "29",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\CartavioBlack1L.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON CARTAVIO SUPERIOR 1L",
-        "precio": "29"
+        "precio": "29",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\CartavioSuperior1L.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON CARTAVIO BLANCO 1L",
-        "precio": "29"
+        "precio": "29",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\CartavioBlanco1L.png"
     },
     {
         "categoria": "COMBOS",
         "nombre": "COMBO CAPITAN MORGAN",
-        "precio": "55"
+        "precio": "55",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Combos\\ComboChapero.jpg"
     },
     {
         "categoria": "COMBOS",
         "nombre": "COMBO RON CARTAVIO BLACK 1L",
-        "precio": "47"
+        "precio": "47",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Combos\\ComboCartavio.jpg"
     },
     {
         "categoria": "COMBOS",
         "nombre": "COMBO RON SELECTO 8 AÑOS",
-        "precio": "56"
+        "precio": "56",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Combos\\ComboSelecto8anios.jpg"
     },
     {
         "categoria": "COMBOS",
         "nombre": "COMBO RON SELECTO 5 AÑOS",
-        "precio": "48"
+        "precio": "48",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Combos\\ComboSelecto5anios.jpg"
     },
     {
         "categoria": "COMBOS",
         "nombre": "COMBO FLOR DE CAÑA 5 AÑOS",
-        "precio": "75"
+        "precio": "75",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Combos\\ComboFlorDeCaña5años.jpg"
     },
     {
         "categoria": "COMBOS",
         "nombre": "COMBO FLOR DE CAÑA 4 AÑOS",
-        "precio": "65"
+        "precio": "65",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Combos\\ComboFlorDeCaña4años.jpg"
     },
     {
         "categoria": "COMBOS",
         "nombre": "COMBO HAVANA CLUB",
-        "precio": "54"
+        "precio": "54",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Combos\\ComboHavanaClub.jpg"
     },
     {
         "categoria": "WHISKY",
         "nombre": "OLD TIMES RED",
-        "precio": "24"
+        "precio": "24",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\OldTimeRed.png"
     },
     {
         "categoria": "WHISKY",
         "nombre": "BALLENTINES",
-        "precio": "53"
+        "precio": "53",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\Ballantines.png"
     },
     {
         "categoria": "WHISKY",
         "nombre": "SOMETHING SPECIAL",
-        "precio": "55"
+        "precio": "55",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\SomethingSpecial.jpg"
     },
     {
         "categoria": "WHISKY",
         "nombre": "CHIVAS REGAL 12 AÑOS",
-        "precio": "100"
+        "precio": "100",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\Chivas12Years.png"
     },
     {
         "categoria": "WHISKY",
         "nombre": "CHIVAS REGAL 13 AÑOS",
-        "precio": "110"
+        "precio": "110",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\Chivas13Years.png"
     },
     {
         "categoria": "WHISKY",
         "nombre": "JOHNNIE WALKER RED LABEL",
-        "precio": "55"
+        "precio": "55",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\JWalkerRedLabel.png"
     },
     {
         "categoria": "WHISKY",
         "nombre": "JOHNNIE WALKER BLACK LABEL",
-        "precio": "125"
+        "precio": "125",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\JWalkerBlackLabel.png"
     },
     {
         "categoria": "WHISKY",
         "nombre": "JOHNNIE WALKER DOUBLE BLACK LABEL",
-        "precio": "150"
+        "precio": "150",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\JWalkerDoubleBlackLabel.png"
     },
     {
         "categoria": "WHISKY",
         "nombre": "JOHNNIE WALKER GOLD LABEL",
-        "precio": "245"
+        "precio": "245",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Whisky\\JWalkerGoldLabel.png"
     },
     {
         "categoria": "PISCO",
         "nombre": "TABERNERO PISCO PURO QUEBRANTA",
-        "precio": "32.5"
+        "precio": "32.5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Pisco\\piscoPuroQuebranta.png"
     },
     {
         "categoria": "PISCO",
         "nombre": "TABERNERO PISCO ACHOLADO",
-        "precio": "32.5"
+        "precio": "32.5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Pisco\\piscoAcholado.png"
     },
     {
         "categoria": "VODKA",
         "nombre": "RUSSKAYA 1L",
-        "precio": "26"
+        "precio": "26",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Vodka\\Russkaya1L.png"
     },
     {
         "categoria": "VODKA",
         "nombre": "ABSOLUTE VODKA",
-        "precio": "51"
+        "precio": "51",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Vodka\\AbsoluteVodka.png"
     },
     {
         "categoria": "VODKA",
         "nombre": "SMIRNOFF",
-        "precio": "28"
+        "precio": "28",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Vodka\\Smirnoff.png"
     },
     {
         "categoria": "VINOS",
         "nombre": "VINO TABERNERO BORGOÑA",
-        "precio": "18.5"
+        "precio": "18.5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Vinos\\TaberneroBorgonia.png"
     },
     {
         "categoria": "VINOS",
         "nombre": "VINO TABERNERO GRAN ROSÉ",
-        "precio": "18.5"
+        "precio": "18.5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Vinos\\TaberneroGranRose.png"
     },
     {
         "categoria": "VINOS",
         "nombre": "TABERNERO SANGRÑA 1L",
-        "precio": "15"
+        "precio": "15",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Vinos\\SangriaTabernero.png"
     },
     {
         "categoria": "OTROS LICORES",
         "nombre": "JAGERMEISTER 700ML",
-        "precio": "75"
+        "precio": "75",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Variados\\Jagermeister.png"
     },
     {
         "categoria": "OTROS LICORES",
         "nombre": "LICOR DE CREMA BAILEYS 750ML",
-        "precio": "78"
+        "precio": "78",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Variados\\Baileys.png"
     },
     {
         "categoria": "OTROS LICORES",
         "nombre": "SHERIDAN'S LICOR DE CAFÉ",
-        "precio": "100"
+        "precio": "100",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Variados\\Sheridans.png"
     },
     {
         "categoria": "OTROS LICORES",
         "nombre": "FOUR LOKO GOLD 473ML",
-        "precio": "10"
+        "precio": "10",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Variados\\FourLoko.jpeg"
     },
     {
         "categoria": "OTROS LICORES",
         "nombre": "MIKE'S LEMONADE 355ML",
-        "precio": "6"
+        "precio": "6",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Variados\\Mikes.jpeg"
     },
     {
         "categoria": "OTROS LICORES",
         "nombre": "GIN BEEFETER PINK 700ML",
-        "precio": "100"
+        "precio": "100",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Variados\\BeefeterPink.png"
     },
     {
         "categoria": "OTROS LICORES",
         "nombre": "WILD FRESH APPLE 355ML",
-        "precio": "5"
+        "precio": "5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Variados\\WildApple.jpeg"
     },
     {
         "categoria": "OTROS LICORES",
         "nombre": "WILD TROPICAL ORANGE 355ML",
-        "precio": "5"
+        "precio": "5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Tragos\\Variados\\WildOrange.jpeg"
     },
     {
         "categoria": "MASCOTAS",
         "nombre": "MI MASKOT ADULTOS SABOR CARNE 450G",
-        "precio": "4"
+        "precio": "4",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Mascotas\\MiMaskot450gr.jpeg"
     },
     {
         "categoria": "MASCOTAS",
         "nombre": "NUTRICAN ADULTOS SABOR CARNE E HIGADO 450G",
-        "precio": "3"
+        "precio": "3",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Mascotas\\Nutrican450gr.jpeg"
     },
     {
         "categoria": "MASCOTAS",
         "nombre": "THOR PATÉ SABOR CARNE 330G",
-        "precio": "5"
+        "precio": "5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Mascotas\\ThorCarne.jpeg"
     },
     {
         "categoria": "MASCOTAS",
         "nombre": "THOR PATÉ SABOR POLLO 330G",
-        "precio": "5"
+        "precio": "5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Mascotas\\ThorPollo.jpeg"
     },
     {
         "categoria": "UTILES",
         "nombre": "CUADERNO CUADRICULADO JUSTUS",
-        "precio": "5.5"
+        "precio": "5.5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\CuadernoCuadriculado.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "CUADERNO RAYADO JUSTUS",
-        "precio": "5.5"
+        "precio": "5.5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\CuadernoRayado.jpeg"
     },
     {
         "categoria": "UTILES",
         "nombre": "GOMA EN BARRA ARTESCO",
-        "precio": "2"
+        "precio": "2",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\GomaEnBarraArtesco.jpeg"
     },
     {
         "categoria": "UTILES",
         "nombre": "SILICONA LIQUIDA FALESSA",
-        "precio": "2"
+        "precio": "2",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\SiliconaLiquidaFalessa.jpeg"
     },
     {
         "categoria": "UTILES",
         "nombre": "COLA SINTETICA ARTESCO",
-        "precio": "2.5"
+        "precio": "2.5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\ColaSinteticaArtesco.jpg"
     },
     {
         "categoria": "UTILES",
         "nombre": "PLASTILINA JUMBO 12 COLORES ARTESCO",
-        "precio": "5.5"
+        "precio": "5.5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\PlastilinaJumboArtesco.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "PLASTILINA JUMBO 12 COLORES VIKINGO",
-        "precio": "5.5"
+        "precio": "5.5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\PlastilinaJumbo.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "PLASTILINA DELGADA 10 COLORES OVE",
-        "precio": "3.5"
+        "precio": "3.5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\PlastilinaDelgadaOve.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "TIJERA MANDARINITA LAYCONSA",
-        "precio": "3"
+        "precio": "3",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\TijeraMandarinaLayconsa.jpg"
     },
     {
         "categoria": "UTILES",
         "nombre": "COLORES PASTEL ARTESCO 10UND",
-        "precio": "8.5"
+        "precio": "8.5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\ColoresPastelArtesco.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "PLUMONES JUNIOR STANDFORD 12UND",
-        "precio": "7"
+        "precio": "7",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\PlumonesJumboStandford.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "LÁPICES DE COLORES MEDIANOS OVAL 12UND",
-        "precio": "3.5"
+        "precio": "3.5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\LapicesColoresOval.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "LÁPICES DE COLORES GRANDES OVAL 12UND",
-        "precio": "7"
+        "precio": "7",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\LapicesColoresGrandesOval.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "LÁPIZ GRAFITO ARTESCO 1UND",
-        "precio": "0.6"
+        "precio": "0.6",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\LapizGrafitoArtesco.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "MINI RESALTADORES ARTESCO 1UND",
-        "precio": "2.5"
+        "precio": "2.5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\MiniResaltadoresArtesc.jpeg"
     },
     {
         "categoria": "UTILES",
         "nombre": "LAPIZ CORRECTOR TOYO",
-        "precio": "2"
+        "precio": "2",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\Corrector.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "CRAYONES JUMBO LAYCONSA 6UND",
-        "precio": "4.2"
+        "precio": "4.2",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\CrayonesJumboLayconsa.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "MENTOL SIKURA",
-        "precio": "4"
+        "precio": "4",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\Sikura.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "BARAJA DE NAIPES REY",
-        "precio": "2.5"
+        "precio": "2.5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\Naipes.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "PILAS AA DOBLE A PANASONIC",
-        "precio": "2"
+        "precio": "2",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\PilasAA.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "PILAS AAA TRIPLE A PANASONIC",
-        "precio": "3"
+        "precio": "3",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\PilasAAA.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "LAPICEROS ESCARCHADOS NAYRAS 12UND",
-        "precio": "7"
+        "precio": "7",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\LapicerosEscarchadosNayras12und.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "ESTUCHE DE REGLAS",
-        "precio": "5"
-    },
-    {
-        "categoria": "UTILES",
-        "nombre": "CINTA SCOTCH DURAFAN",
-        "precio": "1"
+        "precio": "5",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\EstucheReglas.png"
     },
     {
         "categoria": "UTILES",
         "nombre": "LAPICERO CLASICO OVAL",
-        "precio": "0.8"
+        "precio": "0.8",
+        "ruta_imagen": "C:\\Users\\bruno\\OneDrive\\Escritorio\\Multiservicios Brufas\\Multiservicios_Brufas\\IMAGENES\\Utiles\\LapiceroOval.png"
     }
 ]
