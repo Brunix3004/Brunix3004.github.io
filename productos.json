@@ -213,7 +213,7 @@
         "categoria": "GASEOSA",
         "nombre": "COCA COLA 2.5L",
         "precio": "8.5",
-        "ruta_imagen": "./Gaseosas/COCA COLA 2.5L.png"
+        "ruta_imagen": "./Gaseosas/CocaCola2.5L.png"
     },
     {
         "categoria": "GASEOSA",
@@ -237,19 +237,19 @@
         "categoria": "GASEOSA",
         "nombre": "INCA KOLA RETORNABLE 1.5L",
         "precio": "5.5",
-        "ruta_imagen": "./Gaseosas/Inca1.5L retornable.png"
+        "ruta_imagen": "./Gaseosas/Inca1.5Lretornable.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "COCA COLA RETORNABLE 1L",
         "precio": "3.8",
-        "ruta_imagen": "./Gaseosas/coca1L retornable.png"
+        "ruta_imagen": "./Gaseosas/coca1Lretornable.png"
     },
     {
         "categoria": "GASEOSA",
         "nombre": "INCA KOLA RETORNABLE 1L",
         "precio": "3.8",
-        "ruta_imagen": "./Gaseosas/inca1L retornable.png"
+        "ruta_imagen": "./Gaseosas/inca1Lretornable.png"
     },
     {
         "categoria": "GASEOSA",
@@ -688,7 +688,7 @@
         "categoria": "GALLETAS",
         "nombre": "PAPAS PRINGLES ORIGINAL 124G",
         "precio": "13",
-        "ruta_imagen": "./Confiteria/Galletas/Pringles Original.png"
+        "ruta_imagen": "./Confiteria/Galletas/PringlesOriginal.png"
     },
     {
         "categoria": "PIQUEOS Y SNACKS",
@@ -978,13 +978,13 @@
         "categoria": "RON",
         "nombre": "CAPITAN MORGAN 700ML",
         "precio": "37",
-        "ruta_imagen": "./Tragos/CAPTAIN MORGAN.png"        
+        "ruta_imagen": "./Tragos/CaptainMorgan.png"        
     },
     {
         "categoria": "RON",
         "nombre": "FLOR DE CAÑA 4 AÑOS 700ML",
         "precio": "46.5",
-        "ruta_imagen": "./Tragos/FLOR DE CAÑA 4 AÑOS.png"
+        "ruta_imagen": "./Tragos/FlorDeCaña4Años.png"
     },
     {
         "categoria": "RON",
@@ -1038,13 +1038,13 @@
         "categoria": "RON",
         "nombre": "RON SELECTO 5 AÑOS",
         "precio": "30",
-        "ruta_imagen": "./Tragos/RON SELECTO 5AÑOS.png"
+        "ruta_imagen": "./Tragos/RonSelecto5Años.png"
     },
     {
         "categoria": "RON",
         "nombre": "RON SELECTO 8 AÑOS",
         "precio": "38",
-        "ruta_imagen": "./Tragos/RON SELECTO 8AÑOS.png"
+        "ruta_imagen": "./Tragos/RonSelecto8Años.png"
     },
     {
         "categoria": "RON",
