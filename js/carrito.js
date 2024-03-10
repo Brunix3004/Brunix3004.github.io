@@ -2,12 +2,15 @@ const btnCart = document.querySelector('.container-cart-icon')
 const containerCartProducts = document.querySelector('.container-cart-products')
 const copyContainerCartProducts = containerCartProducts.cloneNode(true)
 
-window.addEventListener('DOMContentLoaded', () => {
-    showHTML() 
+window.addEventListener('load', () => {
+    showHTML();
+    recuperarLocalStorage();
+    showHTML();     
 })
 
 btnCart.addEventListener('click', ()=> {
     containerCartProducts.classList.toggle('hidden-cart')
+    console.log('Click en carrito');
 })
 
 /*Funcional*/ 
@@ -21,34 +24,54 @@ const valorTotal = document.querySelector('.total-pagar')
 
 const countProducts = document.querySelector('#contador-productos')
 
+function subirLocalStorage(){
+    localStorage.setItem("cartProducts",JSON.stringify(allProducts));
+    console.log("Array: " , localStorage.getItem("cartProducts"));
+}
+
+function recuperarLocalStorage(){
+    allProducts = JSON.parse(localStorage.getItem("cartProducts"));
+    console.log("Parseado: ", allProducts);     
+}
+
 function mapearProductos(){
     /* Lista de todos los contenedores de productos*/
     const productList = document.querySelector('.contenido')
     
     productList.addEventListener('click', e =>{
+        console.log('Click en productList');
+
         if (e.target.classList.contains('btn-add-cart')) {
             const product = e.target.parentElement
+            //Para verificar el nombre del elemento
+            const nombreElement = product.querySelector('.nombre');
+            const title = nombreElement ? nombreElement.textContent : '';
             const price = product.getAttribute("data-precio") ? product.getAttribute("data-precio") : product.querySelector('p').textContent
 
             const infoProduct = {
                 quantity: 1,
-                title: product.querySelector('h2').textContent,
+                //title: product.querySelector('h2').textContent,
+                title,
                 price
             };
-            
-            const exits = allProducts.some(product => product.title === infoProduct.title)
-            if (exits){
-                const products = allProducts.map(product => {
-                    if (product.title === infoProduct.title) {
+
+            //console.log(allProducts);
+            const existsIndex = allProducts.findIndex(product => product.title === infoProduct.title);
+
+            if (existsIndex !== -1) {
+                // El producto ya existe en el array
+                allProducts = allProducts.map((product, index) => {
+                    if (index === existsIndex) {
                         product.quantity++;
-                        return product;
-                    } 
-                })
-                allProducts = [...products]
+                    }
+                    return product;
+                });
+            } else {
+                // El producto no existe en el array, añadirlo
+                allProducts = [...allProducts, infoProduct];
             }
-            else{
-                allProducts= [...allProducts, infoProduct]
-            }
+
+            subirLocalStorage();
             showHTML();
         }  
     })
