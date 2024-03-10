@@ -28,11 +28,12 @@ function mapearProductos(){
     productList.addEventListener('click', e =>{
         if (e.target.classList.contains('btn-add-cart')) {
             const product = e.target.parentElement
-    
+            const price = product.getAttribute("data-precio") ? product.getAttribute("data-precio") : product.querySelector('p').textContent
+
             const infoProduct = {
                 quantity: 1,
                 title: product.querySelector('h2').textContent,
-                price: product.querySelector('p').textContent
+                price
             };
             
             const exits = allProducts.some(product => product.title === infoProduct.title)
@@ -42,16 +43,12 @@ function mapearProductos(){
                         product.quantity++;
                         return product;
                     } 
-                    else{
-                        return product
-                    }
                 })
                 allProducts = [...products]
             }
             else{
                 allProducts= [...allProducts, infoProduct]
             }
-    
             showHTML();
         }  
     })
