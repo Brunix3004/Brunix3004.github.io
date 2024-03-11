@@ -46,6 +46,7 @@ function mapearProductos(){
             //Para verificar el nombre del elemento
             const nombreElement = product.querySelector('.nombre');
             const title = nombreElement ? nombreElement.textContent : '';
+            console.log("Nombre: ", nombreElement);
             const price = product.getAttribute("data-precio") ?? product.querySelector('p').textContent
 
             const infoProduct = {
