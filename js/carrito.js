@@ -30,7 +30,7 @@ function subirLocalStorage(){
 }
 
 function recuperarLocalStorage(){
-    allProducts = JSON.parse(localStorage.getItem("cartProducts"));
+    allProducts = JSON.parse(localStorage.getItem("cartProducts")) ?? [];
     console.log("Parseado: ", allProducts);     
 }
 
@@ -46,16 +46,14 @@ function mapearProductos(){
             //Para verificar el nombre del elemento
             const nombreElement = product.querySelector('.nombre');
             const title = nombreElement ? nombreElement.textContent : '';
-            const price = product.getAttribute("data-precio") ? product.getAttribute("data-precio") : product.querySelector('p').textContent
+            const price = product.getAttribute("data-precio") ?? product.querySelector('p').textContent
 
             const infoProduct = {
                 quantity: 1,
-                //title: product.querySelector('h2').textContent,
                 title,
                 price
             };
 
-            //console.log(allProducts);
             const existsIndex = allProducts.findIndex(product => product.title === infoProduct.title);
 
             if (existsIndex !== -1) {
@@ -81,7 +79,6 @@ function mapearProductos(){
 rowProduct.addEventListener('click', (e) => {
 
     const product = e.target.parentElement;
-    console.log(product);
     const title = product.querySelector('p').textContent;
     const targetProduct = allProducts.find(product => product.title === title);
 
@@ -106,6 +103,7 @@ rowProduct.addEventListener('click', (e) => {
             product => product.title !== title
         );
     }
+    subirLocalStorage();
     showHTML();
 });
 
