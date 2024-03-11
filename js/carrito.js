@@ -89,6 +89,7 @@ rowProduct.addEventListener('click', (e) => {
         else if (targetProduct.quantity === 1) {
             const index = allProducts.findIndex(product => product.title === title);
             allProducts.splice(index, 1);
+            localStorage.removeItem(title);
         }
     } 
     else if (e.target.classList.contains('btn-increase-quantity')) {
@@ -96,12 +97,11 @@ rowProduct.addEventListener('click', (e) => {
     }
 
     else if (e.target.classList.contains('icon-close')) {
-        const product = e.target.parentElement;
-        const title = product.querySelector('p').textContent;
-
-        allProducts = allProducts.filter(
-            product => product.title !== title
-        );
+        // Eliminar del array
+        const index = allProducts.findIndex(product => product.title === title);
+        allProducts.splice(index, 1);
+        // Eliminar del localStorage
+        localStorage.removeItem(title);
     }
     subirLocalStorage();
     showHTML();
