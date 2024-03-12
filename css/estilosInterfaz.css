@@ -9,13 +9,13 @@ body{
 a {
     text-decoration: none;
 } 
-#titulo{
+#titulo{ /*CAMBIADO*/
     font-size: 50px;
 } 
 span.linea_inicio{
     display: block; 
 }
-h2{
+h2{ /*Cambiado*/
     font-size: 35px;
     margin-left: 25px;
 }
@@ -24,15 +24,13 @@ ul{
     padding: 0;
     margin: 0;
 }
-li{
+li{ /*Cambiado*/
     display: inline-block;
-    margin-right: 90px;
-    margin-left: 30px;
+    margin: 5px 90px 20px 30px;
     vertical-align: top;
-    margin-bottom: 20px;
     text-align: center;    
 }
-.lista-contenedor{
+.lista-contenedor{ /*Cambiado*/
     width: 100%;
     display: flex;    
     justify-content: space-around;
@@ -40,13 +38,12 @@ li{
     overflow: auto;
 }
 /*Icono de menu*/
-img.icono {
+img.icono { /*Cambiado*/
+    display: block;
     width: 50px;
     border: 1px solid black;
     border-radius: 50px;
     background-color: beige;
-    display: block;
-    margin-bottom: 5px;
     margin: 0 auto;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -54,7 +51,7 @@ img.icono {
 /*Imagenes*/
 .imagen {
     width: 30%;
-    height: 300px;
+    height: 30%;
     margin-bottom: 40px;
     border-radius: 10px;
     margin-right: 35px;
@@ -158,7 +155,7 @@ img.icono {
     position: relative;
     overflow: hidden;
     padding: 10px;
-    width: 200px;
+    width: 20%;
     height: 350px;
     border: 1px solid black;
     border-radius: 15px;    
