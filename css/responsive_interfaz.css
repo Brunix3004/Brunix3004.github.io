@@ -1,17 +1,23 @@
 /*Pantallas pequeñas  */
-@media ( width <= 600px) {
+@media (width <= 600px) { 
     #titulo {
         font-size: 30px;
     }
     h2 {
-        font-size:  20px;
+        font-size:  18px;
+        margin-top: 10px;
         margin-left: 18px;
     }
     li {
         margin: 3px 30px 10px 10px;
     }
     .lista-contenedor{
-        margin-top: 5px;
+        width: 100%;
+        margin-top: 15px;
+        margin-right: 5px;
+        align-items: center;
+        text-align: center;
+        overflow: auto;
     }
     img.icono{        
         width: 30px;                
@@ -20,9 +26,80 @@
         margin-bottom: 2px;
     }
     .imagen{
-        width: 10%;
-        height: 10%;
+        width: 25%;
+        height: 25%;
         margin: 0 20px 20px 0;
+    }
+    .slide{
+        margin-right: 2.5px;
+    }
+    .slide img {
+        width: 95%;
+        height: auto;
+        object-fit: cover;
+    }
+    .paginationC {
+        margin-top: 0;
+    }
+    .dotC {
+        height: 8px;
+        width: 8px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    .slide-promotions img {
+        width: 110%;
+        height: auto;
+    }
+    .pagination {
+        margin-top: 5px;
+    }
+    .dot {
+        height: 8px;
+        width: 8px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    .promocionales
+    {
+        font-size: 15px;
+        margin: 15px 15px;
+        font-weight: bold;
+    }
+    .caja_productos{
+        width: 40%;
+        height: 220px;
+        margin-bottom: 15px;
+    }
+    .caja_productos:hover{
+        transform: none;
+    }
+    .contenedor_imagen img{
+        width: auto;
+        object-fit: cover;
+    }
+    .nombre{
+        margin: 2px 0;
+        font-weight: normal;
+        font-size: 10px;
+    }
+    .precio{
+        font-weight: 200px;
+        font-size: 10px;
+    }
+    .see_button{
+        margin-top: 5px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .lista_productos{
+        margin: 5px 0 5px;
+        margin-bottom: 5px;
+    }
+    .lista_productos li a{
+        font-size: 10px;
+        margin: 0 auto;
+        padding: 2px 5px !important;        
     }
 }
 
@@ -48,8 +125,8 @@
         margin-bottom: 3.5px;
     }
     .imagen{
-        width: 20%;
-        height: 20%;
+        width: 25%;
+        height: 25%;
         margin: 0 30px 30px 0;
     }
 }

@@ -49,7 +49,7 @@ img.icono { /*Cambiado*/
     margin-bottom: 5px;
 }
 /*Imagenes*/
-.imagen {
+.imagen { /*Cambiado*/
     width: 30%;
     height: 30%;
     margin-bottom: 40px;
@@ -68,24 +68,24 @@ img.icono { /*Cambiado*/
     transition: transform 2s ease-in-out;
 }
 
-.slide {
+.slide { /*Cambiado*/
     margin-right: 5px;
     flex: 0 0 33.33%;
 }
 
-.slide img {
+.slide img { /*Cambiado*/
     width: 95%;
     height: auto;
     object-fit: cover;
 }
 
-.paginationC{
+.paginationC{/*Cambiado*/
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
 
-.dotC{
+.dotC{ /*Cambiado*/
     height: 10px;
     width: 10px;
     margin: 0 5px;
@@ -111,17 +111,17 @@ img.icono { /*Cambiado*/
 .slide-promotions{
     flex: 0 0 100%;
 }
-.slide-promotions img{
+.slide-promotions img{ /*Cambiado*/
     width: 100%;
-    object-fit: cover;
+    object-fit: cove
 }
-.pagination{
+.pagination{ /*Cambiado*/
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
 
-.dot{
+.dot{/*Cambiado*/
     height: 10px;
     width: 10px;
     margin: 0 5px;
@@ -136,7 +136,7 @@ img.icono { /*Cambiado*/
     background-color: #717171;
 }
 
-.promocionales {
+.promocionales { /*Cambiado*/
     font-size: 30px;
     margin: 15px 15px;
     text-align: center !important;
@@ -149,7 +149,7 @@ img.icono { /*Cambiado*/
     justify-content: space-around;
 }
 
-.caja_productos{
+.caja_productos{ /*Cambiado*/
     display: flex;
     flex-direction: column;
     position: relative;
@@ -166,7 +166,7 @@ img.icono { /*Cambiado*/
     transition: all 0.3s ease;
 }
 
-.caja_productos:hover {
+.caja_productos:hover { /*Cambiado*/
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -174,7 +174,7 @@ img.icono { /*Cambiado*/
 .contenedor_imagen {
     transition: all ease-in-out .3s;
 }
-.contenedor_imagen img{
+.contenedor_imagen img{ /*Cambiado*/
     width: auto;
     height: 60%; 
     object-fit: cover;
@@ -184,7 +184,7 @@ img.icono { /*Cambiado*/
     transform: scale(1.05);
     overflow: hidden;
 }
-.nombre{
+.nombre{ /*Cambiado*/
     margin: 0;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -192,13 +192,13 @@ img.icono { /*Cambiado*/
     font-size: 15px;
     text-align: center;
 }
-.precio{
+.precio{ /*Cambiado*/
     font-weight: bold;
     font-size: 20px;
     text-align: center;
 }
 
-.see_button{ 
+.see_button{ /*Cambiado*/
     margin-top: 10px;
     color:white;
     font-weight: bold;

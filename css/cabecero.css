@@ -8,7 +8,7 @@
     color: black;
 }
 
-.ubicacion {
+.ubicacion { /*Cambiado*/ 
     margin: 0;
     padding: 3px 0 !important;
     text-align: center;
@@ -24,7 +24,7 @@
     letter-spacing: 3px;
 }
 
-header {
+header { /*Cambiado*/
     /*max-height: 120px; POR SI ACASO*/
     position: sticky;
     top: 0;
@@ -34,23 +34,23 @@ header {
     background: #efefef;
 }
 
-.cabecero {
+.cabecero { /*Cambiado*/
     display: flex;
     align-items: center;
     padding: 0 10px;
     justify-content: space-between;
 }
 
-.logo {
+.logo {/*Cambiado*/
     max-width: 120px;
 }
 
-.seccion_busqueda {
+.seccion_busqueda { /*Cambiado*/
     width: 30%;
     height: 100%;
 }
 
-.barra_busqueda {
+.barra_busqueda { 
     width: 100%;
     display: flex;
     justify-content: center;
@@ -58,7 +58,7 @@ header {
     position: relative;
 }
 
-.search {
+.search { /*Cambiado*/
     width: 100%;
     display: flex;
     line-height: 28px;
@@ -76,7 +76,6 @@ header {
     border: 2px solid transparent;
     border-radius: 8px;
     outline: none;
-    /* background-color: #f3f3f4; */
     color: #0d0c22;
     transition: 0.3s ease;
 }
@@ -113,7 +112,7 @@ header {
     overflow-x: hidden;
   }
 
-.resultBox > li {
+.resultBox > li { /*Cambiado*/
     margin: 0;
     list-style: none;
     padding: 8px 12px;
@@ -134,7 +133,7 @@ header {
     width: 1rem;
     height: 1rem;
 }
-
+/* POR EL MOMENTO NO SE USA
 .botones {
     align-items: center;
     width: 20%;
@@ -151,30 +150,10 @@ header {
     border-radius: 6px;
     padding: 5px;
     text-decoration: none;
-}
-
-.carrito {
-    background: transparent;
-    display: flex;
-    justify-content: center;
-    /* Centrar horizontalmente */
-    align-items: center;
-    /* Centrar verticalmente */
-    width: 40px;
-    height: 40px;
-    border: 1px solid black;
-    border-radius: 50%;
-    text-decoration: none;
-}
-
-.carrito:hover,
-.icono-login:hover {
-    transform: scale(1.05);
-    background: transparent;
-}
+} */
 
 /*ESTILOS NUEVOS PARA EL CARRITO*/
-.icon-cart {
+.icon-cart { /*Cambiado*/
     width: 30px;
     height: 30px;
     stroke: black;
@@ -184,7 +163,7 @@ header {
     cursor: pointer;
 }
 
-.icon-close {
+.icon-close { /*Cambiado*/
     width: 25px;
     height: 25px;
 }
@@ -198,7 +177,7 @@ header {
     position: relative;
 }
 
-.count-products {
+.count-products { /*Cambiado*/
     position: absolute;
     top: 65%;
     right: 1;
@@ -217,10 +196,10 @@ header {
     color: white;
 }
 
-#contador-productos {
+#contador-productos { /*Cambiado*/
     font-size: 10px;
 }
-.container-cart-products{    
+.container-cart-products{ /*Cambiado*/    
     position: absolute;
     top: 50px;
     right: 0;
@@ -233,7 +212,7 @@ header {
     overflow: auto;
 }
 
-.cart-product {
+.cart-product {/*Cambiado*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -248,22 +227,22 @@ header {
     flex: 0.8;
 }
 
-.cantidad-producto-carrito {
+.cantidad-producto-carrito { /*Cambiado*/
     font-weight: 400;
     font-size: 15px;
 }
 
-.titulo-producto-carrito {
+.titulo-producto-carrito {/*Cambiado*/
     font-size: 15px;
 }
 
-.precio-producto-carrito {
+.precio-producto-carrito {/*Cambiado*/
     font-weight: 700;
     font-size: 15px;
     margin-left: 10px;
 }
 
-.cart-total {
+.cart-total { /*Cambiado*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,12 +250,12 @@ header {
     gap: 20px;
 }
 
-.cart-total h3 {
+.cart-total h3 { /*Cambiado*/
     font-size: 15px;
     font-weight: 700;
 }
 
-.total-pagar {
+.total-pagar {/*Cambiado*/
     font-size: 15px;
     font-weight: 900;
 }

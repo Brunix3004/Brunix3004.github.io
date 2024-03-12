@@ -1,0 +1,151 @@
+/*pequeños*/
+@media (width <= 600px) {
+    .ubicacion{
+        font-size: 12px;
+    }
+    .brufas{
+        font-size: 10px;
+    }
+    header{
+        margin-bottom: 15px;
+    }
+    .cabecero{
+        padding: 0 5px;
+    }
+    .logo{
+        max-width: 80px;
+    }
+    .seccion_busqueda{
+        width: 60%;
+        height: 80%;
+    }
+    .search{
+        line-height: 20px;
+    }
+    .resultBox > li {
+        font-size: 10px;
+    }
+    .icon-cart {
+        width: 20px;
+        height: 20px;
+    }
+    .icon-close {
+        width: 15px;
+        height: 15px;
+    }
+    .count-products{
+        width: 10px;
+        height: 10px;
+    }
+    #contador-productos{
+        font-size: 7px;
+    }
+    .container-cart-products{
+        width: 210px;
+        max-height: 200px;
+    }
+    .cart-product{
+        padding: 10px;
+    }
+    .cantidad-producto-carrito{
+        font-size: 12px;
+    }
+    .titulo-producto-carrito{
+        font-size: 12px;
+    }
+    .precio-producto-carrito{
+        font-size: 12px;
+    }
+    .cart-total{
+        padding: 10px 0;
+    }
+    .cart-total h3{
+        font-size: 13px;
+    }
+    .total-pagar{
+        font-size: 13px;
+    }
+    .cart-empty{
+        padding: 10px;
+    }
+    .btn-decrease-quantity, .btn-increase-quantity {
+        width: 10px;
+    }
+}
+
+
+/*Medianos*/
+@media (601px < width < 1024px){
+    .ubicacion{
+        font-size: 15px;
+    }
+    .brufas{
+        font-size: 15px;
+    }
+    header{
+        margin-bottom: 20px;
+    }
+    .cabecero{
+        padding: 0 10px;
+    }
+    .logo{
+        max-width: 120px;
+    }
+    .seccion_busqueda{
+        width: 70%;
+        height: 80%;
+    }
+    .search{
+        line-height: 23px;
+    }
+    .resultBox > li {
+        font-size: 13px;
+    }
+    .icon-cart {
+        width: 25px;
+        height: 25px;
+    }
+    .icon-close {
+        width: 20px;
+        height: 20px;
+    }
+    .count-products{
+        width: 15px;
+        height: 15px;
+    }
+    #contador-productos{
+        font-size: 9px;
+    }
+    .container-cart-products{
+        width: 300px;
+        max-height: 300px;
+    }
+    .cart-product{
+        padding: 15px;
+    }
+    .cantidad-producto-carrito{
+        font-size: 14px;
+    }
+    .titulo-producto-carrito{
+        font-size: 14px;
+    }
+    .precio-producto-carrito{
+        font-size: 14px;
+    }
+    .cart-total{
+        padding: 14px 0;
+    }
+    .cart-total h3{
+        font-size: 14px;
+    }
+    .total-pagar{
+        font-size: 14px;
+    }
+    .cart-empty{
+        padding: 13px;
+    }
+    .btn-decrease-quantity, .btn-increase-quantity {
+        width: 13px;
+    }
+}
+

@@ -40,30 +40,3 @@
     background: transparent;
     transform: scale(1.2);
 }
-
-/*Para medianos*/
-@media(width <= 768px){
-    .pie {
-        flex-direction: column;
-        height: auto;
-    }
-    .logo_pie {
-        width: 80%;
-    }
-}
-
-/*Para pequeños */
-@media (width <= 480px) {
-    .pie {
-        padding: 10px;
-    }
-
-    .menu_pie {
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .rrss, .fb {
-        margin: 5px;
-    }
-}
