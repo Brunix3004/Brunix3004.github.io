@@ -1,0 +1,106 @@
+
+@media (width <=600px) {
+    .almacenadorDD {
+        position: relative;
+        width: 230px;
+        filter: url(#goo);
+        z-index: 1;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .almacenadorDD .active {
+        display: none;
+    }
+    .dropdown__face,
+    .dropdown__items {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 25px;
+    }
+    
+    .dropdown__face {
+        display: block;
+        position: relative;
+    }
+    
+    .dropdown__items {
+        margin: 0;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 100%;
+        list-style: none;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        visibility: hidden;
+        z-index: -1;
+        opacity: 0;
+        transition: all 0.4s cubic-bezier(0.93, 0.88, 0.1, 0.8);
+    }
+    
+    .dropdown__items::before {
+        content: "";
+        background-color: #fff;
+        position: absolute;
+        bottom: 100%;
+        right: 20%;
+        height: 40px;
+        width: 20px;
+    }
+    
+    .dropdown__arrow {
+        border-bottom: 2px solid #000;
+        border-right: 2px solid #000;
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        width: 10px;
+        height: 10px;
+        transform: rotate(45deg) translateY(-50%);
+        transform-origin: right;
+    }
+    
+    .almacenadorDD input:checked~.dropdown__items {
+        top: calc(100% + 25px);
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .categoria {
+        text-align: center;
+        margin-left: 0 !important;
+    }
+
+    #almacenador {
+        flex-direction: column;
+    }
+
+    #almacenador .menu {
+        width: auto !important;
+    }
+    #almacenador .menu li {
+        box-shadow: none;
+        padding: 0;
+        margin-bottom: 1.5rem;
+    }
+    #almacenador .menu a {
+        padding-left: .4rem;
+    } 
+    .menu li:hover {
+        background-color: #ede3e3;
+    }
+    #almacenador>.contenido {
+        width: 100%;
+    }
+
+    .contenido>.contenedor {
+        width: 80%;
+    }
+
+    .contenido>.caja {
+        margin-left: 0;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}

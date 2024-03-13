@@ -3,3 +3,7 @@
     --primary-color: #efefef;
     --bg-color: #fff7da;
 }
+
+.dropdown__face, .dropdown__items, .almacenadorDD>input {
+    display: none;
+}
