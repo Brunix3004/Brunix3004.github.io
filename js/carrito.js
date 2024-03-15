@@ -33,7 +33,7 @@ function recuperarLocalStorage(){
     allProducts = JSON.parse(localStorage.getItem("cartProducts")) ?? [];
     console.log("Parseado: ", allProducts);     
 }
-
+ 
 function mapearProductos(){
     /* Lista de todos los contenedores de productos*/
     const productList = document.querySelector('.contenido')
@@ -83,7 +83,13 @@ rowProduct.addEventListener('click', (e) => {
     const title = product.querySelector('p').textContent;
     const targetProduct = allProducts.find(product => product.title === title);
 
-    if (e.target.classList.contains('btn-decrease-quantity')) {
+    if (e.target.classList.contains('btn-delete-all'))
+    {
+        allProducts = [];
+        localStorage.clear();
+    }
+
+    else if (e.target.classList.contains('btn-decrease-quantity')) {
         if (targetProduct.quantity > 1) {
             targetProduct.quantity--;
         }
@@ -131,10 +137,17 @@ const showHTML = () => {
     let total = 0; /*Para pagar*/
     let totalOfProducts = 0; /*Total elementos */
 
+    /*Boton para borrar todo */
+    const btnDeleteAll = document.createElement('button');
+    btnDeleteAll.textContent = 'Borrar todo';
+    btnDeleteAll.classList.add('btn-delete-all');
+    rowProduct.appendChild(btnDeleteAll);
+
     allProducts.forEach(product => {
         const containerProduct = document.createElement('div')
         containerProduct.classList.add('cart-product')
         containerProduct.innerHTML = `
+            
             <div class="info-cart-product">
                 <button class="btn-decrease-quantity">-</button>
                 <span class="cantidad-producto-carrito"> ${product.quantity} </span>
@@ -154,4 +167,26 @@ const showHTML = () => {
     const solSymbol = 'S/ ';
     valorTotal.innerText = `${solSymbol}${total}`;
     countProducts.innerText = totalOfProducts; 
+
+    /*Boton para terminar la compra */
+    const btnEndShopping = document.createElement('button');
+    btnEndShopping.textContent='Continuar con mi pedido';
+    btnEndShopping.classList.add('btn-end-shop');
+    containerCartProducts.appendChild(btnEndShopping);
+    
+    btnEndShopping.addEventListener('click', function() {
+        window.location.href = 'templates/showCart.html'; 
+    });
+}
+
+
+function mostrarProductos() {
+    const productosDiv = document.getElementById("Productos");
+    productosDiv.innerHTML = ""; // Limpiar el contenido previo
+
+    allProducts.forEach(producto => {
+        const div = document.createElement("div");
+        div.textContent = `${producto.quantity} ${producto.title} ${producto.price}`;
+        productosDiv.appendChild(div);
+    });
 }
