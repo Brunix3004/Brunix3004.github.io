@@ -5,7 +5,7 @@
         width: 230px;
         filter: url(#goo);
         z-index: 1;
-        margin: auto;
+        margin: auto; 
         margin-bottom: 2rem;
     }
     .almacenadorDD .active {

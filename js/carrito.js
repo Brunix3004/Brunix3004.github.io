@@ -9,8 +9,7 @@ window.addEventListener('load', () => {
 })
 
 btnCart.addEventListener('click', ()=> {
-    containerCartProducts.classList.toggle('hidden-cart')
-    console.log('Click en carrito');
+    containerCartProducts.classList.toggle('hidden-cart');
 })
 
 /*Funcional*/ 
@@ -83,13 +82,7 @@ rowProduct.addEventListener('click', (e) => {
     const title = product.querySelector('p').textContent;
     const targetProduct = allProducts.find(product => product.title === title);
 
-    if (e.target.classList.contains('btn-delete-all'))
-    {
-        allProducts = [];
-        localStorage.clear();
-    }
-
-    else if (e.target.classList.contains('btn-decrease-quantity')) {
+    if (e.target.classList.contains('btn-decrease-quantity')) {
         if (targetProduct.quantity > 1) {
             targetProduct.quantity--;
         }
@@ -125,10 +118,11 @@ const showHTML = () => {
         containerCartProducts.firstElementChild.style.display = "none" // Ocultar cosas del carro
         containerCartProducts.lastElementChild.style.display = "block" // Mostrar mensaje de carro vacio 
         countProducts.innerText = 0;
-        return
+        
+        return;
     } else {
         containerCartProducts.firstElementChild.style.display = "block" // Mostrar productos
-        containerCartProducts.lastElementChild.style.display = "none"   // Ocultar mensaje de carro vacio 
+        containerCartProducts.lastElementChild.style.display = "none"   // Ocultar mensaje de carro vacio   
     }
     
     /*Limpiar HTML */
@@ -136,6 +130,7 @@ const showHTML = () => {
 
     let total = 0; /*Para pagar*/
     let totalOfProducts = 0; /*Total elementos */
+
 
     /*Boton para borrar todo */
     const btnDeleteAll = document.createElement('button');
@@ -174,7 +169,17 @@ const showHTML = () => {
     btnEndShopping.classList.add('btn-end-shop');
     containerCartProducts.appendChild(btnEndShopping);
     
-    btnEndShopping.addEventListener('click', function() {
+    btnDeleteAll.addEventListener('click', () => {
+        // Ocultar el botón 
+        if (containerCartProducts.contains(btnEndShopping)) {
+            containerCartProducts.removeChild(btnEndShopping);
+        }        
+        localStorage.clear();        
+        allProducts = [];
+        showHTML();
+    });
+
+    btnEndShopping.addEventListener('click', () => {
         window.location.href = 'templates/showCart.html'; 
     });
 }

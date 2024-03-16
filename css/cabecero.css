@@ -181,7 +181,7 @@ header { /*Cambiado*/
     position: absolute;
     top: 65%;
     right: 1;
-
+    cursor: pointer;
     background-color: black;
     color: white;
     width: 15px;
