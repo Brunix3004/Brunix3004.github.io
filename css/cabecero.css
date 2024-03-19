@@ -242,7 +242,7 @@ header { /*Cambiado*/
     margin-left: 10px;
 }
 
-.cart-total { /*Cambiado*/
+.cart-total { /*Cambiado*/ 
     display: flex;
     justify-content: center;
     align-items: center;

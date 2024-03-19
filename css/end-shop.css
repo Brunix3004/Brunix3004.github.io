@@ -1,0 +1,49 @@
+#elements{
+    margin-bottom: 50px;
+}
+
+.contenedor-productos{
+    border: 1px solid black;
+    height: 50%;
+    margin-bottom: 50px;
+}
+
+.final{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.total-carrito{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.icono-wsp{
+    width: 25px;
+    margin: 0;
+}
+.wsp-tooltip {
+    position: absolute;
+    display: none;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    border-radius: 5px;
+    left: calc(100% + 10px);
+    top: 50%; 
+    transform: translateY(-50%);
+    white-space: nowrap;
+}
+
+.wsp-link {
+    position: relative;
+}
+
+.wsp-link:hover .wsp-tooltip {
+    display: block;
+}
