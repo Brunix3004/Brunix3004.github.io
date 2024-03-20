@@ -29,22 +29,33 @@
         const solSymbol = 'S/ ';
         totalValor.innerText = `${solSymbol}${total}`;
     }
-    
-    //PARA ENVIAR MENSAJE A WSP
-    
-    
-    // const whatsappLink = document.getElementById('whatsapp-link');
-    
-    // function enviarMensajeWhatsapp() {
-    //     const numeroTelefono = '51965000115';
-    //     const mensaje = 'Hola, quiero hacer un pedido';
-    //     const url = `https://wa.me/${numeroTelefono}?text=${encodeURIComponent(mensaje)}`;
-    //     window.open(url, '_blank');
-    // }
-    
-    // whatsappLink.addEventListener('click', function(event) {
-    //     event.preventDefault();
-    //     enviarMensajeWhatsapp();
-    // });
     showProductos()
+
+    const phoneNumber = '+51912477927';
+
+    function construirMensaje() {
+        let mensaje = "Hola, quisiera hacer este pedido:\n";
+
+        allProducts.forEach((producto, index) => {
+            mensaje += `${index + 1}. ${producto.quantity} x ${producto.title}\n`;
+        });
+
+        return encodeURIComponent(mensaje);
+    }
+
+    const btnWhatsApp = document.querySelector('.wsp-link');
+    btnWhatsApp.addEventListener('click', function(event) {
+        event.preventDefault();
+        enviarPedidoPorWhatsApp();
+    });
+
+    function enviarPedidoPorWhatsApp() {
+        const mensaje = construirMensaje();
+        const url = `https://wa.me/${phoneNumber}?text=${mensaje}`;
+
+        setTimeout(function() {
+            window.open(url, '_blank');
+        }, 1000);
+    }
+
 })()
