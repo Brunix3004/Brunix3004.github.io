@@ -61,8 +61,15 @@ function procesarHash(contenedor) {
     const element = document.querySelector(`[href="${hash}"]`)
     const ruta = element.getAttribute("ruta")
 
-    if (ruta)
-        obtenerPagina(ruta, contenedor, mapearProductos)
+    if (ruta) {
+        if(ruta != "Terminar-Pedido")
+            obtenerPagina(ruta, contenedor, mapearProductos)
+        const callbackTerminar = () => {
+            cargarJs("./js/end-shopping.js")
+
+        }
+        obtenerPagina(ruta, contenedor, callbackTerminar)
+    }
 }
 
 function obtenerPagina(pagina, contenedor, callback) {
@@ -76,7 +83,7 @@ function obtenerPagina(pagina, contenedor, callback) {
             agregarAlContenedor(contenedor, textToHTML(data))
             callback()
         })
-        .catch(error => console.log(error))
+        //.catch(error => console.log(error))
 }
 
 function textToHTML(stringHTML) {
@@ -159,4 +166,5 @@ function cargarJs(url) {
     const script = document.createElement("script")
     script.src = url
     document.body.appendChild(script)
+    return script
 }

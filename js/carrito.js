@@ -42,6 +42,7 @@ function recuperarLocalStorage(){
 function mapearProductos(){
     /* Lista de todos los contenedores de productos*/
     const productList = document.querySelector('.contenido')
+    if(!productList) return
     
     productList.addEventListener('click', e =>{
 
