@@ -10,8 +10,16 @@
     <h2 class="categoria"> Latas </h2>
     
     <div id="almacenador"> 
+        <div class="almacenadorDD">
+            <input type="checkbox" id="dropdown">
+
+            <label class="dropdown__face" for="dropdown">
+                <div class="dropdown__text">Bebidas Alcohólicas</div>
             
-            <ul class="menu">
+                <div class="dropdown__arrow"></div>
+            </label>
+            
+            <ul class="menu dropdown__items">
                 <li class="active">
                     Bebidas Alcohólicas
                 </li>
@@ -42,6 +50,7 @@
                     <a href="#OtrosLicores" ruta="./Bebidas-Alcoholicas/LicoresVariados.html">Otros Licores</a>
                 </li>
             </ul>
+        </div>
 
         <div class="contenido">          
             <div class="caja contenedor">
@@ -139,7 +148,7 @@
                 <h2 class="nombre">Cuzqueña Trigo Six Pack Lata 355ml</h2>
                 <p class="precio">S/ 25.00</p>
                 <button class="btn-add-cart add_button">Agregar</button>
-            </div> 
+            </div>
             <div class="caja contenedor">
                 <img src="./IMAGENES/Cerveza/SanJuanSix.webp"/>
                 <h2 class="nombre">San Juan Six Pack Lata 355ml</h2>
@@ -169,8 +178,5 @@
             <i class="material-icons">chevron_right</i>
         </a>
     </div>
-
-    <script src= "../componentes.js"></script> 
-    <script src="./js/carrito.js"></script> 
 </body>    
 </html>
