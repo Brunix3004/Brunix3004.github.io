@@ -39,6 +39,8 @@
         allProducts.forEach((producto, index) => {
             mensaje += `${index + 1}. ${producto.quantity} x ${producto.title}\n`;
         });
+        
+        mensaje += `${solSymbol}${total}`;
 
         return encodeURIComponent(mensaje);
     }
