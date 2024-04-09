@@ -1,108 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-    <meta charset="UTF-8">  
+
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/estilos.css"/>
-    <link rel="stylesheet" href="./css/cabecero.css"/>
-    <link rel="stylesheet" href="./css/piecero.css"/>
+    <link rel="stylesheet" href="./css/estilos.css" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 </head>
+
 <body>
     <h2 class="categoria"> Cajas </h2>
-    
-    <div id="almacenador"> 
-        <ul class="menu">
-            <li class="active">
-                Bebidas Alcohólicas
-            </li>
-            <li  >
-                <a href="#" ruta="">
-                    <i class="material-icons">home</i>Inicio
-                </a>
-            </li>
-            <li>
-                <a href="#cervezas" ruta="Bebidas-Alcoholicas/cervezas.html">Cervezas</a>
-            </li>
-            <li>
-                <a href="#Ron" ruta="/Bebidas-Alcoholicas/tragos.html">Ron</a>
-            </li>
-            <li>
-                <a href="#Whiskys" ruta="/Bebidas-Alcoholicas/whisky.html">Whisky</a>
-            </li>
-            <li>
-                <a href="#Pisco" ruta="/Bebidas-Alcoholicas/pisco.html">Pisco</a>
-            </li>
-            <li>
-                <a href="#Vodka" ruta="/Bebidas-Alcoholicas/vodka.html">Vodka</a>
-            </li>
-            <li>
-                <a href="#Vinos" ruta="/Bebidas-Alcoholicas/vinos.html">Vinos</a>
-            </li>
-            <li>
-                <a href="#OtrosLicores" ruta="./Bebidas-Alcoholicas/LicoresVariados.html">Otros Licores</a>
-            </li>
-        </ul>
+
+    <div id="almacenador">
+        <div class="almacenadorDD">
+            <input type="checkbox" id="dropdown">
+
+            <label class="dropdown__face" for="dropdown">
+                <div class="dropdown__text">Bebidas Alcohólicas</div>
+
+                <div class="dropdown__arrow"></div>
+            </label>
+
+            <ul class="menu dropdown__items">
+                <li class="active">
+                    Bebidas Alcohólicas
+                </li>
+                <li>
+                    <a href="#" ruta="">
+                        <i class="material-icons">home</i>Inicio
+                    </a>
+                </li>
+                <li>
+                    <a href="#cervezas" ruta="Bebidas-Alcoholicas/cervezas.html">Cervezas</a>
+                </li>
+                <li>
+                    <a href="#Ron" ruta="/Bebidas-Alcoholicas/tragos.html">Ron</a>
+                </li>
+                <li>
+                    <a href="#Whiskys" ruta="/Bebidas-Alcoholicas/whisky.html">Whisky</a>
+                </li>
+                <li>
+                    <a href="#Pisco" ruta="/Bebidas-Alcoholicas/pisco.html">Pisco</a>
+                </li>
+                <li>
+                    <a href="#Vodka" ruta="/Bebidas-Alcoholicas/vodka.html">Vodka</a>
+                </li>
+                <li>
+                    <a href="#Vinos" ruta="/Bebidas-Alcoholicas/vinos.html">Vinos</a>
+                </li>
+                <li>
+                    <a href="#OtrosLicores" ruta="./Bebidas-Alcoholicas/LicoresVariados.html">Otros Licores</a>
+                </li>
+            </ul>
+        </div>
 
         <div class="contenido">
             <div class="caja contenedor">
-                <img src= "./IMAGENES/Cerveza/Cajas/CajaCristales.webp"/>
+                <img src="./IMAGENES/Cerveza/Cajas/CajaCristales.webp" />
                 <h2 class="nombre">Cerveza Cristal Caja 12und Sin helar</h2>
                 <p class="precio">S/ 63.00</p>
                 <button class="btn-add-cart add_button">Agregar</button>
             </div>
             <div class="caja contenedor">
-                <img src= "./IMAGENES/Cerveza/Cajas/CajaCristales.webp"/>
+                <img src="./IMAGENES/Cerveza/Cajas/CajaCristales.webp" />
                 <h2 class="nombre">Cerveza Cristal Caja 12und Helada</h2>
                 <p class="precio">S/ 65.00</p>
                 <button class="btn-add-cart add_button">Agregar</button>
             </div>
             <div class="caja contenedor">
-                <img src= "./IMAGENES/Cerveza/Cajas/CajaPilsen.webp"/>
+                <img src="./IMAGENES/Cerveza/Cajas/CajaPilsen.webp" />
                 <h2 class="nombre">Cerveza Pilsen Caja 12und Sin Helar</h2>
                 <p class="precio">S/ 69.00</p>
                 <button class="btn-add-cart add_button">Agregar</button>
             </div>
             <div class="caja contenedor">
-                <img src= "./IMAGENES/Cerveza/Cajas/CajaCuzTrigo.webp"/>
+                <img src="./IMAGENES/Cerveza/Cajas/CajaCuzTrigo.webp" />
                 <h2 class="nombre">Cerveza Cuzqueña Trigo Caja 12und Sin Helar</h2>
                 <p class="precio">S/ 72.00</p>
                 <button class="btn-add-cart add_button">Agregar</button>
             </div>
             <div class="caja contenedor">
-                <img src= "./IMAGENES/Cerveza/Cajas/CajaCuzTrigo.webp"/>
+                <img src="./IMAGENES/Cerveza/Cajas/CajaCuzTrigo.webp" />
                 <h2 class="nombre">Cerveza Cuzqueña Trigo Caja 12und Helada</h2>
                 <p class="precio">S/ 74.00</p>
                 <button class="btn-add-cart add_button">Agregar</button>
             </div>
             <div class="caja contenedor">
-                <img src= "./IMAGENES/Cerveza/Cajas/CajaCuzMalta.webp"/>
+                <img src="./IMAGENES/Cerveza/Cajas/CajaCuzMalta.webp" />
                 <h2 class="nombre">Cerveza Cuzqueña Malta Caja 12und Sin Helar</h2>
                 <p class="precio">S/ 72.00</p>
                 <button class="btn-add-cart add_button">Agregar</button>
             </div>
             <div class="caja contenedor">
-                <img src= "./IMAGENES/Cerveza/Cajas/CajaGolden.webp"/>
+                <img src="./IMAGENES/Cerveza/Cajas/CajaGolden.webp" />
                 <h2 class="nombre">Cerveza Golden Caja 12und Sin Helar</h2>
                 <p class="precio">S/ 40.00</p>
                 <button class="btn-add-cart add_button">Agregar</button>
             </div>
             <div class="caja contenedor">
-                <img src= "./IMAGENES/Cerveza/Cajas/Cristal24und.webp"/>
+                <img src="./IMAGENES/Cerveza/Cajas/Cristal24und.webp" />
                 <h2 class="nombre">Cerveza Cristal Caja 24und </h2>
                 <p class="precio">S/ 60.00</p>
                 <button class="btn-add-cart add_button">Agregar</button>
             </div>
             <div class="caja contenedor">
-                <img src= "./IMAGENES/Cerveza/Cajas/Pilsen24und.webp"/>
+                <img src="./IMAGENES/Cerveza/Cajas/Pilsen24und.webp" />
                 <h2 class="nombre">Cerveza Pilsen Caja 24und </h2>
                 <p class="precio">S/ 60.00</p>
                 <button class="btn-add-cart add_button">Agregar</button>
             </div>
 
             <div class="caja contenedor">
-                <img src= "./IMAGENES/Cerveza/Cajas/CuzqueñaTrigo24und.webp"/>
+                <img src="./IMAGENES/Cerveza/Cajas/CuzqueñaTrigo24und.webp" />
                 <h2 class="nombre">Cerveza Cuzqueña Trigo Caja 24und </h2>
                 <p class="precio">S/ 60.00</p>
                 <button class="btn-add-cart add_button">Agregar</button>
@@ -122,6 +132,7 @@
         </a>
     </div>
 </body>
-    <script src= "../componentes.js"></script> 
-    <script src="./js/carrito.js"></script>
+<script src="../componentes.js"></script>
+<script src="./js/carrito.js"></script>
+
 </html>
