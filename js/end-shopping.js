@@ -1,33 +1,48 @@
 //PROCESO DE TERMINACION DE LA COMPRA
 (function init(){
-    const lista_productos = document.querySelector('.list-productos')
+    recuperarLocalStorage();
+    console.log("Recuperado en End Shopping");
+    console.log("All products: " , allProducts);
+    //const ProductosCarrito = document.querySelector('.container-products');
+    const filaProductos = document.querySelector('.fila-productos');
+    //const Productos = document.querySelector('.productos');
     const totalValor = document.querySelector('.total')
     
+    //Recuperamos los productos
+    let lista_productos = [];
+    lista_productos = JSON.parse(localStorage.getItem("cartProducts"));
     
     const showProductos = () => {
-        allProducts = JSON.parse(localStorage.getItem("cartProducts"));
-        console.log("Hola");
-        console.log(localStorage.getItem("allProducts"));
         
-        lista_productos.innerHTML= ' ';
+        //Limpiar el HTML
+        filaProductos.innerHTML = ' ';
+        
         let total = 0; 
+
+        if (lista_productos.length != 0) {
+            lista_productos.forEach(product => {
+                const productContainer = document.createElement('div');
+                productContainer.classList.add('productos');
+                productContainer.innerHTML= 
+                `
+                    <div class="info-productos">
+                        <span class="cantidad-producto-carrito"> ${product.quantity} </span>
+                        <p class="titulo-producto-carrito">${product.title}</p>
+                        <span class="precio-producto-carrito">${product.price}</span>
+                    </div>
+                `
+                filaProductos.append(productContainer);
+                total += product.quantity * parseFloat(product.price.slice(2).trim());
+            });
     
-        allProducts.forEach(product => {
-            const productContainer = document.createElement('div');
-            productContainer.classList.add('productos');
-            productContainer.innerHTML= 
-            `
-                <div class="info-productos">
-                    <span class="cantidad-producto-carrito"> ${product.quantity} </span>
-                    <p class="titulo-producto-carrito">${product.title}</p>
-                    <span class="precio-producto-carrito">${product.price}</span>
-                </div>
-            `
-            lista_productos.append(productContainer);
-            total += product.quantity * parseFloat(product.price.slice(2).trim());
-        });
-        const solSymbol = 'S/ ';
-        totalValor.innerText = `${solSymbol}${total}`;
+            const solSymbol = 'S/ ';
+            totalValor.innerText = `${solSymbol}${total}`;
+        }
+
+        else {
+            console.log ("Lista de productos vacia");
+        }
+        
     }
     showProductos()
 

@@ -15,39 +15,43 @@ window.addEventListener('load', () => {
 })
 
 btnCart.addEventListener('click', ()=> {
+    console.log("Click en carrito")
     containerCartProducts.classList.toggle('hidden-cart');
 })
 
 /*Funcional*/ 
-const cartInfo = document.querySelector('.cart-product')
-const rowProduct = document.querySelector('.row-product')
+
+const countProducts = document.querySelector('#contador-productos');
+
+const rowProduct = document.querySelector('.row-product');
+const cartInfo = document.querySelector('.cart-product');
 
 /*Variable de arreglos de Productos */
-let allProducts = []
+let allProducts = [];
 
-const valorTotal = document.querySelector('.total-pagar')
-
-const countProducts = document.querySelector('#contador-productos')
+const valorTotal = document.querySelector('.total-pagar');
 
 function subirLocalStorage(){
     localStorage.setItem("cartProducts",JSON.stringify(allProducts));
-    console.log("Array: " , localStorage.getItem("cartProducts"));
+    console.log("Subido al LS");
 }
 
 function recuperarLocalStorage(){
-    allProducts = JSON.parse(localStorage.getItem("cartProducts")) ?? [];
-    console.log("Parseado: ", allProducts);     
+    allProducts = JSON.parse(localStorage.getItem("cartProducts")) ?? [];     
+    console.log("Recuperado del LS");
 }
  
 function mapearProductos(){
     /* Lista de todos los contenedores de productos*/
+    console.log("Mapeando");
     const productList = document.querySelector('.contenido')
     if(!productList) return
     
     productList.addEventListener('click', e =>{
 
         if (e.target.classList.contains('btn-add-cart')) {
-            const product = e.target.parentElement
+            console.log("Clik en agregar");
+            const product = e.target.parentElement;
             //Para verificar el nombre del elemento
             const nombreElement = product.querySelector('.nombre');
             const title = nombreElement ? nombreElement.textContent : '';
@@ -122,7 +126,7 @@ rowProduct.addEventListener('click', (e) => {
 /*Funcion para mostrar en el HTML*/
 const showHTML = () => {
 
-    if (!allProducts.length) {
+    if (!allProducts || !allProducts.length) {
         if(!containerCartProducts.lastElementChild.classList.contains('cart-empty')){
             const p = Object.assign(document.createElement('p'), {className: 'cart-empty', textContent: 'El carrito está vacío'})
             containerCartProducts.appendChild(p)
