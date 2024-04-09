@@ -8,14 +8,27 @@
 </head>
 <body>
     <div id="almacenador">
-        <ul class="menu">
-            <li class="active">
-                Cigarros Electrónicos
-            </li>
-            <a href="#Cigarros" ruta="/Cigarros/cigarros.html">
-                <i class="material-icons">arrow_back</i>Volver
-            </a>
-        </ul>
+
+        <div class="almacenadorDD">
+            <input type="checkbox" id="dropdown">
+
+            <label class="dropdown__face" for="dropdown">
+                <div class="dropdown__text">Bebidas Alcohólicas</div>
+            
+                <div class="dropdown__arrow"></div>
+            </label>
+            
+            <ul class="menu dropdown__items">
+                <li class="active">
+                    Cigarros Electrónicos
+                </li>
+                <li>
+                    <a href="#Cigarros" ruta="/Cigarros/cigarros.html">
+                        <i class="material-icons">arrow_back</i>Volver
+                    </a>
+                </li>
+            </ul>
+        </div>
 
         <div class="contenido">
             <div class="caja contenedor">

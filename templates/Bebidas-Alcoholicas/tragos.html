@@ -9,19 +9,31 @@
 <body>
     <h2 class="categoria">Ron</h2>
     <div id="almacenador">
-        <ul class="menu"> 
-            <li class="active">
-                Ron
-            </li>
-            <li>
-                <a href="#Cervezas" ruta="/Bebidas-Alcoholicas/cervezas.html"> 
-                    <i class="material-icons">arrow_back</i>Volver
-                </a>
-            </li>
-            <li>
-                <a href="#Combos" ruta="/Bebidas-Alcoholicas/combos.html">Combos</a>
-            </li>
-        </ul>
+
+        <div class="almacenadorDD">
+            <input type="checkbox" id="dropdown">
+
+            <label class="dropdown__face" for="dropdown">
+                <div class="dropdown__text">Bebidas Alcohólicas</div>
+            
+                <div class="dropdown__arrow"></div>
+            </label>
+            
+            <ul class="menu dropdown__items"> 
+                <li class="active">
+                    Ron
+                </li>
+                <li>
+                    <a href="#Cervezas" ruta="/Bebidas-Alcoholicas/cervezas.html"> 
+                        <i class="material-icons">arrow_back</i>Volver
+                    </a>
+                </li>
+                <li>
+                    <a href="#Combos" ruta="/Bebidas-Alcoholicas/combos.html">Combos</a>
+                </li>
+            </ul>
+        </div>
+
         <div class="contenido">
             <div class="caja contenedor">
                 <img src= "./IMAGENES/Tragos/CaptainMorgan.webp" alt="Capitan Morgan">

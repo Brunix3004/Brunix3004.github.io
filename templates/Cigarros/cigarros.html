@@ -7,25 +7,36 @@
     <link rel="stylesheet" href="./css/estilos.css"/>
 </head>
 <body>
-    <h2 class="categoria">Cigarros Por Unidad</h2>
+    <h2 class="categoria">Cigarros Regulares</h2>
 
     <div id="almacenador">
-        <ul class="menu">
-            <li class="active">
-                Cigarros
-            </li>
-            <li>
-                <a href="#" ruta="">
-                    <i class="material-icons">home</i> Inicio
-                </a>
-            </li>
-            <li>
-                <a href="#Cigarros" ruta="/Cigarros/cigarros.html">Cigarros Regulares</a>
-            </li>
-            <li>
-                <a href="#Vapes" ruta="/Cigarros/vapes.html">Cigarros Electrónicos</a>
-            </li>
-        </ul>
+
+        <div class="almacenadorDD">
+            <input type="checkbox" id="dropdown">
+
+            <label class="dropdown__face" for="dropdown">
+                <div class="dropdown__text">Bebidas Alcohólicas</div>
+            
+                <div class="dropdown__arrow"></div>
+            </label>
+            
+            <ul class="menu dropdown__items">
+                <li class="active">
+                    Cigarros
+                </li>
+                <li>
+                    <a href="#" ruta="">
+                        <i class="material-icons">home</i> Inicio
+                    </a>
+                </li>
+                <li>
+                    <a href="#Cigarros" ruta="/Cigarros/cigarros.html">Cigarros Regulares</a>
+                </li>
+                <li>
+                    <a href="#Vapes" ruta="/Cigarros/vapes.html">Cigarros Electrónicos</a>
+                </li>
+            </ul>
+        </div>
 
         <div class="contenido">
             <div class="caja contenedor">
@@ -49,14 +60,7 @@
                 <h2 class="nombre">Cigarro L&M Fusion 1und</p>
                 <p class="precio">S/ 0.80</p>
             </div>
-        </div>
-    </div>
 
-    <h2 class="categoria">Cigarros por Cajetilla</h2>
-
-    <div id="almacenador">
-        <ul class="menu"></ul>
-        <div class="contenido">
             <div class="caja contenedor">
                 <img src= "./IMAGENES/Cigarros/PallMallConvertible.webp" alt="Pall Mall Convertible">
                 <h2 class="nombre">Cajetilla Cigarro Pall Mall Convertible</h2>
@@ -75,7 +79,7 @@
                 <p class="precio">S/ 12.00</p>
                 <button class="btn-add-cart add_button">Agregar</button>
             </div>
-
+    
             <div class="caja contenedor">
                 <img src= "./IMAGENES/Cigarros/LM.webp" alt="LM">
                 <h2 class="nombre">Cajetilla Cigarro L&M Fusion</h2>
