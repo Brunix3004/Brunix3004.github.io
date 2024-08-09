@@ -62,8 +62,11 @@ function procesarHash(contenedor) {
     const ruta = element.getAttribute("ruta")
 
     if (ruta) {
-        if(ruta != "Terminar-Pedido")
+        if(ruta != "Terminar-Pedido"){
             obtenerPagina(ruta, contenedor, mapearProductos)
+            return;
+        }
+        
         const callbackTerminar = () => {
             cargarJs("./js/end-shopping.js")
 

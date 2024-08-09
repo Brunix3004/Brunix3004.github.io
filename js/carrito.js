@@ -4,7 +4,6 @@ const copyContainerCartProducts = containerCartProducts.cloneNode(true)
 const btnEndShopping = document.querySelector('.btn-end-shop');
 
 window.addEventListener('load', () => {
-    showHTML();
     recuperarLocalStorage();
     showHTML();     
     if (allProducts.length > 0) {
@@ -39,52 +38,6 @@ function subirLocalStorage(){
 function recuperarLocalStorage(){
     allProducts = JSON.parse(localStorage.getItem("cartProducts")) ?? [];     
     console.log("Recuperado del LS");
-}
- 
-function mapearProductos(){
-    /* Lista de todos los contenedores de productos*/
-    console.log("Mapeando");
-    const productList = document.querySelector('.contenido')
-    if(!productList) return
-    
-    productList.addEventListener('click', e =>{
-
-        if (e.target.classList.contains('btn-add-cart')) {
-            console.log("Clik en agregar");
-            const product = e.target.parentElement;
-            //Para verificar el nombre del elemento
-            const nombreElement = product.querySelector('.nombre');
-            const title = nombreElement ? nombreElement.textContent : '';
-            const price = product.getAttribute("data-precio") ?? product.querySelector('p').textContent
-
-            const infoProduct = {
-                quantity: 1,
-                title,
-                price
-            };
-
-            const existsIndex = allProducts.findIndex(product => product.title === infoProduct.title);
-
-            if (existsIndex !== -1) {
-                // El producto ya existe en el array
-                allProducts = allProducts.map((product, index) => {
-                    if (index === existsIndex) {
-                        product.quantity++;
-                    }
-                    return product;
-                });
-            } else {
-                // El producto no existe en el array, añadirlo
-                allProducts = [...allProducts, infoProduct];
-            }
-
-            subirLocalStorage();
-            showHTML();
-            showProductos();
-
-            btnEndShopping.style.display = 'block';
-        }  
-    })
 }
 
 /*Funcion para eliminar productos*/
@@ -126,7 +79,7 @@ rowProduct.addEventListener('click', (e) => {
 /*Funcion para mostrar en el HTML*/
 const showHTML = () => {
 
-    if (!allProducts || !allProducts.length) {
+    if (!allProducts.length) {
         if(!containerCartProducts.lastElementChild.classList.contains('cart-empty')){
             const p = Object.assign(document.createElement('p'), {className: 'cart-empty', textContent: 'El carrito está vacío'})
             containerCartProducts.appendChild(p)
