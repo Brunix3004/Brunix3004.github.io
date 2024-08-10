@@ -1,16 +1,11 @@
 const btnCart = document.querySelector('.container-cart-icon')
 const containerCartProducts = document.querySelector('.container-cart-products')
 const copyContainerCartProducts = containerCartProducts.cloneNode(true)
-const btnEndShopping = document.querySelector('.btn-end-shop');
+const btnEndShopping = document.getElementById('btn-end-shop');
 
 window.addEventListener('load', () => {
     recuperarLocalStorage();
-    showHTML();     
-    if (allProducts.length > 0) {
-        btnEndShopping.style.display = 'block';
-    } else {
-        btnEndShopping.style.display = 'none';
-    }
+    showHTML();
 })
 
 btnCart.addEventListener('click', ()=> {
@@ -78,6 +73,7 @@ rowProduct.addEventListener('click', (e) => {
 
 /*Funcion para mostrar en el HTML*/
 const showHTML = () => {
+    console.log({allProducts})
 
     if (!allProducts.length) {
         if(!containerCartProducts.lastElementChild.classList.contains('cart-empty')){
@@ -132,6 +128,12 @@ const showHTML = () => {
     valorTotal.innerText = `${solSymbol}${total}`;
     countProducts.innerText = totalOfProducts; 
 
+    if (allProducts.length > 0) {
+        btnEndShopping.style.display = 'block';
+    } else {
+        btnEndShopping.style.display = 'none';
+    }
+
     btnDeleteAll.addEventListener('click', () => {
         localStorage.clear();        
         allProducts = [];
@@ -141,5 +143,6 @@ const showHTML = () => {
         }          
         showHTML();
     });
+
 }
 

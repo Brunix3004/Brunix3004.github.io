@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
     const formBusqueda = document.getElementById("search")
 
     window.addEventListener("hashchange", (e) => procesarHash(contenedorPrincipal))
-
     if (location.hash) procesarHash(contenedorPrincipal)
 
     const searchParams = new URLSearchParams(location.search);
@@ -51,6 +50,7 @@ function agregarAlContenedor(contenedor, html) {
 
 function procesarHash(contenedor) {
     const hash = location.hash
+
     if (!hash) {
         contenidoPrincipal.setAttribute("show", "true")
         contenidoPrincipal.style.display = "block"
@@ -60,16 +60,16 @@ function procesarHash(contenedor) {
 
     const element = document.querySelector(`[href="${hash}"]`)
     const ruta = element.getAttribute("ruta")
-
+    
     if (ruta) {
-        if(ruta != "Terminar-Pedido"){
+        if(hash != "#Terminar-Pedido"){
             obtenerPagina(ruta, contenedor, mapearProductos)
             return;
         }
         
         const callbackTerminar = () => {
             cargarJs("./js/end-shopping.js")
-
+            
         }
         obtenerPagina(ruta, contenedor, callbackTerminar)
     }
