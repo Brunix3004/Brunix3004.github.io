@@ -20,6 +20,7 @@ h1:hover{
 .info-productos{
     display: flex;
     align-items: center;
+    margin-top: 25px;
     justify-content: flex-start;
     justify-content: space-between;
     flex: 0.8;

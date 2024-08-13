@@ -11,8 +11,12 @@
 }
 .contenido{
     display: flex;
-    width: 85%;
+    width: 84%;
     flex-wrap: wrap;
+}
+.almacenadorDD {
+    display: flex;
+    width: 16%;
 }
 .caja{
     /*Eliminar los dos siguientes en caso de errores*/
@@ -25,7 +29,7 @@
     border: 1px solid black;
     border-radius: 15px;
     float: right;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-bottom: 20px;
     align-items: center;
     justify-content: start;  

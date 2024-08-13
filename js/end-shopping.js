@@ -11,13 +11,13 @@
     //Recuperamos los productos
     let lista_productos = [];
     lista_productos = JSON.parse(localStorage.getItem("cartProducts"));
-    
+    const solSymbol = 'S/ ';
+    let total = 0;
+
     const showProductos = () => {
         
         //Limpiar el HTML
         filaProductos.innerHTML = ' ';
-        
-        let total = 0; 
 
         if (lista_productos.length != 0) {
             lista_productos.forEach(product => {
@@ -35,7 +35,7 @@
                 total += product.quantity * parseFloat(product.price.slice(2).trim());
             });
     
-            const solSymbol = 'S/ ';
+            
             totalValor.innerText = `${solSymbol}${total}`;
         }
 
@@ -51,7 +51,7 @@
     function construirMensaje() {
         let mensaje = "Hola, quisiera hacer este pedido:\n";
 
-        allProducts.forEach((producto, index) => {
+        lista_productos.forEach((producto, index) => {
             mensaje += `${index + 1}. ${producto.quantity} x ${producto.title}\n`;
         });
         
@@ -60,19 +60,21 @@
         return encodeURIComponent(mensaje);
     }
 
-    const btnWhatsApp = document.querySelector('.wsp-link');
-    btnWhatsApp.addEventListener('click', function(event) {
-        event.preventDefault();
-        enviarPedidoPorWhatsApp();
-    });
-
     function enviarPedidoPorWhatsApp() {
         const mensaje = construirMensaje();
         const url = `https://wa.me/${phoneNumber}?text=${mensaje}`;
-
+        // const url = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${mensaje}`;
+        
         setTimeout(function() {
             window.open(url, '_blank');
-        }, 1000);
+            // window.location.href = url;
+        }, 500);
     }
 
+    const btnWhatsApp = document.querySelector('.wsp-link');
+    btnWhatsApp.addEventListener('click', function(event) {
+        console.log("Clic wsp");
+        event.preventDefault();
+        enviarPedidoPorWhatsApp();
+    });
 })()
